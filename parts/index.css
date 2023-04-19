@@ -1,0 +1,109 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  min-height: 0vw;
+  white-space: nowrap;
+}
+
+html {
+  overflow-y: scroll;
+  touch-action: manipulation;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: fot-matisse-pron, sans-serif;
+  font-style: normal;
+  background: #fff;
+  color: #5C5A5A;
+  font-family: "Hiragino Sans", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo, Verdana, sans-serif", " 筑紫A丸ゴシック Std" "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  overflow-x: hidden;
+  font-feature-settings: "palt" 1;
+  font-size: 16px;
+}
+body a,
+body a:visited,
+body a:hover,
+body a:active {
+  color: inherit;
+  text-decoration: none;
+}
+body .container {
+  width: 100vw;
+}
+body h1 {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  color: #5C5A5A;
+  font-weight: bold;
+  font-feature-settings: "palt" 1;
+  letter-spacing: -1px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+body h2 {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+body h3 {
+  font-size: clamp(18px, 1.67vw, 32px);
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  color: #000000;
+  font-weight: bold;
+  font-feature-settings: "palt" 1;
+  letter-spacing: -1px;
+}
+body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body p {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  font-feature-settings: "palt" 1;
+  color: #5C5A5A;
+  white-space: initial;
+}
+
+.mt_10 {
+  margin-top: 10px;
+}
+
+.mt_20 {
+  margin-top: 20px;
+}
+
+.mt_30 {
+  margin-top: 30px;
+}
+
+.mt_40 {
+  margin-top: 40px;
+}
+
+.mt_50 {
+  margin-top: 50px;
+}
+
+.mt_60 {
+  margin-top: 60px;
+}
+
+.mt_70 {
+  margin-top: 70px;
+}
+/*# sourceMappingURL=index.css.map */

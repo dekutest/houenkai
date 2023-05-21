@@ -184,4 +184,46 @@ nav li img {
 
 .child02 {
   left: 162px;
+}
+
+.top_title {
+  width: 100%;
+  position: relative;
+}
+
+.top_title_img {
+  width: 100%;
+}
+
+.top_title_text {
+  position: absolute;
+  top: 26%;
+  left: 15%;
+  color: #112E53;
+}
+.top_title_text h1 {
+  font-size: 35px;
+}
+
+.title_lg {
+  font-size: 80px;
+}
+
+.title_md {
+  font-size: 40px;
+}
+
+.top_title_info {
+  position: absolute;
+  width: 802px;
+  height: 135px;
+  bottom: 31%;
+  right: -16px;
+}
+
+.top_sub {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */

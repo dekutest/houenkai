@@ -29,7 +29,7 @@ header h1 {
 
 
 
-nav {
+header nav {
     position: absolute;
     top: 0;
     right: 0;
@@ -37,18 +37,18 @@ nav {
     height: 80px;
     z-index: 1;
 }
-nav ul {
+header nav ul {
     text-align: right;
     padding-right:2vw;
 }
 
-nav li {
+header nav li {
     display: inline-block;
     position: relative;
     height: inherit;
     padding-right: 2vw;
 }
-nav li a {
+header nav li a {
     display: table;
     padding: 3px 15px 3px 0;
     /* padding: 3px 10px; */
@@ -62,7 +62,7 @@ nav li a {
     letter-spacing: 1px;
 }
 
-nav li img{
+header nav li img{
     width: auto;
 }
 

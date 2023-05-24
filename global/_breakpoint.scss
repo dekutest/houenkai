@@ -4,11 +4,12 @@ $breakpoints: (
   'sm': '480px',
   'md': '768px',
   'lg': '1020px',
-  'xl': '1200px'
+  'xl': '1200px',
+  'xxl': '1300px'
 );
 
 @mixin respond-to($breakpoint) {
-  @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+  @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
     @content;
   }
 }

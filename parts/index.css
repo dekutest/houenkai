@@ -106,11 +106,15 @@ body p {
   margin-top: 70px;
 }
 
+footer {
+  padding-top: 3vw;
+}
+
 .footer_inner {
   position: relative;
   border-top: solid 1px #4B7282;
   padding-bottom: 1vw;
-  padding-top: 1vw;
+  padding-top: 4vw;
   margin-top: 5vw;
 }
 
@@ -126,6 +130,12 @@ body p {
   width: 60vw;
   margin: 0 auto;
 }
+.footer_mid p {
+  color: #112E53;
+}
+.footer_mid a {
+  color: #112E53;
+}
 
 .footer_logo {
   position: relative;
@@ -133,7 +143,7 @@ body p {
 }
 
 .footer_lg {
-  font-size: 50px;
+  font-size: 22px;
 }
 
 .footer_bottom {
@@ -146,7 +156,7 @@ footer nav ul {
 
 footer nav {
   position: absolute;
-  top: 0;
+  top: 3vw;
   right: 0;
   width: 80%;
   height: 80px;
@@ -170,8 +180,8 @@ footer nav li a {
   /* padding: 3px 10px; */
   vertical-align: middle;
   line-height: 80px;
-  color: #333333;
-  font-size: 14.5px;
+  color: #112E53;
+  font-size: 14px;
   /* font-size: 15px; */
   font-weight: bold;
   text-align: center;
@@ -180,6 +190,10 @@ footer nav li a {
 
 footer nav li img {
   width: auto;
+}
+
+.hiragino {
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
 }
 
 header {
@@ -214,6 +228,16 @@ header nav ul {
   text-align: right;
   padding-right: 2vw;
 }
+@media screen and (max-width: 1300px) {
+  header nav ul {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  header nav ul .pc {
+    display: none;
+  }
+}
 
 header nav li {
   display: inline-block;
@@ -228,8 +252,8 @@ header nav li a {
   /* padding: 3px 10px; */
   vertical-align: middle;
   line-height: 80px;
-  color: #333333;
-  font-size: 14.5px;
+  color: #112E53;
+  font-size: 17px;
   /* font-size: 15px; */
   font-weight: bold;
   text-align: center;
@@ -240,9 +264,23 @@ header nav li img {
   width: auto;
 }
 
+.header_up {
+  font-family: "Yu Gothic Medium";
+  font-size: 17px;
+}
+
+.header_up_text {
+  font-family: "Yu Gothic Medium";
+  font-size: 17px;
+  color: #112E53;
+}
+
 .header_bottom {
   display: block;
   line-height: 5px;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 10px;
+  color: #112E53;
 }
 
 .nav_parent {
@@ -277,9 +315,10 @@ header nav li img {
   top: 26%;
   left: 15%;
   color: #112E53;
+  font-family: "M PLUS 1p", sans-serif;
 }
 .top_title_text h1 {
-  font-size: 35px;
+  font-size: 21.34px;
 }
 
 .title_lg {
@@ -315,13 +354,19 @@ header nav li img {
   display: flex;
   justify-content: space-evenly;
   align-items: stretch;
+  font-family: "Noto Serif JP", serif;
 }
 
 .promise_left {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+}
+.promise_left p {
+  color: #112E53;
+  font-family: "Noto Serif JP", serif;
+  font-size: 26px;
+  line-height: 2em;
 }
 
 .promise_right p {
@@ -330,6 +375,7 @@ header nav li img {
   text-underline-offset: 5px;
   font-size: 18px;
   text-align: center;
+  color: #112E53;
 }
 
 .promise_right_bottom {
@@ -337,6 +383,8 @@ header nav li img {
   background-color: #F2F4FB;
   padding: 30px 200px 30px 40px;
   font-size: 20px;
+  font-weight: bold;
+  color: #112E53;
 }
 
 .top_about {
@@ -365,10 +413,15 @@ header nav li img {
 
 .top_box_title {
   font-size: 23px;
+  font-family: "Noto Serif JP", serif;
+  color: #112E53;
 }
 
 .top_box_text {
   font-size: 15px;
+  font-family: "M PLUS 1p", sans-serif;
+  line-height: 2em;
+  color: #000;
 }
 
 .top_greeting_img {
@@ -393,12 +446,17 @@ header nav li img {
 .top_greeting_box_text {
   font-size: 18px;
   line-height: 37px;
+  color: #000;
+  font-family: "Noto Serif JP", serif;
 }
 
 .top_profile_wrapper {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+.top_profile_wrapper p {
+  color: #000;
 }
 
 .top_section_title {
@@ -415,6 +473,7 @@ header nav li img {
 .profile_line {
   display: flex;
   align-items: baseline;
+  color: #000;
 }
 
 .profile_line_img {
@@ -428,6 +487,7 @@ header nav li img {
 
 .profile_line p {
   font-size: 18.5px;
+  color: #000;
 }
 
 .radio_link {
@@ -436,9 +496,97 @@ header nav li img {
 
 .profile_position {
   font-size: 20px;
+  font-family: "M PLUS 1p", sans-serif;
+  color: #000;
+  font-weight: 400;
 }
 
 .profile_name {
   font-size: 32px;
+  font-family: "M PLUS 1p", sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+
+.profile_table {
+  font-family: "M PLUS 1p", sans-serif;
+  color: #000;
+}
+
+.top_clinic {
+  background-color: #F2F4FB;
+  text-align: center;
+  padding: 5vw 0;
+}
+.top_clinic_title {
+  margin-bottom: 5vw;
+}
+
+.top_clinic_box {
+  background-color: white;
+  width: 1080px;
+  margin: 0 auto;
+  padding: 3vw 0;
+}
+.top_clinic_box_upper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3vw;
+}
+
+.top_area {
+  text-align: center;
+  padding: 5vw 0;
+}
+.top_area_title {
+  margin-bottom: 5vw;
+}
+
+.top_area_box {
+  display: flex;
+  width: 1080px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.top_area_box_right {
+  text-align: left;
+  margin: auto 0;
+  width: 100%;
+  padding-left: 145px;
+}
+.top_area_box_right_up {
+  color: #112E53;
+  width: 425px;
+  font-size: 21px;
+  border-bottom: solid 1px #000;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.top_area_box_right_mid {
+  color: #0B7EB8;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.top_news_wrapper {
+  width: 1004px;
+  margin: 0 auto;
+}
+
+.top_news_up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_news_link {
+  width: 116.16px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.news_box {
+  height: 877px;
+  width: 1048px;
+  background-color: grey;
 }
 /*# sourceMappingURL=index.css.map */

@@ -16,8 +16,10 @@
     top: 26%;
     left: 15%;
     color: g.$m-color;
+    font-family: g.$font-m1;
     h1{
-        font-size: 35px;
+        font-size: 21.34px;
+        
     }
 }
 .title_lg{
@@ -52,20 +54,33 @@
     display: flex;
     justify-content: space-evenly;
     align-items: stretch;
-  }
-  
-  .promise_left {
+    font-family: g.$font-fot;
+    
+}
+
+.promise_left {
     display: flex;
     align-items: center; 
     justify-content: center; 
-    font-size: 24px;
-  }
-  
-  .promise_right p {
+    & p{
+        
+        color: g.$m-color;
+        font-family: g.$font-fot;
+        
+        font-size: 26px;
+        line-height: 2em;
+        // font-family: 'M PLUS 1p', sans-serif;
+        // font-family: 'Noto Serif JP', serif;
+    }
+    
+}
+
+.promise_right p {
     text-decoration-line: underline;
     text-underline-offset: 5px;
     font-size: 18px;
     text-align: center;
+    color: g.$m-color;
 }
 
 .promise_right_bottom {
@@ -73,6 +88,8 @@
     background-color: #F2F4FB;
     padding: 30px 200px 30px 40px; 
     font-size: 20px;
+    font-weight: bold;
+    color: g.$m-color;
   }
 
 //   ---------about---------------
@@ -101,9 +118,17 @@
 }
 .top_box_title{
     font-size: 23px;
+    font-family: g.$font-fot;
+    color: g.$m-color;
+
+
 }
 .top_box_text{
     font-size: 15px;
+    font-family: g.$font-m1;
+    line-height:2em;
+    color: #000;
+
 }
 // -----greeting---------
 .top_greeting_img{
@@ -126,6 +151,9 @@ width: 100%;
 .top_greeting_box_text{
     font-size: 18px;
     line-height: 37px;
+    color: #000;
+    font-family: g.$font-fot;
+
 }
 
 // ----------profile------------------
@@ -133,6 +161,10 @@ width: 100%;
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    p {
+    color: #000;
+
+    }
 }
 .top_section_title{
     margin-bottom: 5vw;
@@ -148,6 +180,8 @@ width: 100%;
 .profile_line{
     display: flex;
     align-items: baseline;
+    color: #000;
+
 }
 .profile_line_img{
     width: 31vw; //あわない時はこれが原因
@@ -156,20 +190,123 @@ width: 100%;
     position: relative;
     top: -6px;
     left: 10px;
-
+    
 }
 
 .profile_line p{
     font-size: 18.5px;
-
+    color: #000;
+    
 }
 .radio_link{
     margin-top: 3vw;
 }
 .profile_position{
     font-size:20px ;
+    font-family: g.$font-m1;
+    color: #000;
+    font-weight: 400;
+    
 }
 .profile_name{
     font-size:32px ;
+    font-family: g.$font-m1;
+    color: #000;
+    font-weight: 700;
+}
+.profile_table{
+    // font-size:32px ;
+    font-family: g.$font-m1;
+    color: #000;
 }
 
+
+// ----------clinic------------------
+
+.top_clinic{
+    background-color: #F2F4FB;
+    text-align: center;
+    padding: 5vw 0;
+    &_title{
+        margin-bottom: 5vw;
+    }
+}
+
+.top_clinic_box{
+    background-color: white;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 3vw 0;
+    &_upper{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 3vw;
+    }
+}
+
+
+// ----------area------------------
+.top_area{
+    text-align: center;
+    padding: 5vw 0;
+    &_title{
+        margin-bottom: 5vw;
+    }
+}
+
+.top_area_box{
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+    border: 1px solid#000;
+
+    &_right{
+        text-align: left;
+        // display: inline;
+        // justify-content: center;
+        // align-items: center;
+        margin: auto 0;
+        width: 100%;
+        padding-left: 145px;
+        
+        
+        &_up{
+            color:g.$m-color;
+            width: 425px;
+            font-size: 21px;
+            border-bottom: solid 1px #000;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        &_mid{
+            color:g.$sub-color;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        
+    }
+
+}
+
+// ----------news------------------
+
+.top_news_wrapper{
+    width: 1004px;
+    margin: 0 auto;
+}
+
+.top_news_up{
+    display: flex;
+    justify-content: space-between;
+}
+.top_news_link{
+    width: 116.16px;
+object-fit:contain ;
+    
+}
+.news_box{
+    height: 877px; //仮であてているbox
+    width: 1048px; //仮であてているbox
+    background-color: grey;
+}

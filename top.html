@@ -9,6 +9,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.webp">
   <title></title>
   <link rel="stylesheet" href="parts/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Serif+JP&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,33 +24,33 @@
       </h1>
       <nav>
         <ul>
-          <li>
-            <a href="#">
-              芳縁会について
+          <li class="pc">
+            <a href="#" class="header_up">
+              <span class="header_up_text">芳縁会について</span>
               <span class="header_bottom">ABOUT US</span>
             </a>
           </li>
-          <li>
-            <a href="#">
-              診療内容
+          <li class="pc">
+            <a href="#" class="header_up">
+              <span class="header_up_text">診療内容</span>
               <span class="header_bottom">MEDICAL SERVICE</span>
             </a>
           </li>
-          <li>
-            <a href="#">
-              訪問地域
+          <li class="pc">
+            <a href="#" class="header_up">
+              <span class="header_up_text">訪問地域</span>
               <span class="header_bottom">HOME CARE</span>
             </a>
           </li>
-          <li>
-            <a href="#">
-              診療所紹介
+          <li class="pc">
+            <a href="#" class="header_up">
+              <span class="header_up_text"> 療所紹介</span>
               <span class="header_bottom">CLINIC</span>
             </a>
           </li>
-          <li>
-            <a href="#">
-              採用情報
+          <li class="pc">
+            <a href="#" class="header_up">
+              <span class="header_up_text">採用情報</span>
               <span class="header_bottom">RECRUIT</span>
             </a>
           </li>
@@ -75,11 +78,12 @@
   <main>
     <section class="top_title">
       <img class="top_title_img" src="./images/top01.webp" alt="">
-      <h1 class="top_title_text">
+      <img src="./images/top_title.webp" alt="" class="top_title_text">
+      <!-- <h1 class="top_title_text">
         質の高い医療で <br>
         <span class="title_lg">縁</span><span class="title_md">ある人に</span><span class="title_lg"> 貢献 </span><span
           class="title_md"> する。</span>
-      </h1>
+      </h1> -->
       <a href="#">
         <img src="./images/top12.webp" alt="" class="top_title_info">
 
@@ -96,9 +100,11 @@
       <div class="promise_wrapper">
 
         <div class="promise_left">
-          地域への感謝を持って<br>
-          訪問診療と遠隔診療を結び<br>
-          多くの人に寄り添う在宅医療を提供します。
+          <p>
+            地域への感謝を持って<br>
+            訪問診療と遠隔診療を結び<br>
+            多くの人に寄り添う在宅医療を提供します。
+          </p>
         </div>
         <div class="promise_right">
           <p>下記のような診察を行うことができます。</p>
@@ -228,9 +234,57 @@
         </div>
       </div>
     </section>
-    <section class="top_clinic"></section>
-    <section class="top_area"></section>
-    <article class="news"></article>
+    <section class="top_clinic">
+      <img src="./images/top_text_06.webp" alt="" class="top_clinic_title">
+      <div class="top_clinic_box">
+        <div class="top_clinic_box_upper">
+          <img src="./images/top07.webp" alt="">
+          <img src="./images/top08.webp" alt="">
+
+        </div>
+        <img src="./images/top16.webp" alt="" class="top_clinic_btn">
+
+      </div>
+
+
+    </section>
+    <section class="top_area">
+      <img src="./images/top_text_07.webp" alt="" class="top_clinic_title">
+      <div class="top_area_box">
+        <img src="./images/top17.webp" alt="">
+        <div class="top_area_box_right">
+          <div class="top_area_box_right_up">
+            訪問診療の可能地域
+          </div>
+          <p class="top_area_box_right_mid">仙台市全域<br>
+            名取市、多賀城市、塩釜市、富谷市
+          </p>
+
+
+          <img src="./images/top16.webp" alt="" class="top_clinic_btn">
+        </div>
+
+      </div>
+
+    </section>
+    <article class="top_news">
+      <div class="top_news_wrapper">
+        <div class="top_news_up">
+          <p class="top_news_title">
+            最新のお知らせをご案内します
+          </p>
+          <img src="./images/top_text09.webp" alt="" class="top_news_link">
+        </div>
+        <div class="news_box">
+
+        </div>
+
+
+
+
+      </div>
+
+    </article>
 
   </main>
 
@@ -241,36 +295,36 @@
       <div class="footer_mid">
         <div class="footer_left">
           <img src="./images/logo.webp" alt="logo" class="footer_logo">
-          <p>980-0871 宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F</p>
+          <p class="hiragino">980-0871 宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F</p>
           <p>tel.<span class="footer_lg">022-341-2882</span> fax. 022-341-8896</p>
-          <p>緊急往診：24時間365日</p>
+          <p class="hiragino">緊急往診：24時間365日</p>
         </div>
         <div class="footer_center">
           <nav>
             <ul>
               <li>
                 <a href="#">
-                  芳縁会について
+                  <p>芳縁会について</p>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  診療内容
+                  <p>診療内容</p>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  採用情報
+                  <p>採用情報</p>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  診療所紹介
+                  <p>診療所紹介</p>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  訪問地域
+                  <p>訪問地域</p>
                 </a>
               </li>
               <li>

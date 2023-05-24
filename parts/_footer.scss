@@ -1,9 +1,12 @@
 @use "../global" as g;
+footer{
+    padding-top: 3vw;
+}
 .footer_inner{
     position: relative;
     border-top: solid 1px #4B7282;
     padding-bottom: 1vw;
-    padding-top: 1vw;
+    padding-top: 4vw;
     margin-top: 5vw;
 }
 .footer_upper{
@@ -18,6 +21,12 @@
     display: flex;
     width: 60vw;
     margin: 0 auto;
+    & p{
+        color: g.$m-color;
+    }
+    & a{
+        color: g.$m-color;
+    }
 }
 .footer_logo{
     position: relative;
@@ -25,7 +34,7 @@
 }
 
 .footer_lg{
-    font-size: 50px;
+    font-size: 22px;
 }
 
 .footer_bottom{
@@ -39,7 +48,7 @@ footer nav ul {
 
 footer nav {
     position: absolute;
-    top: 0;
+    top: 3vw;
     right: 0;
     width: 80%;
     height: 80px;
@@ -61,8 +70,8 @@ footer nav li a {
     /* padding: 3px 10px; */
     vertical-align: middle;
     line-height: 80px;
-    color: #333333;
-    font-size: 14.5px;
+    color: g.$m-color;
+    font-size: 14px;
     /* font-size: 15px; */
     font-weight: bold;
     text-align: center;
@@ -71,4 +80,7 @@ footer nav li a {
 
 footer nav li img{
     width: auto;
+}
+.hiragino{
+    font-family: g.$font-min;
 }

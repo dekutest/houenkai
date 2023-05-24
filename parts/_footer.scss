@@ -84,3 +84,9 @@ footer nav li img{
 .hiragino{
     font-family: g.$font-min;
 }
+
+.footer_pc{
+    @include g.respond-to('xxl') {
+        display: none;
+         }
+}

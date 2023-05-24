@@ -2,13 +2,14 @@
 header{
         // ------ドロップシャドウ-----
         box-shadow: 0px 6px 7px 0px rgba(178, 178, 178, 0.45);
-
+        width: 100%;
+ 
 }
 
 
 .inner {
     position: relative;
-    width: 98vw;
+    width:100%;
     // height: inherit;
     box-sizing: border-box;
     margin: auto;
@@ -24,7 +25,7 @@ header h1 {
     // top: 16px;
     width: 249px;
     height: 60px;
-    padding-left: 2vw;
+    padding-left: 44px;
 }
 
 
@@ -34,18 +35,20 @@ header nav {
     top: 0;
     right: 0;
     width: 80%;
-    height: 80px;
+    height: 125px;
     z-index: 1;
 }
 header nav ul {
     text-align: right;
-    padding-right:2vw;
+    position: relative;
+    left: 15px;
    
         @include g.respond-to('xxl') {
        margin-top: 25px;
           }
 
     .pc{
+        padding-top: 12px;
         @include g.respond-to('xxl') {
          display: none;
           }
@@ -56,7 +59,7 @@ header nav li {
     display: inline-block;
     position: relative;
     height: inherit;
-    padding-right: 2vw;
+    padding-right: 39px;
 }
 
 header nav li a {
@@ -83,6 +86,8 @@ header nav li img{
     font-family: g.$font-yu;
     font-size:17px ;
 }
+
+
 .header_up_text{
     font-family: g.$font-yu;
     font-size:17px ;
@@ -90,21 +95,26 @@ header nav li img{
 
 }
 .header_bottom{
+    position: relative;
     display: block;
     line-height: 5px;
     font-family: g.$font-m1;
     font-size:10px ;
     color: g.$m-color;
+    bottom: 14px;
 
 }
 
 .nav_parent{
     position: relative;
-
+    bottom: 11px;
+    
 }
 .nav_child{
     position: absolute;
-    top: 5px;
+    top: -4px;
+
+    
 }
 
 .child01{

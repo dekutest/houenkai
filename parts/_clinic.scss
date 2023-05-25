@@ -39,9 +39,6 @@ main {
     width: vw(1280);
     margin: auto;
     margin-bottom: 170px;
-    @include respond-to("sm") {
-      font-size: 18px;
-    }
 
     .title {
       p {
@@ -67,6 +64,9 @@ main {
 
     .clinic_feature {
       display: flex;
+      @include g.respond("xl") {
+        font-size: 18px;
+      }
 
       .clinic_left {
         img {

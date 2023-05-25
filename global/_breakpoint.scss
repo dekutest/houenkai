@@ -5,7 +5,8 @@ $breakpoints: (
   'md': '768px',
   'lg': '1020px',
   'xl': '1200px',
-  'xxl': '1300px'
+  'xxl': '1300px',
+  'ml': '1600px'
 );
 
 @mixin respond-to($breakpoint) {

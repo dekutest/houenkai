@@ -9,6 +9,15 @@
 
 .top_title_img{
     width: 100%;
+    @include g.respond-to('lg') {
+        height: 75vh;
+        object-fit: cover;
+        object-position: 86% 50%;
+      }
+    @include g.respond-to('sm') {
+        height: 60vh;
+
+      }
 
 }
 
@@ -20,10 +29,16 @@
     font-family: g.$font-m1;
     width: g.vw-pc(587);
     @include g.respond-to('lg') {
-        width: g.vw-pc(1000);
+        width: g.vw-pc(1100);
+        top: 10.7%;
     }
-    @include g.respond-to('lg') {
-      top: 10.7%;
+    @include g.respond-to('md') {
+        width: g.vw-pc(1300);
+        top: 15.7%;
+    }
+    @include g.respond-to('sm') {
+        width: 80%;
+        top: 15.7%;
     }
     h1{
         font-size: 21.34px;
@@ -44,10 +59,11 @@
     right: g.vw-pc(-35);
     @include g.respond-to('lg') {
         width: g.vw-pc(1200);
-        bottom: 43.5%;
+        bottom: 54.5%;
     }
-    @include g.respond-to('lg') {
+    @include g.respond-to('md') {
         bottom: 56.5%;
+        width: 80%;
     }
 }
 .top_sub{

@@ -64,8 +64,8 @@ main {
 
     .clinic_feature {
       display: flex;
-      @include g.respond("xl") {
-        font-size: 18px;
+      @include g.respond-to("lg") {
+        flex-direction: column;
       }
 
       .clinic_left {

@@ -281,6 +281,11 @@ main .clinic_main .title h1 {
 main .clinic_main .clinic_feature {
   display: flex;
 }
+@media screen and (min-width: 1020px) {
+  main .clinic_main .clinic_feature {
+    flex-direction: column;
+  }
+}
 main .clinic_main .clinic_feature .clinic_left {
   margin-right: 94px;
 }

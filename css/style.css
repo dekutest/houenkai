@@ -325,6 +325,20 @@ header nav li img {
 .top_title_img {
   width: 100%;
 }
+@media screen and (max-width: 1020px) {
+  .top_title_img {
+    height: 75vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 86% 50%;
+       object-position: 86% 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top_title_img {
+    height: 60vh;
+  }
+}
 
 .top_title_text {
   position: absolute;
@@ -336,12 +350,20 @@ header nav li img {
 }
 @media screen and (max-width: 1020px) {
   .top_title_text {
-    width: 52.0833333333vw;
+    width: 57.2916666667vw;
+    top: 10.7%;
   }
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
   .top_title_text {
-    top: 10.7%;
+    width: 67.7083333333vw;
+    top: 15.7%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top_title_text {
+    width: 80%;
+    top: 15.7%;
   }
 }
 .top_title_text h1 {
@@ -365,12 +387,13 @@ header nav li img {
 @media screen and (max-width: 1020px) {
   .top_title_info {
     width: 62.5vw;
-    bottom: 43.5%;
+    bottom: 54.5%;
   }
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
   .top_title_info {
     bottom: 56.5%;
+    width: 80%;
   }
 }
 

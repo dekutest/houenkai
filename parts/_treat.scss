@@ -1,1 +1,106 @@
 @use "../global" as g;
+
+
+.treat_title {
+    // Add styles for the recruit_title class here
+    img {
+      width: 100%;
+      @include g.respond-to("xl") {
+        object-fit: cover;
+        height: 150px;
+      }
+    }
+  }
+
+
+.treat_boxs_wrapper{
+    width: 70vw;
+    margin: 0 auto;
+}
+.treat_boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.treat_box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    margin-bottom: 20px; /* 各boxの間隔を調整 */
+}
+
+.treat_box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.treat_box_img {
+    width: 50%;   /* 画像の幅を調整 */
+    height: auto;
+}
+
+.treat_box_text {
+    width: 50%;   /* テキストの幅を調整 */
+    padding: 20px; /* テキストの内側の間隔を調整 */
+    text-align: justify;  /* もしテキストを両端揃えにする場合はこの行を使用 */
+}
+.wave_line{
+    position: relative;
+    left: 0;
+}
+
+
+// -------------service------------
+
+.treat_service_upper{
+    margin-bottom: 4vw;
+    width: g.vw-pc(183);
+    display: block;
+    margin: 0 auto;
+    @include g.respond-to('xxl') {
+        width: 15vw;
+    }
+    @include g.respond-to('lg') {
+        width: 17vw;
+    }
+    @include g.respond-to('md') {
+        width: 20vw;
+    }
+    @include g.respond-to('sm') {
+        width: 25vw;
+    }
+}
+
+.service_wrapper{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.treat_service {
+    display: flex;
+    flex-direction: column;
+}
+
+.treat_service_box {
+    display: flex;
+}
+
+.treat_service_img {
+    order: 1;
+    object-fit: contain;
+}
+
+.treat_service_box_text {
+    order: 2;
+    text-align: left;
+    .title {
+        font-size: 1.5em;
+    }
+}
+
+.treat_person{
+    width: 200px;
+    object-fit: contain;
+    
+}

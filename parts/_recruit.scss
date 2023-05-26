@@ -40,14 +40,25 @@ main {
   }
 
   .recruit_main {
-    width: vw(1304);
+    width: vw(1280);
     display: flex;
     margin: auto;
     margin-top: 93px;
+    @include g.respond-to("xl") {
+      flex-direction: column;
+      width: 80vw;
+    }
+    @include g.respond-to("md") {
+      width: 90vw;
+    }
+
     .recruit_left {
-      width: vw(714);
+      width: vw(720);
       margin-top: 79px;
       margin-right: vw(233);
+      @include g.respond-to("xl") {
+        width: 100%;
+      }
 
       img {
         margin-bottom: 58px;
@@ -57,90 +68,158 @@ main {
         background-color: #f2f4fb;
         padding: 23px;
         padding-bottom: 44px;
+        padding-right: 58px;
         border-radius: 8px;
         color: #112e53;
         width: fit-content;
+        font-family: "FOT-クレー ProN", serif;
+        margin-left: -23px;
+        margin-top: -11px;
+        line-height: 1.6;
+        letter-spacing: 3px;
+        @include g.respond-to("xl") {
+          margin-left: 0px;
+        }
+        @include g.respond-to("md") {
+          font-size: 16px;
+        }
       }
     }
     .recruit_right {
       position: relative;
       width: vw(714);
+      @include g.respond-to("xl") {
+        margin: auto;
+        margin-top: 50px;
+        width: 100%;
+      }
       img {
-        width: vw(535);
+        width: 30vw;
+        min-width: 350px;
+        @include g.respond-to("xl") {
+          width: 100%;
+          margin: auto;
+        }
       }
     }
   }
   .back_img {
-    position: absolute;
     width: 100%;
-    top: 48vw;
     z-index: -1;
-    left: -1vw;
+    margin-top: -132px;
+    margin-left: -54px;
+    position: relative;
+    @include g.respond-to("xl") {
+      margin-top: -50px;
+    }
+    @include g.respond-to("md") {
+      margin-top: 0px;
+    }
   }
 
   .recruit_select {
     margin: auto;
-    margin-top: 287px;
+    margin-top: 75px;
     display: flex;
     justify-content: space-between;
     width: vw(1248);
     position: relative;
+    @include g.respond-to("xl") {
+      width: 90%;
+      flex-wrap: wrap;
+    }
 
     .doctor {
+      @include g.respond-to("md") {
+        width: 50%;
+      }
       p {
         font-size: 16px;
         color: #0b7eb8;
         border: solid 1px #0b7eb8;
-        padding: 22px 0px 20px 0px;
+        padding: 11px 0px 15px 0px;
         width: vw(280);
         text-align: center;
         border-radius: 10px;
         box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+        @include g.respond-to("xl") {
+          width: 20vw;
+        }
+        @include g.respond-to("md") {
+          width: 40vw;
+        }
       }
       span {
         // Add styles for the span tag in the doctor class here
       }
     }
     .nurse {
+      @include g.respond-to("md") {
+        width: 50%;
+      }
       p {
         font-size: 16px;
         color: #0b7eb8;
         border: solid 1px #0b7eb8;
-        padding: 22px 0px 20px 0px;
+        padding: 11px 0px 15px 0px;
         width: vw(280);
         text-align: center;
         border-radius: 10px;
         box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+        @include g.respond-to("xl") {
+          width: 20vw;
+        }
+        @include g.respond-to("md") {
+          width: 40vw;
+        }
       }
       span {
         // Add styles for the span tag in the nurse class here
       }
     }
     .medicalclerk {
+      @include g.respond-to("md") {
+        width: 50%;
+      }
       p {
         font-size: 16px;
         color: #0b7eb8;
         border: solid 1px #0b7eb8;
-        padding: 22px 0px 20px 0px;
+        padding: 11px 0px 15px 0px;
         width: vw(280);
         text-align: center;
         border-radius: 10px;
         box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+        @include g.respond-to("xl") {
+          width: 20vw;
+        }
+        @include g.respond-to("md") {
+          width: 40vw;
+        }
       }
       span {
         // Add styles for the span tag in the medicalclerk class here
       }
     }
     .caremanager {
+      @include g.respond-to("md") {
+        width: 50%;
+      }
       p {
         font-size: 16px;
         color: #0b7eb8;
         border: solid 1px #0b7eb8;
-        padding: 22px 0px 20px 0px;
+        padding: 11px 0px 15px 0px;
         width: vw(280);
         text-align: center;
         border-radius: 10px;
         box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+        @include g.respond-to("xl") {
+          width: 20vw;
+        }
+        @include g.respond-to("md") {
+          width: 40vw;
+        }
       }
       span {
         // Add styles for the span tag in the caremanager class here
@@ -150,8 +229,11 @@ main {
 
   .recruit_occupation {
     margin: auto;
-    margin-top: 134px;
+    margin-top: 107px;
     width: vw(1276);
+    @include g.respond-to("xl") {
+      width: 90%;
+    }
 
     .recruit_occupation_box {
       &.doctor {
@@ -194,15 +276,26 @@ main {
       td:first-child {
         color: #0b7eb8;
         background-color: #f2f4fb;
-        width: 315px;
+        width: 351px;
         padding-left: 37px;
         font-family: "Mplus1p", sans-serif;
+        @include g.respond-to("md") {
+          padding-left: 15px;
+          width: 100px;
+        }
       }
       td:nth-child(2) {
         padding-left: 50px;
         font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro", "HiraMinProN-W3",
           "Hiragino Mincho ProN", "HG明朝E", serif;
         color: #000;
+        @include g.respond-to("xl") {
+          white-space: normal;
+        }
+        @include g.respond-to("md") {
+          padding-left: 15px;
+          white-space: normal;
+        }
       }
 
       table,
@@ -225,9 +318,9 @@ main {
       background-color: #54a5cd;
       width: 300px;
       margin: auto;
-      margin-top: 40px;
+      margin-top: 56px;
       border-radius: 3px;
-      margin-bottom: 123px;
+      margin-bottom: 120px;
 
       a {
         display: flex;
@@ -235,7 +328,7 @@ main {
       }
       .back {
         background-color: #0b7eb8; /* 追加した行 */
-        padding: 20px;
+        padding: 23px 28px;
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
       }
@@ -246,8 +339,8 @@ main {
         color: #fff;
         line-height: 1;
         position: relative;
-        width: 1em;
-        height: 1em;
+        width: 12px;
+        height: 12px;
         transform: translateX(-25%) rotate(45deg);
         background-color: #0b7eb8; /* 追加した行 */
       }
@@ -278,6 +371,7 @@ main {
         background-color: #54a5cd;
         margin: 0;
         padding-left: 44px;
+        letter-spacing: 1px;
       }
     }
   }

@@ -1,5 +1,6 @@
 @use "../global" as g;
 
+
 .top_title{
     width: 100%;
     position: relative;
@@ -45,12 +46,13 @@
         
     }
 }
-.title_lg{
-    font-size: 80px;
+.title_lg {
+  font-size: 80px;
 }
-.title_md{
-    font-size: 40px;
+.title_md {
+  font-size: 40px;
 }
+
 
 .top_title_info{
     position: absolute;

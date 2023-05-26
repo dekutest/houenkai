@@ -1,6 +1,7 @@
 // PCファースト
 
 $breakpoints: (
+
   'sm': '480px',
   'md': '768px',
   'lg': '1020px',
@@ -15,27 +16,19 @@ $breakpoints: (
   }
 }
 
+// PCファースト
+// -----例-----------------------------
+// .example-class {
+//   font-size: 16px;
 
-  // PCファースト
-  // -----例-----------------------------
-  // .example-class {
-  //   font-size: 16px;
-  
-  //   @include respond-to('md') {
-  //     font-size: 18px;
-  //   }
-  
-  //   @include respond-to('lg') {
-  //     font-size: 20px;
-  //   }
-  // }
+//   @include respond-to('md') {
+//     font-size: 18px;
+//   }
 
-
-
-
-
-
-
+//   @include respond-to('lg') {
+//     font-size: 20px;
+//   }
+// }
 
 // モバイルファースト
 
@@ -45,28 +38,28 @@ $breakpoints: (
 //   'lg': '1020px',
 //   'xl': '1200px'
 //   );
-  
+
 //   @mixin respond-to($breakpoint) {
 //     @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
 //       @content;
 //     }
 //   }
-  
-  // モバイルファースト
-  // -----例-----------------------------
-  // .header {
-  //   background-color: #333;
-  //   color: #fff;
-  //   padding: 10px;
-  
-  //   h1 {
-  //     font-size: 24px;
-  //   }
-  
-  //   @include respond-to('sm') {
-  //     padding: 5px;
-  //     h1 {
-  //       font-size: 20px;
-  //     }
-  //   }
-  // }
+
+// モバイルファースト
+// -----例-----------------------------
+// .header {
+//   background-color: #333;
+//   color: #fff;
+//   padding: 10px;
+
+//   h1 {
+//     font-size: 24px;
+//   }
+
+//   @include respond-to('sm') {
+//     padding: 5px;
+//     h1 {
+//       font-size: 20px;
+//     }
+//   }
+// }

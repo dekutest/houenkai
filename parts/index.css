@@ -1,5 +1,6 @@
 @charset "UTF-8";
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 0vw;
   white-space: nowrap;
@@ -7,7 +8,9 @@
 
 html {
   overflow-y: scroll;
+  -ms-touch-action: manipulation;
   touch-action: manipulation;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 100%;
 }
@@ -213,8 +216,9 @@ header {
   width: 100%;
   box-sizing: border-box;
   margin: auto;
-  padding-top: 38px;
   height: 125px;
+  display: flex;
+  align-items: center;
 }
 
 header h1 {
@@ -222,6 +226,7 @@ header h1 {
   height: 60px;
   padding-left: 44px;
 }
+
 
 header nav {
   position: absolute;
@@ -263,13 +268,14 @@ header nav li a {
   padding: 3px 15px 3px 0;
   /* padding: 3px 10px; */
   vertical-align: middle;
-  line-height: 80px;
-  color: #112E53;
+
   font-size: 17px;
   /* font-size: 15px; */
   font-weight: bold;
   text-align: center;
+  font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   letter-spacing: 1px;
+  color: #112e53 !important;
 }
 
 header nav li img {
@@ -291,6 +297,7 @@ header nav li img {
   position: relative;
   display: block;
   line-height: 5px;
+
   font-family: "M PLUS 1p", sans-serif;
   font-size: 10px;
   color: #112E53;
@@ -403,6 +410,7 @@ header nav li img {
   left: 50.7%;
   transform: translate(-50%, -50%);
 }
+
 @media screen and (max-width: 1020px) {
   .top_sub {
     display: flex;

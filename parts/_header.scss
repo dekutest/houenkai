@@ -1,89 +1,80 @@
 @use "../global" as g;
-header{
-        // ------ドロップシャドウ-----
-        box-shadow: 0px 6px 7px 0px rgba(178, 178, 178, 0.45);
-
+header {
+  // ------ドロップシャドウ-----
+  box-shadow: 0px 6px 7px 0px rgba(178, 178, 178, 0.45);
 }
-
 
 .inner {
-    position: relative;
-    width: 98vw;
-    // height: inherit;
-    box-sizing: border-box;
-    margin: auto;
-    padding-top: 38px;
-    height: 125px;
-
-
+  position: relative;
+  width: 98vw;
+  // height: inherit;
+  box-sizing: border-box;
+  margin: auto;
+  height: 125px;
+  display: flex;
+  align-items: center;
 }
-
-
 
 header h1 {
-    // top: 16px;
-    width: 249px;
-    height: 60px;
-    padding-left: 2vw;
+  // top: 16px;
+  width: 249px;
+  height: 60px;
+  padding-left: 2vw;
 }
-
-
 
 nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 80%;
-    height: 80px;
-    z-index: 1;
+  width: 80%;
+  height: 80px;
+  z-index: 1;
 }
 nav ul {
-    text-align: right;
-    padding-right:2vw;
+  text-align: right;
+  padding-right: 2vw;
 }
 
 nav li {
-    display: inline-block;
-    position: relative;
-    height: inherit;
-    padding-right: 2vw;
+  display: inline-block;
+  position: relative;
+  height: inherit;
+  padding-right: 2vw;
 }
 nav li a {
-    display: table;
-    padding: 3px 15px 3px 0;
-    /* padding: 3px 10px; */
-    vertical-align: middle;
-    line-height: 80px;
-    color: #333333;
-    font-size: 14.5px;
-    /* font-size: 15px; */
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 1px;
+  display: table;
+  padding: 3px 15px 3px 0;
+  /* padding: 3px 10px; */
+  vertical-align: middle;
+  font-size: 17px;
+  /* font-size: 15px; */
+  font-weight: bold;
+  text-align: center;
+  font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo,
+    sans-serif;
+  letter-spacing: 1px;
+  color: #112e53 !important;
 }
 
-nav li img{
-    width: auto;
+nav li img {
+  width: auto;
 }
 
-.header_bottom{
-    display: block;
-    line-height: 5px;
+.header_bottom {
+  display: block;
+  line-height: 5px;
+  font-size: 10px;
+  margin-top: 8px;
 }
 
-.nav_parent{
-    position: relative;
-
+.nav_parent {
+  position: relative;
 }
-.nav_child{
-    position: absolute;
-    top: 5px;
-}
-
-.child01{
-    left: 90px;
-}
-.child02{
-    left: 162px;
+.nav_child {
+  position: absolute;
+  top: 5px;
 }
 
+.child01 {
+  left: 90px;
+}
+.child02 {
+  left: 162px;
+}

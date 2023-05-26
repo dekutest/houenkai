@@ -231,20 +231,215 @@ nav li img {
   transform: translate(-50%, -50%);
 }
 
-table {
+.dli-chevron-down {
+  display: inline-block;
+  vertical-align: middle;
+  color: #0b7eb8;
+  line-height: 1;
+  width: 10px;
+  height: 10px;
+  border: 0.1em solid currentColor;
+  border-left: 0;
+  border-bottom: 0;
+  box-sizing: border-box;
+  transform: translateY(-25%) rotate(135deg);
+}
+
+main .recruit_title img {
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  main .recruit_title img {
+    object-fit: cover;
+    height: 150px;
+  }
+}
+main .recruit_main {
+  width: 67.9166666667vw;
+  display: flex;
+  margin: auto;
+  margin-top: 93px;
+}
+main .recruit_main .recruit_left {
+  width: 37.1875vw;
+  margin-top: 79px;
+  margin-right: 12.1354166667vw;
+}
+main .recruit_main .recruit_left img {
+  margin-bottom: 58px;
+}
+main .recruit_main .recruit_left h1 {
+  font-size: 20px;
+  background-color: #f2f4fb;
+  padding: 23px;
+  padding-bottom: 44px;
+  border-radius: 8px;
+  color: #112e53;
+  width: fit-content;
+}
+main .recruit_main .recruit_right {
+  position: relative;
+  width: 37.1875vw;
+}
+main .recruit_main .recruit_right img {
+  width: 27.8645833333vw;
+}
+main .back_img {
+  position: absolute;
+  width: 100%;
+  top: 48vw;
+  z-index: -1;
+  left: -1vw;
+}
+main .recruit_select {
+  margin: auto;
+  margin-top: 287px;
+  display: flex;
+  justify-content: space-between;
+  width: 65vw;
+  position: relative;
+}
+main .recruit_select .doctor p {
+  font-size: 16px;
+  color: #0b7eb8;
+  border: solid 1px #0b7eb8;
+  padding: 22px 0px 20px 0px;
+  width: 14.5833333333vw;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+main .recruit_select .nurse p {
+  font-size: 16px;
+  color: #0b7eb8;
+  border: solid 1px #0b7eb8;
+  padding: 22px 0px 20px 0px;
+  width: 14.5833333333vw;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+main .recruit_select .medicalclerk p {
+  font-size: 16px;
+  color: #0b7eb8;
+  border: solid 1px #0b7eb8;
+  padding: 22px 0px 20px 0px;
+  width: 14.5833333333vw;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+main .recruit_select .caremanager p {
+  font-size: 16px;
+  color: #0b7eb8;
+  border: solid 1px #0b7eb8;
+  padding: 22px 0px 20px 0px;
+  width: 14.5833333333vw;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+main .recruit_occupation {
+  margin: auto;
+  margin-top: 134px;
+  width: 66.4583333333vw;
+}
+main .recruit_occupation .recruit_occupation_box.doctor .title {
+  border-bottom: 2px solid #112e53;
+  margin-bottom: 26px;
+  padding-left: 10px;
+}
+main .recruit_occupation .recruit_occupation_box.doctor .title h2 {
+  font-size: 30px;
+  color: #112e53;
+  font-family: "Mplus1p", sans-serif;
+}
+main .recruit_occupation .recruit_occupation_box.doctor .title p {
+  font-size: 18px;
+  color: #112e53;
+  margin-top: 0;
+}
+main .recruit_occupation table {
+  border: 1px solid #0b7eb8;
   border-collapse: collapse;
-  width: 92%;
-  margin-top: 34px;
+  width: 100%;
 }
-
-td {
-  border: none;
-  border-bottom: 1px solid #94aab4;
-  padding: 17px 12px;
+main .recruit_occupation table td:first-child {
+  color: #0b7eb8;
+  background-color: #f2f4fb;
+  width: 315px;
+  padding-left: 37px;
+  font-family: "Mplus1p", sans-serif;
 }
-
-tr:first-child td {
-  border-top: 1px solid #94aab4;
+main .recruit_occupation table td:nth-child(2) {
+  padding-left: 50px;
+  font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro", "HiraMinProN-W3", "Hiragino Mincho ProN", "HG明朝E", serif;
+  color: #000;
+}
+main .recruit_occupation table table,
+main .recruit_occupation table th,
+main .recruit_occupation table td {
+  border: 1px solid #0b7eb8;
+}
+main .recruit_occupation table tr td {
+  height: 63px;
+}
+main .recruit_occupation table .big_table {
+  height: 122px;
+}
+main .recruit_occupation .form {
+  background-color: #54a5cd;
+  width: 300px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 3px;
+  margin-bottom: 123px;
+}
+main .recruit_occupation .form a {
+  display: flex;
+  align-items: center;
+}
+main .recruit_occupation .form .back {
+  background-color: #0b7eb8; /* 追加した行 */
+  padding: 20px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+main .recruit_occupation .form .dli-chevron-round-right {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  line-height: 1;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  transform: translateX(-25%) rotate(45deg);
+  background-color: #0b7eb8; /* 追加した行 */
+}
+main .recruit_occupation .form .dli-chevron-round-right::before,
+main .recruit_occupation .form .dli-chevron-round-right::after {
+  content: "";
+  position: absolute;
+  background: currentColor;
+  border-radius: 0.1em;
+}
+main .recruit_occupation .form .dli-chevron-round-right::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.1em;
+}
+main .recruit_occupation .form .dli-chevron-round-right::after {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0.1em;
+}
+main .recruit_occupation .form p {
+  color: #fff;
+  background-color: #54a5cd;
+  margin: 0;
+  padding-left: 44px;
 }
 
 main .clinic_title {
@@ -253,10 +448,21 @@ main .clinic_title {
 main .clinic_title img {
   width: 100%;
 }
+@media screen and (max-width: 1200px) {
+  main .clinic_title img {
+    object-fit: cover;
+    height: 150px;
+  }
+}
 main .clinic_main {
   width: 66.6666666667vw;
   margin: auto;
   margin-bottom: 170px;
+}
+@media screen and (max-width: 768px) {
+  main .clinic_main {
+    width: 90%;
+  }
 }
 main .clinic_main .title {
   margin-bottom: 94px;
@@ -269,6 +475,11 @@ main .clinic_main .title p {
   letter-spacing: 3px;
   font-feature-settings: "palt";
 }
+@media screen and (max-width: 1200px) {
+  main .clinic_main .title p {
+    font-size: 12px;
+  }
+}
 main .clinic_main .title h1 {
   margin-top: 0;
   font-size: clamp(20px, 2.083vw, 40px);
@@ -278,10 +489,15 @@ main .clinic_main .title h1 {
   font-family: "Mplus1p", sans-serif;
   font-feature-settings: "palt";
 }
+@media screen and (max-width: 1200px) {
+  main .clinic_main .title h1 {
+    font-size: 28px;
+  }
+}
 main .clinic_main .clinic_feature {
   display: flex;
 }
-@media screen and (min-width: 1020px) {
+@media screen and (max-width: 1200px) {
   main .clinic_main .clinic_feature {
     flex-direction: column;
   }
@@ -292,8 +508,20 @@ main .clinic_main .clinic_feature .clinic_left {
 main .clinic_main .clinic_feature .clinic_left img {
   width: 100%;
 }
+@media screen and (max-width: 1200px) {
+  main .clinic_main .clinic_feature .clinic_left {
+    margin: inherit;
+  }
+}
 main .clinic_main .clinic_feature .clinic_right {
   width: 36.4583333333vw;
+}
+@media screen and (max-width: 1200px) {
+  main .clinic_main .clinic_feature .clinic_right {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+  }
 }
 main .clinic_main .clinic_feature .clinic_right h2 {
   font-size: clamp(14px, 1.458vw, 28px);
@@ -304,6 +532,11 @@ main .clinic_main .clinic_feature .clinic_right h2 {
   margin-top: -7px;
   letter-spacing: 2px;
 }
+@media screen and (max-width: 1200px) {
+  main .clinic_main .clinic_feature .clinic_right h2 {
+    font-size: 20px;
+  }
+}
 main .clinic_main .clinic_feature .clinic_right p {
   font-size: clamp(10px, 1.042vw, 20px);
   color: #4b7282;
@@ -311,6 +544,29 @@ main .clinic_main .clinic_feature .clinic_right p {
   margin-left: 25px;
   letter-spacing: 5px;
   margin-top: 26px;
+}
+@media screen and (max-width: 1200px) {
+  main .clinic_main .clinic_feature .clinic_right p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  main .clinic_main .clinic_feature .clinic_right p {
+    margin-left: 0;
+  }
+}
+main .clinic_main .clinic_feature .clinic_right table {
+  border-collapse: collapse;
+  width: 92%;
+  margin-top: 34px;
+}
+@media screen and (max-width: 1020px) {
+  main .clinic_main .clinic_feature .clinic_right table {
+    width: 80%;
+  }
+}
+main .clinic_main .clinic_feature .clinic_right table tr:first-child td {
+  border-top: 1px solid #94aab4;
 }
 main .clinic_main .clinic_feature .clinic_right table tr .c_title {
   font-size: clamp(10px, 1.042vw, 20px);
@@ -321,6 +577,9 @@ main .clinic_main .clinic_feature .clinic_right table tr .c_circle {
   color: #4b7282;
 }
 main .clinic_main .clinic_feature .clinic_right table tr td {
+  border: none;
+  border-bottom: 1px solid #94aab4;
+  padding: 17px 12px;
   text-align: center;
   font-size: clamp(9px, 0.938vw, 18px);
   color: #4b7282;
@@ -330,10 +589,15 @@ main .clinic_main .clinic_feature .clinic_right table td:first-child {
   letter-spacing: 1px;
 }
 main .clinic_main .clinic_feature .clinic_right .holiday {
-  font-size: clamp(7px, 0.729vw, 14px);
+  font-size: 14px;
   margin-top: 15px;
   margin-left: 50px;
   letter-spacing: 3px;
+}
+@media screen and (max-width: 1200px) {
+  main .clinic_main .clinic_feature .clinic_right .holiday {
+    margin-left: inherit;
+  }
 }
 main .clinic_main .clinic_tel {
   margin-top: 50px;
@@ -350,6 +614,13 @@ main .clinic_main .clinic_map {
   display: flex;
   align-items: flex-end;
   width: 50vw;
+}
+@media screen and (max-width: 1200px) {
+  main .clinic_main .clinic_map {
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 main .clinic_main .clinic_map p {
   margin-right: 53px;

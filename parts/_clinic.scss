@@ -1,17 +1,4 @@
 @use "../global" as g;
-table {
-  border-collapse: collapse;
-  width: 92%;
-  margin-top: 34px;
-}
-td {
-  border: none;
-  border-bottom: 1px solid #94aab4;
-  padding: 17px 12px;
-}
-tr:first-child td {
-  border-top: 1px solid #94aab4;
-}
 
 main {
   @function vw($pixel) {
@@ -31,6 +18,10 @@ main {
   .clinic_title {
     img {
       width: 100%;
+      @include g.respond-to("xl") {
+        object-fit: cover;
+        height: 150px;
+      }
     }
     margin-bottom: vw(155);
   }
@@ -39,6 +30,9 @@ main {
     width: vw(1280);
     margin: auto;
     margin-bottom: 170px;
+    @include g.respond-to("md") {
+      width: 90%;
+    }
 
     .title {
       p {
@@ -48,6 +42,9 @@ main {
         font-family: "Mplus1p", sans-serif;
         letter-spacing: 3px;
         font-feature-settings: "palt";
+        @include g.respond-to("xl") {
+          font-size: 12px;
+        }
       }
 
       h1 {
@@ -58,13 +55,16 @@ main {
         color: #112e53;
         font-family: "Mplus1p", sans-serif;
         font-feature-settings: "palt";
+        @include g.respond-to("xl") {
+          font-size: 28px;
+        }
       }
       margin-bottom: 94px;
     }
 
     .clinic_feature {
       display: flex;
-      @include g.respond-to("lg") {
+      @include g.respond-to("xl") {
         flex-direction: column;
       }
 
@@ -73,10 +73,18 @@ main {
           width: 100%;
         }
         margin-right: 94px;
+        @include g.respond-to("xl") {
+          margin: inherit;
+        }
       }
 
       .clinic_right {
         width: vw(700);
+        @include g.respond-to("xl") {
+          width: 100%;
+          margin: auto;
+          margin-top: 40px;
+        }
         h2 {
           font-size: fontSize(28);
           color: #112e53;
@@ -85,6 +93,9 @@ main {
           margin-left: -8px;
           margin-top: -7px;
           letter-spacing: 2px;
+          @include g.respond-to("xl") {
+            font-size: 20px;
+          }
         }
 
         p {
@@ -94,9 +105,24 @@ main {
           margin-left: 25px;
           letter-spacing: 5px;
           margin-top: 26px;
+          @include g.respond-to("xl") {
+            font-size: 14px;
+          }
+          @include g.respond-to("lg") {
+            margin-left: 0;
+          }
         }
 
         table {
+          border-collapse: collapse;
+          width: 92%;
+          margin-top: 34px;
+          @include g.respond-to("lg") {
+            width: 80%;
+          }
+          tr:first-child td {
+            border-top: 1px solid #94aab4;
+          }
           tr {
             .c_title {
               font-size: fontSize(20);
@@ -108,6 +134,9 @@ main {
             }
 
             td {
+              border: none;
+              border-bottom: 1px solid #94aab4;
+              padding: 17px 12px;
               text-align: center;
               font-size: fontSize(18);
               color: #4b7282;
@@ -119,10 +148,13 @@ main {
           }
         }
         .holiday {
-          font-size: fontSize(14);
+          font-size: 14px;
           margin-top: 15px;
           margin-left: 50px;
           letter-spacing: 3px;
+          @include g.respond-to("xl") {
+            margin-left: inherit;
+          }
         }
       }
     }
@@ -143,6 +175,11 @@ main {
       display: flex;
       align-items: flex-end;
       width: 50vw;
+      @include g.respond-to("xl") {
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+      }
 
       p {
         margin-right: 53px;

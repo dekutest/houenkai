@@ -1,10 +1,13 @@
 // PCファースト
 
 $breakpoints: (
-  "sm": "480px",
-  "md": "768px",
-  "lg": "1020px",
-  "xl": "1200px",
+
+  'sm': '480px',
+  'md': '768px',
+  'lg': '1020px',
+  'xl': '1200px',
+  'xxl': '1300px',
+  'ml': '1600px'
 );
 
 @mixin respond-to($breakpoint) {

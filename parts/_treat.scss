@@ -3,6 +3,7 @@
 
 .treat_title {
     // Add styles for the recruit_title class here
+    margin-bottom: 7.2vw;
     img {
       width: 100%;
       @include g.respond-to("xl") {
@@ -16,6 +17,21 @@
 .treat_boxs_wrapper{
     width: 1085px;
     margin: 0 auto;
+    margin-bottom: 13.8vw;
+    @include g.respond-to('xxl') {
+width: 95%;
+    }
+    .hid{
+        @include g.respond-to('lg') {
+        display: none;
+                }
+        
+    }
+    .treat_box_text04{
+        padding-left: 15px;
+        padding-top: 6px;
+    }
+    
 }
 .treat_boxs {
     display: flex;
@@ -27,93 +43,221 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-
     margin-bottom: 20px; /* 各boxの間隔を調整 */
+    @include g.respond-to('xxl') {
+justify-content: center;
+    }
+    @include g.respond-to('lg') {
+flex-direction: column-reverse;
+margin-bottom: 3vw;
+align-items: center;
+    }
+}
+.treat_boxs01 {
+    margin-bottom: 6vw;
+}
+.treat_boxs02 {
+    margin-bottom: 6vw;
+    .treat_box_left{
+        padding-left: 15px;
+        padding-top: 27px;
+        @include g.respond-to('lg') {
+padding-left: 0px;
+padding-top: 0px;
+                }
+    }
+    
+}
+.treat_boxs03 {
+    margin-bottom: 6vw;
 }
 
-.treat_box:nth-child(even) {
+
+.treat_box:nth-child(odd) {
     flex-direction: row-reverse;
+    @include g.respond-to('lg') {
+flex-direction: column-reverse;
+margin-bottom: 3vw;
+
+align-items: center;
+    }
 }
 
 .treat_box_img {
-    width: 50%;   /* 画像の幅を調整 */
+    width: 57%;   /* 画像の幅を調整 */
     height: auto;
+    @include g.respond-to('xxl') {
+        width: g.vw-pc(570);
+        object-fit: contain;
+    }
+    @include g.respond-to('lg') {
+width: 70%;
+    }
+    @include g.respond-to('md') {
+width: 100%;
+    }
 }
 
 .treat_box_text {
     width: 50%;   /* テキストの幅を調整 */
-    padding: 20px; /* テキストの内側の間隔を調整 */
-    text-align: justify;  /* もしテキストを両端揃えにする場合はこの行を使用 */
+padding-left: 35px;
+text-align: justify;  /* もしテキストを両端揃えにする場合はこの行を使用 */
+@include g.respond-to('xxl') {
+        padding-left: 2vw;
+    }
+@include g.respond-to('lg') {
+        padding-left: 0;
+        width: 70%;
+    }
+@include g.respond-to('md') {
+
+        width: 100%;
+    }
 .treat_box_title{
     font-size: 26px;
     color: g.$m-color;
     font-family: g.$font-m1;
+    margin: 0;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    @include g.respond-to('lg') {
+margin-top: 3vw;
+    }
+    
 }
 .txt{
     font-family: g.$font-m1;
     font-size: 16px;
+    line-height: 32px;
 color: black;
 }
-
 
 
 }
 .wave_line{
     position: relative;
     left: 0;
+    @include g.respond-to('md') {
+       left: -200px;
+    }
+    
 }
 
 
 // -------------service------------
 
 .treat_service_upper{
-    margin-bottom: 4vw;
-    width: g.vw-pc(183);
+    width: 183px;
     display: block;
     margin: 0 auto;
-    @include g.respond-to('xxl') {
-        width: 15vw;
-    }
-    @include g.respond-to('lg') {
-        width: 17vw;
-    }
-    @include g.respond-to('md') {
-        width: 20vw;
-    }
-    @include g.respond-to('sm') {
-        width: 25vw;
+    margin-bottom: 4.9vw;
+
+    .hid{
+        @include g.respond-to('lg') {
+        display: none;
+                }
+        
     }
 }
 
 .service_wrapper{
     width: 1053px;
     margin: 0 auto;
+    @include g.respond-to('lg') {
+    width: 70%;
+                        }
+    @include g.respond-to('md') {
+    width: 95%;
+                        }
+
+
+    .service_box02{
+        margin-bottom: 5.2vw;
+    }
+    .treat_service_box_text02{
+        position: relative;
+        top: -8px;
+        .txt{
+            line-height: 32.4px;
+        }
+    }
+    .treat_service_box_text03{
+
+        .txt{
+            line-height: 28.4px;
+            margin-bottom: 25px;
+        }
+        .box_bottom{
+            display: flex;
+            justify-content: space-between;
+            @include g.respond-to('md') {
+                flex-direction: column;
+                align-items: center;
+                                }
+        }
+        .box_bottom_text{
+            line-height: 28.4px;
+        }
+        .treat_person{
+            position: relative;
+            right: -13px;
+            top: -7px;
+        }
+    }
 }
 
 .treat_service {
     display: flex;
     flex-direction: column;
-    title{
+    .hid{
+        @include g.respond-to('lg') {
+        display: none;
+                }
+            }
+    
+    
+    .title{
         font-family: g.$font-yu;
+        color: g.$m-color;
+        font-weight: bold;
+        font-size: 26px;
     }
-    text{
+    .text{
         font-family: g.$font-m1;
+        font-size: 16px;
     }
 
 }
 
 .treat_service_box {
     display: flex;
-    &_title{
-        display: flex;
+    margin-bottom: 5.9vw;
+    align-items: flex-start;
+    @include g.respond-to('lg') {
+        flex-direction: column;
+        align-items: center;
+                        }
+                        
+                        &_title{
+                            display: flex;
+                            margin: 0;
+                            align-items: center;
+                            margin-bottom: 24px;
+                            @include g.respond-to('md') {
+                                flex-direction: column;
+                                align-items: center;
+                                                }
+
 
     &_right{
         background-color:#3168A6 ;
         color: white;
         font-size: 18px;
         border-radius: 5%;
-        padding:10px 15px;
+        padding:3px 25px;
         font-family: g.$font-m1;
+        margin: 0;
+        margin-left: 14px;
     }
     }
 }
@@ -121,18 +265,42 @@ color: black;
 .treat_service_img {
     order: 1;
     object-fit: contain;
+    @include g.respond-to('xxl') {
+     width:250px ;
+    }
+    @include g.respond-to('lg') {
+     width:100% ;
+     margin-bottom: 5vw;
+    }
 }
+
 
 .treat_service_box_text {
     order: 2;
     text-align: left;
+    padding-left: 27px;
+    @include g.respond-to('lg') {
+        width:100% ;
+        margin-bottom: 4vw;
+        padding-left: 0;
+       }
+
     .title {
         font-size: 1.5em;
+        margin: 0;
+        letter-spacing: 0.1em;
+    }
+    .txt{
+        margin: 0;
+        margin-top: 5px;
+        line-height: 31px;
     }
 }
+
 
 .treat_person{
     width: 200px;
     object-fit: contain;
 
 }
+

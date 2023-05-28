@@ -100,6 +100,7 @@ width: 100%;
 
 .treat_box_text {
     width: 50%;   /* テキストの幅を調整 */
+
 padding-left: 35px;
 text-align: justify;  /* もしテキストを両端揃えにする場合はこの行を使用 */
 @include g.respond-to('xxl') {
@@ -113,10 +114,12 @@ text-align: justify;  /* もしテキストを両端揃えにする場合はこ�
 
         width: 100%;
     }
+
 .treat_box_title{
     font-size: 26px;
     color: g.$m-color;
     font-family: g.$font-m1;
+
     margin: 0;
     line-height: 34px;
     letter-spacing: 0.1em;
@@ -124,13 +127,17 @@ text-align: justify;  /* もしテキストを両端揃えにする場合はこ�
 margin-top: 3vw;
     }
     
+
 }
 .txt{
     font-family: g.$font-m1;
     font-size: 16px;
+
     line-height: 32px;
+
 color: black;
 }
+
 
 
 }
@@ -183,6 +190,7 @@ color: black;
     }
     .treat_service_box_text03{
 
+
         .txt{
             line-height: 28.4px;
             margin-bottom: 25px;
@@ -204,11 +212,13 @@ color: black;
             top: -7px;
         }
     }
+
 }
 
 .treat_service {
     display: flex;
     flex-direction: column;
+
     .hid{
         @include g.respond-to('lg') {
         display: none;
@@ -225,12 +235,14 @@ color: black;
     .text{
         font-family: g.$font-m1;
         font-size: 16px;
+
     }
 
 }
 
 .treat_service_box {
     display: flex;
+
     margin-bottom: 5.9vw;
     align-items: flex-start;
     @include g.respond-to('lg') {
@@ -254,10 +266,12 @@ color: black;
         color: white;
         font-size: 18px;
         border-radius: 5%;
+
         padding:3px 25px;
         font-family: g.$font-m1;
         margin: 0;
         margin-left: 14px;
+n
     }
     }
 }

@@ -1291,6 +1291,7 @@ header nav li img {
   padding-left: 35px;
   text-align: justify; /* もしテキストを両端揃えにする場合はこの行を使用 */
 }
+
 @media screen and (max-width: 1300px) {
   .treat_box_text {
     padding-left: 2vw;
@@ -1307,10 +1308,12 @@ header nav li img {
     width: 100%;
   }
 }
+
 .treat_box_text .treat_box_title {
   font-size: 26px;
   color: #112E53;
   font-family: "M PLUS 1p", sans-serif;
+
   margin: 0;
   line-height: 34px;
   letter-spacing: 0.1em;
@@ -1319,11 +1322,14 @@ header nav li img {
   .treat_box_text .treat_box_title {
     margin-top: 3vw;
   }
+
 }
 .treat_box_text .txt {
   font-family: "M PLUS 1p", sans-serif;
   font-size: 16px;
+
   line-height: 32px;
+
   color: black;
 }
 
@@ -1387,6 +1393,7 @@ header nav li img {
     align-items: center;
   }
 }
+
 .service_wrapper .treat_service_box_text03 .box_bottom_text {
   line-height: 28.4px;
 }
@@ -1394,12 +1401,14 @@ header nav li img {
   position: relative;
   right: -13px;
   top: -7px;
+
 }
 
 .treat_service {
   display: flex;
   flex-direction: column;
 }
+
 @media screen and (max-width: 1020px) {
   .treat_service .hid {
     display: none;
@@ -1414,6 +1423,7 @@ header nav li img {
 .treat_service .text {
   font-family: "M PLUS 1p", sans-serif;
   font-size: 16px;
+
 }
 
 .treat_service_box {
@@ -1448,6 +1458,17 @@ header nav li img {
   font-family: "M PLUS 1p", sans-serif;
   margin: 0;
   margin-left: 14px;
+}
+.treat_service_box_title {
+  display: flex;
+}
+.treat_service_box_title_right {
+  background-color: #3168A6;
+  color: white;
+  font-size: 18px;
+  border-radius: 5%;
+  padding: 10px 15px;
+  font-family: "M PLUS 1p", sans-serif;
 }
 
 .treat_service_img {

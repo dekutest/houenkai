@@ -14,7 +14,7 @@
 
 
 .treat_boxs_wrapper{
-    width: 70vw;
+    width: 1085px;
     margin: 0 auto;
 }
 .treat_boxs {
@@ -44,6 +44,19 @@
     width: 50%;   /* テキストの幅を調整 */
     padding: 20px; /* テキストの内側の間隔を調整 */
     text-align: justify;  /* もしテキストを両端揃えにする場合はこの行を使用 */
+.treat_box_title{
+    font-size: 26px;
+    color: g.$m-color;
+    font-family: g.$font-m1;
+}
+.txt{
+    font-family: g.$font-m1;
+    font-size: 16px;
+color: black;
+}
+
+
+
 }
 .wave_line{
     position: relative;
@@ -73,17 +86,36 @@
 }
 
 .service_wrapper{
-    width: 60vw;
+    width: 1053px;
     margin: 0 auto;
 }
 
 .treat_service {
     display: flex;
     flex-direction: column;
+    title{
+        font-family: g.$font-yu;
+    }
+    text{
+        font-family: g.$font-m1;
+    }
+
 }
 
 .treat_service_box {
     display: flex;
+    &_title{
+        display: flex;
+
+    &_right{
+        background-color:#3168A6 ;
+        color: white;
+        font-size: 18px;
+        border-radius: 5%;
+        padding:10px 15px;
+        font-family: g.$font-m1;
+    }
+    }
 }
 
 .treat_service_img {
@@ -102,5 +134,5 @@
 .treat_person{
     width: 200px;
     object-fit: contain;
-    
+
 }

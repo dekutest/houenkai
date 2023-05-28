@@ -1172,6 +1172,9 @@ header nav li img {
   background-color: grey;
 }
 
+.treat_title {
+  margin-bottom: 7.2vw;
+}
 .treat_title img {
   width: 100%;
 }
@@ -1186,6 +1189,21 @@ header nav li img {
 .treat_boxs_wrapper {
   width: 1085px;
   margin: 0 auto;
+  margin-bottom: 13.8vw;
+}
+@media screen and (max-width: 1300px) {
+  .treat_boxs_wrapper {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .treat_boxs_wrapper .hid {
+    display: none;
+  }
+}
+.treat_boxs_wrapper .treat_box_text04 {
+  padding-left: 15px;
+  padding-top: 6px;
 }
 
 .treat_boxs {
@@ -1200,29 +1218,118 @@ header nav li img {
   width: 100%;
   margin-bottom: 20px; /* 各boxの間隔を調整 */
 }
+@media screen and (max-width: 1300px) {
+  .treat_box {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .treat_box {
+    flex-direction: column-reverse;
+    margin-bottom: 3vw;
+    align-items: center;
+  }
+}
 
-.treat_box:nth-child(even) {
+.treat_boxs01 {
+  margin-bottom: 6vw;
+}
+
+.treat_boxs02 {
+  margin-bottom: 6vw;
+}
+.treat_boxs02 .treat_box_left {
+  padding-left: 15px;
+  padding-top: 27px;
+}
+@media screen and (max-width: 1020px) {
+  .treat_boxs02 .treat_box_left {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+}
+
+.treat_boxs03 {
+  margin-bottom: 6vw;
+}
+
+.treat_box:nth-child(odd) {
   flex-direction: row-reverse;
+}
+@media screen and (max-width: 1020px) {
+  .treat_box:nth-child(odd) {
+    flex-direction: column-reverse;
+    margin-bottom: 3vw;
+    align-items: center;
+  }
 }
 
 .treat_box_img {
-  width: 50%; /* 画像の幅を調整 */
+  width: 57%; /* 画像の幅を調整 */
   height: auto;
+}
+@media screen and (max-width: 1300px) {
+  .treat_box_img {
+    width: 29.6875vw;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .treat_box_img {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .treat_box_img {
+    width: 100%;
+  }
 }
 
 .treat_box_text {
   width: 50%; /* テキストの幅を調整 */
-  padding: 20px; /* テキストの内側の間隔を調整 */
+  padding-left: 35px;
   text-align: justify; /* もしテキストを両端揃えにする場合はこの行を使用 */
 }
+
+@media screen and (max-width: 1300px) {
+  .treat_box_text {
+    padding-left: 2vw;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .treat_box_text {
+    padding-left: 0;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .treat_box_text {
+    width: 100%;
+  }
+}
+
 .treat_box_text .treat_box_title {
   font-size: 26px;
   color: #112E53;
   font-family: "M PLUS 1p", sans-serif;
+
+  margin: 0;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 1020px) {
+  .treat_box_text .treat_box_title {
+    margin-top: 3vw;
+  }
+
 }
 .treat_box_text .txt {
   font-family: "M PLUS 1p", sans-serif;
   font-size: 16px;
+
+  line-height: 32px;
+
   color: black;
 }
 
@@ -1230,31 +1337,21 @@ header nav li img {
   position: relative;
   left: 0;
 }
+@media screen and (max-width: 768px) {
+  .wave_line {
+    left: -200px;
+  }
+}
 
 .treat_service_upper {
-  margin-bottom: 4vw;
-  width: 9.53125vw;
+  width: 183px;
   display: block;
   margin: 0 auto;
-}
-@media screen and (max-width: 1300px) {
-  .treat_service_upper {
-    width: 15vw;
-  }
+  margin-bottom: 4.9vw;
 }
 @media screen and (max-width: 1020px) {
-  .treat_service_upper {
-    width: 17vw;
-  }
-}
-@media screen and (max-width: 768px) {
-  .treat_service_upper {
-    width: 20vw;
-  }
-}
-@media screen and (max-width: 480px) {
-  .treat_service_upper {
-    width: 25vw;
+  .treat_service_upper .hid {
+    display: none;
   }
 }
 
@@ -1262,20 +1359,105 @@ header nav li img {
   width: 1053px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1020px) {
+  .service_wrapper {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service_wrapper {
+    width: 95%;
+  }
+}
+.service_wrapper .service_box02 {
+  margin-bottom: 5.2vw;
+}
+.service_wrapper .treat_service_box_text02 {
+  position: relative;
+  top: -8px;
+}
+.service_wrapper .treat_service_box_text02 .txt {
+  line-height: 32.4px;
+}
+.service_wrapper .treat_service_box_text03 .txt {
+  line-height: 28.4px;
+  margin-bottom: 25px;
+}
+.service_wrapper .treat_service_box_text03 .box_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .service_wrapper .treat_service_box_text03 .box_bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.service_wrapper .treat_service_box_text03 .box_bottom_text {
+  line-height: 28.4px;
+}
+.service_wrapper .treat_service_box_text03 .treat_person {
+  position: relative;
+  right: -13px;
+  top: -7px;
+
+}
 
 .treat_service {
   display: flex;
   flex-direction: column;
 }
-.treat_service title {
-  font-family: "Yu Gothic Medium";
+
+@media screen and (max-width: 1020px) {
+  .treat_service .hid {
+    display: none;
+  }
 }
-.treat_service text {
+.treat_service .title {
+  font-family: "Yu Gothic Medium";
+  color: #112E53;
+  font-weight: bold;
+  font-size: 26px;
+}
+.treat_service .text {
   font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+
 }
 
 .treat_service_box {
   display: flex;
+  margin-bottom: 5.9vw;
+  align-items: flex-start;
+}
+@media screen and (max-width: 1020px) {
+  .treat_service_box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.treat_service_box_title {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 768px) {
+  .treat_service_box_title {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.treat_service_box_title_right {
+  background-color: #3168A6;
+  color: white;
+  font-size: 18px;
+  border-radius: 5%;
+  padding: 3px 25px;
+  font-family: "M PLUS 1p", sans-serif;
+  margin: 0;
+  margin-left: 14px;
 }
 .treat_service_box_title {
   display: flex;
@@ -1294,13 +1476,39 @@ header nav li img {
   -o-object-fit: contain;
      object-fit: contain;
 }
+@media screen and (max-width: 1300px) {
+  .treat_service_img {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .treat_service_img {
+    width: 100%;
+    margin-bottom: 5vw;
+  }
+}
 
 .treat_service_box_text {
   order: 2;
   text-align: left;
+  padding-left: 27px;
+}
+@media screen and (max-width: 1020px) {
+  .treat_service_box_text {
+    width: 100%;
+    margin-bottom: 4vw;
+    padding-left: 0;
+  }
 }
 .treat_service_box_text .title {
   font-size: 1.5em;
+  margin: 0;
+  letter-spacing: 0.1em;
+}
+.treat_service_box_text .txt {
+  margin: 0;
+  margin-top: 5px;
+  line-height: 31px;
 }
 
 .treat_person {

@@ -1,0 +1,254 @@
+@use "../global" as g;
+
+@function vw($pixel) {
+  $viewport: 1920; // 基準となるビューポート
+  @return ($pixel / $viewport * 100vw);
+}
+
+@function fontSize($maxFont) {
+  $minWidth: 980;
+  $maxWidth: 1920;
+  $maxFontSize: $maxFont * 1px;
+  $fontVw: round($maxFont/$maxWidth * 100 * 1000) / 1000;
+  $minFontSize: round($minWidth * ($fontVw / 100)) * 1px;
+  @return clamp(#{$minFontSize}, #{$fontVw}vw, #{$maxFontSize});
+}
+main {
+  .container {
+    .news_contents {
+      .news_content {
+        width: 75vw;
+        margin: auto;
+        display: block;
+        margin-top: 3vw;
+        background-color: #ffffff;
+        padding: 5vw;
+        margin-bottom: 5vw;
+        border-radius: 10px;
+        padding-top: 0vw;
+        @include g.respond-to("md") {
+          width: 90vw;
+        }
+
+        .blog_title {
+          margin-top: 0;
+          font-size: fontSize(40);
+          padding-bottom: 33px;
+          border-bottom: 1px solid #112e53;
+          color: #112e53;
+          font-family: m-plus-1p, sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          font-feature-settings: "palt";
+          margin-bottom: 40px;
+
+          @include g.respond-to("xl") {
+            font-size: 28px;
+          }
+        }
+
+        h1 {
+          font-size: 30px;
+          color: #112e53;
+          font-family: "m-plus-1p", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+        h2 {
+          font-size: 30px;
+          color: #112e53;
+          font-family: "m-plus-1p", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+        h3 {
+          font-size: 30px;
+          color: #112e53;
+          font-family: "m-plus-1p", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        h4 {
+          font-size: 30px;
+          color: #112e53;
+          font-family: "m-plus-1p", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        p {
+          font-size: 16px;
+          color: #000000;
+          font-family: "m-plus-1p", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+      }
+
+      .blog-note {
+        background-color: #ffffff;
+        margin-top: 0vw;
+        width: auto;
+        height: auto;
+        padding-bottom: 3.3vw;
+        box-shadow: none;
+
+        @include g.respond-to("md") {
+          padding-bottom: 10vw;
+          margin-top: 13vw;
+        }
+
+        .news-title {
+          width: auto;
+          margin: auto;
+          padding-top: vw(47);
+          padding-bottom: vw(34);
+          @include g.respond-to("lg") {
+            width: auto;
+            justify-content: space-evenly;
+          }
+          @include g.respond-to("md") {
+            width: auto;
+          }
+
+          h1 {
+            font-weight: bold;
+            color: #000000;
+            letter-spacing: 2px;
+            font-size: clamp(20px, 1.563vw, 30px);
+            width: fit-content;
+            background: linear-gradient(transparent 70%, #e7ff01 70%);
+          }
+
+          ul {
+            // 最新情報
+            .top-3-contents {
+              display: flex;
+              justify-content: flex-start;
+              margin: auto;
+              margin-top: 60px;
+              width: auto;
+              flex-wrap: wrap;
+
+              @include g.respond-to("lg") {
+                margin-bottom: 30px;
+                justify-content: flex-start;
+              }
+
+              @include g.respond-to("md") {
+                flex-wrap: wrap;
+                margin-bottom: 0px;
+                width: auto;
+              }
+
+              .top-3-contents-1 {
+                width: vw(400);
+                margin-right: vw(8);
+                margin-left: vw(8);
+                margin-bottom: 10px;
+
+                @include g.respond-to("lg") {
+                  width: 30vw;
+                  margin-right: 1.25vw;
+                  margin-left: 1.25vw;
+                }
+
+                // :hover {
+                //     filter:  brightness(106%);
+                //         transform: scale(105%);
+                //         transition-duration: 0.5s;
+                //               }
+
+                @include g.respond-to("md") {
+                  width: 100%;
+                  margin-bottom: 20px;
+                  margin-right: auto;
+                  margin-left: auto;
+                }
+                a {
+                  .top-3-contents-img {
+                    img {
+                      width: 100%;
+                      object-fit: cover;
+                      height: vw(225);
+                      background-color: #ffffff;
+                      @include g.respond-to("lg") {
+                        object-fit: contain;
+                        height: 150px;
+                      }
+
+                      @include g.respond-to("md") {
+                        height: 200px;
+                        max-height: 200px;
+                        object-position: center;
+                        object-fit: contain;
+                      }
+                    }
+                    :hover {
+                      filter: brightness(106%);
+                      transform: scale(1.05);
+                      transition-duration: 0.5s;
+                    }
+                  }
+
+                  .top-3-contents-text {
+                    p {
+                      color: #000000;
+                      font-size: clamp(12px, 0.94vw, 14px);
+                      white-space: normal;
+                    }
+
+                    .top-3-contents-title-day {
+                      color: #808080;
+                      font-size: clamp(12px, 0.94vw, 14px);
+                      white-space: normal;
+                      font-weight: bold;
+                      letter-spacing: 1px;
+                    }
+
+                    .top-3-contents-title {
+                      line-height: normal;
+                      margin-top: 7px;
+                      font-weight: bold;
+                      letter-spacing: 4px;
+                      font-size: fontSize(18);
+                      @include g.respond-to("md") {
+                        font-size: 18px;
+                      }
+                      a {
+                        color: #000000;
+                        font-size: clamp(12px, 0.94vw, 14px);
+                        white-space: normal;
+                      }
+                    }
+                  }
+
+                  .top-3-contents-arrow {
+                    :hover {
+                      filter: brightness(106%);
+                      transform: scale(1.2);
+                      transition-duration: 0.5s;
+                    }
+                    img {
+                      width: 1.67vw;
+                      margin-top: 1.25vw;
+                      display: flex;
+                      margin-left: auto;
+                      @include g.respond-to("lg") {
+                        width: 20px;
+                      }
+                      @include g.respond-to("md") {
+                        display: none;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

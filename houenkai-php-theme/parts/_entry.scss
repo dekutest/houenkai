@@ -1,0 +1,14 @@
+@use "../global" as g;
+
+.entry_form {
+  width: g.vw-pc(875);
+  margin: auto;
+  .form_wrap {
+    display: flex;
+    align-items: center;
+
+    .form_text1 {
+      width: 300px;
+    }
+  }
+}

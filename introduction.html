@@ -12,6 +12,37 @@
     />
     <title></title>
     <link rel="stylesheet" href="parts/index.css" />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "stt1muk",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
   </head>
 
   <body>
@@ -234,74 +265,59 @@
     </main>
 
     <footer>
+      <div class="footer_inner">
+        <img src="./images/footer05.webp" alt="" class="footer_upper" />
 
-        <div class="footer_inner">
-            <img src="./images/footer05.webp" alt="" class="footer_upper">
-
-            <div class="footer_mid">
-                <div class="footer_left">
-                    <img src="./images/logo.webp" alt="logo" class="footer_logo">
-                    <p>980-0871 宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F</p>
-                    <p>tel.<span class="footer_lg">022-341-2882</span> fax. 022-341-8896</p>
-                    <p>緊急往診：24時間365日</p>
-                </div>
-                <div class="footer_center">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    芳縁会について
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    診療内容
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    採用情報
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    診療所紹介
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    訪問地域
-                                </a>
-                            </li>
-                            <li>
-                                <img class="nav_parent" src="./images/yoyaku01.webp" alt="">
-                                <a href="#">
-                                    <span class="nav_child child01">
-                                        <img src="./images/yoyaku02.webp" alt="">
-                                    </span>
-                                </a>
-                                <a href="#">
-                                    <span class="nav_child child02">
-                                        <img src="./images/yoyaku03.webp" alt="">
-                                    </span>
-                                </a>
-                            </li>
-
-                        </ul>
-
-                    </nav>
-
-
-                </div>
-
-            </div>
-            <div class="footer_bottom">
-                <img src="./images/footer02.webp" alt="">
-            </div>
-
+        <div class="footer_mid">
+          <div class="footer_left">
+            <img src="./images/logo.webp" alt="logo" class="footer_logo" />
+            <p>
+              980-0871 宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F
+            </p>
+            <p>
+              tel.<span class="footer_lg">022-341-2882</span> fax. 022-341-8896
+            </p>
+            <p>緊急往診：24時間365日</p>
+          </div>
+          <div class="footer_center">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#"> 芳縁会について </a>
+                </li>
+                <li>
+                  <a href="#"> 診療内容 </a>
+                </li>
+                <li>
+                  <a href="#"> 採用情報 </a>
+                </li>
+                <li>
+                  <a href="#"> 診療所紹介 </a>
+                </li>
+                <li>
+                  <a href="#"> 訪問地域 </a>
+                </li>
+                <li>
+                  <img class="nav_parent" src="./images/yoyaku01.webp" alt="" />
+                  <a href="#">
+                    <span class="nav_child child01">
+                      <img src="./images/yoyaku02.webp" alt="" />
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="nav_child child02">
+                      <img src="./images/yoyaku03.webp" alt="" />
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-
-
+        <div class="footer_bottom">
+          <img src="./images/footer02.webp" alt="" />
+        </div>
+      </div>
     </footer>
 
     <script src="./js/script.js"></script>

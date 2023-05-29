@@ -1,1 +1,249 @@
 @use "../global" as g;
+
+// PCファースト
+// ----例
+// .example-class {
+//   font-size: 16px;
+
+//   @include respond-to('md') {
+//     font-size: 18px;
+//   }
+// }
+
+.main {
+  margin: 0;
+}
+
+.clinic_title_text01 {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.clinic_main {
+  width: 1182px;
+  height: 790px;
+  margin: auto;
+  padding-top: 15px;
+  border-bottom: dotted cornflowerblue 5px;
+  margin-bottom: 1px;
+}
+
+.clinic_main_1 {
+  padding-top: 108px;
+}
+
+.clinic_main_2 {
+  display: flex;
+  margin: auto;
+  padding-top: 24px;
+}
+  
+.clinic_main_3  {
+  font-size: 24px;
+  padding-top: 30px;
+  padding-left: 9%;
+  // margin-left: 31.5%;
+}
+
+.clinic_main_4 {
+  // overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  padding-left: 8.8%;
+}
+
+.clinic_main_4_1 {
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  background: linear-gradient(transparent 50% , #cee3ff 90%);
+  display: inline-block;
+}
+
+.clinic_main_4_2 {
+  font-size: 18px;
+  letter-spacing: -0.8px;
+  background: linear-gradient(transparent 50% , #cee3ff 90%);
+  display: inline-block;
+  margin-top: -8px;
+}
+
+.clinic_feature_1_1 {
+  background-color: cornflowerblue;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding-left: 30px;
+  margin-top: 48px;
+  margin-left: 27%;
+  
+  @include g.respond-to('xl') {
+    margin-left: 20%;
+  }
+}
+
+.clinic_feature_1_2 {
+  font-size: 26px;
+  padding-left: 50px;
+  margin-top: -35px;
+  margin-left: 27.5%;
+  
+  @include g.respond-to('xl') {
+    margin-left: 20%;
+  }
+}
+
+.clinic_feature_2 {
+  font-size: 18px;
+  letter-spacing: -1.5px;
+  padding-top: 24px;
+  margin-left: 27.5%;
+  padding-bottom: 60px;
+  line-height: 30px;
+  
+  @include g.respond-to('xl') {
+    margin-left: 20%;
+  }
+}
+
+.clinic_feature_3 {
+  width: 1060px;
+  height: 204px;
+  font-size: 26px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.clinic_feature_3_1 {
+  color: white;
+  letter-spacing :2px;
+  display: inline-block;
+	border-radius:5px;
+  width: 490px;
+  height: 77px;
+  text-align: center;
+  line-height: 77px;
+  background-color: cornflowerblue;
+  border: solid cornflowerblue;
+  box-sizing: border-box;
+}
+
+.clinic_feature_3_2 {
+  color: white;
+  letter-spacing :2px;
+  display: inline-block;
+	border-radius:10px;
+  width: 490px;
+  height: 77px;
+  text-align: center;
+  line-height: 77px;
+  background-color: cornflowerblue;
+  border: solid cornflowerblue;
+  box-sizing: border-box;
+}
+
+.clinic_feature_3_3 {
+  color: white;
+  letter-spacing :2px;
+  display: inline-block;
+	border-radius:5px;
+  width: 490px;
+  height: 77px;
+  text-align: center;
+  line-height: 77px;
+  background-color: cornflowerblue;
+  border: solid cornflowerblue;
+  box-sizing: border-box;
+}
+
+.clinic_feature_3_4 {
+  color: white;
+  letter-spacing :2px;
+  display: inline-block;
+	border-radius:5px;
+  width: 490px;
+  height: 77px;
+  text-align: center;
+  line-height: 77px;
+  background-color: cornflowerblue;
+  border: solid cornflowerblue;
+  box-sizing: border-box;
+}
+
+.clinic_feature_4 {
+  margin: auto;
+  display: block;
+  margin-top: 148px;
+}
+
+.clinic_feature_5 {
+  font-size: 18px;
+  padding-top: 75px;
+  padding-left: 38%;
+  padding-bottom: 0.7%;
+}
+
+.clinic_feature_6{
+  margin: auto;
+  display: block;
+  margin: auto;
+  padding-bottom: 125px;
+}
+
+.clinic_area {
+  padding-top: 85px;
+  padding-bottom: 74px;
+  background-color: paleturquoise;
+}
+
+.clinic_area_1 {
+  margin: auto;
+  display: block;
+}
+
+.clinic_area_2 {
+  font-size: 18px;
+  letter-spacing: 2.5px;
+  margin: auto;
+  // display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.clinic_area_3  {
+  width: 1080px;
+  height: 332px;
+  border: 2px solid cornflowerblue;
+  margin: auto;
+  background-color: #fbf9f9;
+}
+
+.clinic_area_3_2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.clinic_area_3_3 {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  margin-top: 35px;
+}
+
+.clinic_area_3-4 {
+  font-size: 24px;
+}
+
+.clinic_area_3 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 60PX;
+}
+
+.clinic_area_4 {
+  margin-left: 142px;
+}

@@ -228,10 +228,6 @@ nav li img {
   transform: translate(-50%, -50%);
 }
 
-.main {
-  margin: 0;
-}
-
 .clinic_title_text01 {
   width: 100%;
   margin: auto;
@@ -401,16 +397,16 @@ nav li img {
 
 .clinic_feature_5 {
   font-size: 18px;
-  padding-top: 75px;
-  padding-left: 38%;
-  padding-bottom: 0.7%;
+  margin-top: 75px;
+  margin-left: 31.5%;
 }
 
 .clinic_feature_6 {
   margin: auto;
   display: block;
-  margin: auto;
-  padding-bottom: 125px;
+  margin-top: 25px;
+  margin-bottom: 125px;
+  margin-left: 29%;
 }
 
 .clinic_area {
@@ -464,5 +460,4 @@ nav li img {
 
 .clinic_area_4 {
   margin-left: 142px;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=style.css.map */

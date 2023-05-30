@@ -621,6 +621,7 @@
     @include g.respond-to("md") {
       margin-bottom: 40px;
       margin-top: 40px;
+      width: 40%;
     }
   }
 }

@@ -16,7 +16,7 @@
           alt="clinic"
         />
       </section>
-      <section class="clinic_main">
+      <section class="clinic_main2">
         <div class="title">
           <p>ほうえん</p>
           <h1>芳縁在宅診療所八幡</h1>
@@ -91,7 +91,7 @@
         </div>
       </section>
 
-      <section class="clinic_main section2">
+      <section class="clinic_main2 section2">
         <div class="title">
           <p>ほうえん</p>
           <h1>芳縁ファミリークリニック</h1>

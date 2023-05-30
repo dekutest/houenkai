@@ -56,12 +56,21 @@ main {
       width: vw(720);
       margin-top: 79px;
       margin-right: vw(233);
+      display: grid;
       @include g.respond-to("xl") {
         width: 100%;
+      }
+      .recruit_text {
+        @include g.respond-to("md") {
+          width: 100%;
+        }
       }
 
       img {
         margin-bottom: 58px;
+        @include g.respond-to("md") {
+          width: 90%;
+        }
       }
       h1 {
         font-size: 20px;
@@ -256,6 +265,7 @@ main {
           border-bottom: 2px solid #112e53;
           margin-bottom: 26px;
           padding-left: 10px;
+          padding-bottom: 23px;
 
           h2 {
             font-size: 30px;

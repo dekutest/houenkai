@@ -318,15 +318,29 @@ header nav li img {
   left: 162px;
 }
 
+.br_none {
+  display: block;
+}
+@media screen and (max-width: 480px) {
+  .br_none {
+    display: none;
+  }
+}
+
 .top_title {
   width: 100%;
   position: relative;
   margin-bottom: 7vw;
-  z-index: -5;
+  z-index: 0;
+}
+.top_title a {
+  display: inline-block;
 }
 
 .top_title_img {
   width: 100%;
+  z-index: -5;
+  position: relative;
 }
 @media screen and (max-width: 1020px) {
   .top_title_img {
@@ -384,6 +398,7 @@ header nav li img {
   width: 41.7708333333vw;
   bottom: 29.5%;
   right: -1.8229166667vw;
+  z-index: 10;
 }
 @media screen and (max-width: 1020px) {
   .top_title_info {
@@ -403,6 +418,7 @@ header nav li img {
   bottom: -6.5%;
   left: 50.7%;
   transform: translate(-50%, -50%);
+  z-index: 10;
 }
 @media screen and (max-width: 1020px) {
   .top_sub {
@@ -411,7 +427,17 @@ header nav li img {
     justify-content: center;
     align-items: center;
     position: unset;
-    transform: none;
+    top: 530px;
+    position: absolute;
+    transform: translate(-50%);
+  }
+}
+@media screen and (max-width: 480px) {
+  .top_sub {
+    position: absolute;
+    bottom: -17.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -1018,8 +1044,11 @@ header nav li img {
   text-align: center;
   padding: 3.2vw 0 6.1vw 0;
 }
-.top_clinic_title {
-  margin-bottom: 3.6vw;
+@media screen and (max-width: 768px) {
+  .top_clinic_title {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
 }
 
 .top_clinic_box {
@@ -1350,7 +1379,8 @@ header nav li img {
 }
 @media screen and (max-width: 768px) {
   .wave_line {
-    left: -200px;
+    left: -80px;
+    height: 170px;
   }
 }
 
@@ -1465,6 +1495,14 @@ header nav li img {
   font-family: "M PLUS 1p", sans-serif;
   margin: 0;
   margin-left: 14px;
+}
+@media screen and (max-width: 768px) {
+  .treat_service_box_title_right {
+    text-align: center;
+    width: 75%;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+  }
 }
 
 .treat_service_img {
@@ -1746,14 +1784,25 @@ main .recruit_main .recruit_left {
   width: 37.5vw;
   margin-top: 79px;
   margin-right: 12.1354166667vw;
+  display: grid;
 }
 @media screen and (max-width: 1200px) {
   main .recruit_main .recruit_left {
     width: 100%;
   }
 }
+@media screen and (max-width: 768px) {
+  main .recruit_main .recruit_left .recruit_text {
+    width: 100%;
+  }
+}
 main .recruit_main .recruit_left img {
   margin-bottom: 58px;
+}
+@media screen and (max-width: 768px) {
+  main .recruit_main .recruit_left img {
+    width: 90%;
+  }
 }
 main .recruit_main .recruit_left h1 {
   font-size: 20px;
@@ -1960,6 +2009,7 @@ main .recruit_occupation .recruit_occupation_box.doctor .title {
   border-bottom: 2px solid #112e53;
   margin-bottom: 26px;
   padding-left: 10px;
+  padding-bottom: 23px;
 }
 main .recruit_occupation .recruit_occupation_box.doctor .title h2 {
   font-size: 30px;
@@ -2084,12 +2134,242 @@ main .recruit_occupation .form p {
   width: 45.5729166667vw;
   margin: auto;
 }
+@media screen and (max-width: 1200px) {
+  .entry_form {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .entry_form {
+    width: 90vw;
+  }
+}
+.entry_form .entry_top {
+  width: fit-content;
+  margin: auto;
+  margin-top: 95px;
+  margin-bottom: 95px;
+}
+.entry_form .entry_top2 {
+  width: auto;
+  margin-right: auto;
+  padding-bottom: 29px;
+  border-bottom: 1px solid #4b7282;
+  margin-bottom: 47px;
+}
 .entry_form .form_wrap {
   display: flex;
   align-items: center;
+  margin-bottom: 21px;
+}
+@media screen and (max-width: 768px) {
+  .entry_form .form_wrap {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 .entry_form .form_wrap .form_text1 {
   width: 300px;
+  height: 36px;
+  font-size: 13px;
+  color: #112e53;
+  font-family: "Yu Gothic", sans-serif;
+}
+.entry_form .form_wrap .form_text1 p {
+  font-size: 13px;
+  color: #112e53;
+  margin: 0;
+}
+.entry_form .form_wrap .form_text1 span {
+  font-size: 11px;
+  border: #4b7282 1px solid;
+  color: #4b7282;
+  padding: 3px 5px;
+}
+.entry_form .form_wrap .form_text2 {
+  width: 100%;
+  font-size: 13px;
+  vertical-align: middle;
+  font-family: "Yu Gothic", sans-serif;
+}
+.entry_form .form_wrap .gender input[type=radio] {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: 0;
+}
+.entry_form .form_wrap .gender input[type=radio]::before,
+.entry_form .form_wrap .gender input[type=radio]::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.entry_form .form_wrap .gender input[type=radio]::before {
+  background-color: #fff;
+  border: 1px solid #112e53;
+  height: 12px;
+  width: 12px;
+  left: 0px;
+}
+.entry_form .form_wrap .gender input[type=radio]::after {
+  background-color: #112e53;
+  opacity: 0;
+  height: 8px;
+  width: 8px;
+  left: 3px;
+}
+.entry_form .form_wrap .gender input[type=radio]:checked::after {
+  opacity: 1;
+}
+.entry_form .form_wrap .age input {
+  width: 70px !important;
+}
+.entry_form .form_wrap .gender input {
+  width: fit-content !important;
+}
+.entry_form .form_wrap .address_num input {
+  width: 231px !important;
+}
+.entry_form .form_wrap .form_big input {
+  width: 100% !important;
+}
+.entry_form .form_wrap .form_big textarea {
+  width: 100% !important;
+  border: 1px solid #99a6aa !important;
+  background-color: #f2f4fb;
+}
+.entry_form .form_wrap .form_text2 input {
+  width: 285px; /* ボックスの幅を調整します。 */
+  height: 36px; /* ボックスの高さを調整します。 */
+  font-size: 13px; /* 文字の大きさを調整します。 */
+  border: 1px solid #99a6aa;
+  background-color: #f2f4fb;
+}
+@media screen and (max-width: 768px) {
+  .entry_form .form_wrap .form_text2 input {
+    width: 100%;
+  }
+}
+.entry_form .p_p {
+  /* チェックボックスデザイン */
+}
+.entry_form .p_p input[type=checkbox] {
+  width: 20px;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.entry_form .p_p input[type=checkbox] {
+  cursor: pointer;
+  padding-left: 30px; /*label手前にチェックボックス用の余白を開ける*/
+  vertical-align: middle;
+  position: relative;
+}
+.entry_form .p_p input[type=checkbox]::before,
+.entry_form .p_p input[type=checkbox]::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+.entry_form .p_p input[type=checkbox]::before {
+  background-color: #fff;
+  border-radius: 0%;
+  border: 1px solid #666464;
+  width: 11px; /*チェックボックスの横幅*/
+  height: 11px; /*チェックボックスの縦幅*/
+  transform: translateY(-50%);
+  top: 50%;
+  left: 5px;
+}
+.entry_form .p_p input[type=checkbox]::after {
+  border-bottom: 3px solid #666464; /*チェックの太さ*/
+  border-left: 3px solid #666464; /*チェックの太さ*/
+  opacity: 0; /*チェック前は非表示*/
+  height: 5px;
+  width: 11px;
+  transform: rotate(-45deg);
+  top: 10px;
+  left: 7px;
+}
+.entry_form .p_p input[type=checkbox]:checked::after {
+  opacity: 1; /*チェック後表示*/
+}
+.entry_form .form_area {
+  display: flex;
+  align-items: flex-start;
+}
+.entry_form select[name=work] {
+  width: 80%;
+  height: 36px;
+  font-size: 13px;
+  border-color: #99a6aa;
+}
+.entry_form .sent {
+  display: flex;
+  align-items: center;
+}
+.entry_form .sent input {
+  width: 300px !important;
+  height: 70px !important;
+  color: #fff !important;
+  background-color: #54a5cd !important;
+  margin: 0 !important;
+  padding-left: 44px !important;
+  letter-spacing: 1px !important;
+  border: none !important;
+}
+.entry_form .form_text2 .submit-button {
+  display: inline-flex;
+  height: 70px;
+  align-items: center;
+  background-color: #0b7eb8; /* 追加した行 */
+  padding: 23px 28px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  position: absolute;
+}
+.entry_form .form_text2 .dli-chevron-round-right {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  line-height: 1;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  transform: translateX(-25%) rotate(45deg);
+  background-color: #0b7eb8;
+  margin-right: 10px; /* Adjust according to your needs */
+}
+.entry_form .form_text2 .dli-chevron-round-right::before,
+.entry_form .form_text2 .dli-chevron-round-right::after {
+  content: "";
+  position: absolute;
+  background: currentColor;
+  border-radius: 0.1em;
+}
+.entry_form .form_text2 .dli-chevron-round-right::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.1em;
+}
+.entry_form .form_text2 .dli-chevron-round-right::after {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0.1em;
 }
 
 main .container .news_contents .news_content {

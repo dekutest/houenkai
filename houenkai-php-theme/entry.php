@@ -11,9 +11,32 @@
       <div class="entry_form_title"></div>
 
       <section class="entry_form">
-      <?php
- echo do_shortcode('[contact-form-7 id="14" title="コンタクトフォーム 1"]');
- ?>
+        <div class="entry_top">
+      <img
+          src="<?php echo get_template_directory_uri(); ?>/images/entry_1.webp"
+          srcset="
+            <?php echo get_template_directory_uri(); ?>/images/entry_1.webp,
+            <?php echo get_template_directory_uri(); ?>/images/entry_1@2x.webp 2x
+          "
+          alt="recruit"
+        />
+        </div>
+
+        <div class="entry_top2">
+        <img
+          src="<?php echo get_template_directory_uri(); ?>/images/entry_2.webp"
+          srcset="
+            <?php echo get_template_directory_uri(); ?>/images/entry_2.webp,
+            <?php echo get_template_directory_uri(); ?>/images/entry_2@2x.webp 2x
+          "
+          alt="recruit"
+        /></div>
+
+      <?php echo do_shortcode('[mwform_formkey key="39"]'); ?>
+
+
+
+      
 
 
         <div class="entry_form_celect">
@@ -60,9 +83,7 @@
           <div class="entry_form_left"></div>
           <div class="entry_form_right"></div>
         </div>
-        <p>プライバシーポリシーに同意して送信する。</p>
-        <p>プライバシーポリシー</p>
-        <img src="" alt="" />
+  
       </section>
       <?php get_footer(); ?> 
 

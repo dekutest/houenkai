@@ -10,7 +10,7 @@
   width: g.vw-pc(1180);
   margin: auto;
   padding-top: 15px;
-  border-bottom: dotted cornflowerblue 5px;
+  border-bottom: dotted #4b7282 5px;
   margin-bottom: 1px;
   @include g.respond-to("xl") {
     width: 80%;

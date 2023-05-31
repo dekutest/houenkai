@@ -253,3 +253,17 @@ nav.globalMenuSp.active {
     width: 150px;
   }
 }
+
+.animation svg {
+  @include g.respond-to("xl") {
+    width: 300px;
+  }
+}
+
+a :hover {
+  opacity: 0.8 !important;
+}
+
+.l-animation {
+  background-color: #0b7eb8;
+}

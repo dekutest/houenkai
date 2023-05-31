@@ -23,10 +23,10 @@
 .clinic_top_wrap {
   width: fit-content;
   margin: auto;
-}
-img {
-  @include g.respond-to("md") {
-    width: 100%;
+  img {
+    @include g.respond-to("md") {
+      width: 100%;
+    }
   }
 }
 

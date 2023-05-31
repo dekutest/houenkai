@@ -12,6 +12,13 @@
   position: relative;
   margin-bottom: 7vw;
   z-index: 0;
+  @include g.respond-to("md") {
+    margin-bottom: 20vw;
+  }
+  @include g.respond-to("sm") {
+    margin-bottom: 45vw;
+  }
+
   a {
     display: inline-block;
   }
@@ -47,8 +54,8 @@
     top: 15.7%;
   }
   @include g.respond-to("sm") {
-    width: 80%;
-    top: 15.7%;
+    width: 66%;
+    top: 28.7%;
   }
   h1 {
     font-size: 21.34px;
@@ -70,10 +77,10 @@
 
   @include g.respond-to("lg") {
     width: g.vw-pc(1200);
-    bottom: 54.5%;
+    bottom: 35.5%;
   }
   @include g.respond-to("md") {
-    bottom: 56.5%;
+    bottom: 38.5%;
     width: 80%;
   }
 }
@@ -86,7 +93,6 @@
 
   @include g.respond-to("lg") {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: unset;
@@ -94,11 +100,17 @@
     position: absolute;
     transform: translate(-50%);
   }
-  @include g.respond-to("sm") {
+  @include g.respond-to("md") {
     position: absolute;
-    bottom: -17.5%;
+    flex-direction: column;
+    bottom: -6.5%;
     left: 50%;
+    height: fit-content;
+    top: 90%;
     transform: translate(-50%, -50%);
+  }
+  @include g.respond-to("sm") {
+    top: 103%;
   }
 }
 
@@ -107,7 +119,7 @@
   @include g.respond-to("xl") {
     width: 30vw;
   }
-  @include g.respond-to("lg") {
+  @include g.respond-to("md") {
     width: 50vw;
   }
   @include g.respond-to("sm") {
@@ -841,4 +853,13 @@ scroll_up ｜下から上へ出現
 
 a :hover {
   opacity: 0.8;
+}
+
+.l-animation {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }

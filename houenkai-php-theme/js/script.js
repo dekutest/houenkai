@@ -36,3 +36,7 @@ $(window).scroll(function () {
   window.addEventListener("load", scrollAnimationFunc);
   window.addEventListener("scroll", scrollAnimationFunc);
 });
+
+$(window).on("load", function () {
+  $("#lottie").delay(3000).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+});

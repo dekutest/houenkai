@@ -3,7 +3,7 @@
  * Template Name: Top page
  */
 ?>
-
+<div id="lottie" class="l-animation"></div>
 <?php get_header(); ?>
 <section class="top_title">
         <img class="top_title_img" src="<?php echo get_template_directory_uri(); ?>/images/top01.webp" alt="" />
@@ -38,7 +38,7 @@
         </div>
       </section>
       <!-- ---------about---------------- -->
-      <section class="top_about">
+      <section class="top_about" id="about">
         <img
           src="<?php echo get_template_directory_uri(); ?>/images/top_text_08.webp"
           alt=""

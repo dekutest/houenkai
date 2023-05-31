@@ -31,78 +31,50 @@
       href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Serif+JP&display=swap"
       rel="stylesheet"
     />
-    <script>
-      (function (d) {
-        var config = {
-            kitId: "stt1muk",
-            scriptTimeout: 3000,
-            async: true,
-          },
-          h = d.documentElement,
-          t = setTimeout(function () {
-            h.className =
-              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-          }, config.scriptTimeout),
-          tk = d.createElement("script"),
-          f = false,
-          s = d.getElementsByTagName("script")[0],
-          a;
-        h.className += " wf-loading";
-        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
-        tk.async = true;
-        tk.onload = tk.onreadystatechange = function () {
-          a = this.readyState;
-          if (f || (a && a != "complete" && a != "loaded")) return;
-          f = true;
-          clearTimeout(t);
-          try {
-            Typekit.load(config);
-          } catch (e) {}
-        };
-        s.parentNode.insertBefore(tk, s);
-      })(document);
-    </script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/lottie.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
     <?php wp_head(); ?>
 
   </head>
 
   <body>
-    <header>
+  <div id="lottie" class="l-animation"></div>
+  <header>
       <div class="inner">
         <h1>
           <a href="top.html">
-           <img src="<?php echo get_template_directory_uri(); ?>/images/logo.webp" alt="芳縁会" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.webp" alt="芳縁会" />
           </a>
         </h1>
-        <nav>
+        <nav class="menu_pc">
           <ul>
-            <li class="pc">
-              <a href="#" class="header_up">
-                <span class="header_up_text">芳縁会について</span>
+            <li>
+              <a href="#">
+                芳縁会について
                 <span class="header_bottom">ABOUT US</span>
               </a>
             </li>
-            <li class="pc">
-              <a href="#" class="header_up">
-                <span class="header_up_text">診療内容</span>
+            <li>
+              <a href="#">
+                診療内容
                 <span class="header_bottom">MEDICAL SERVICE</span>
               </a>
             </li>
-            <li class="pc">
-              <a href="#" class="header_up">
-                <span class="header_up_text">訪問地域</span>
+            <li>
+              <a href="#">
+                訪問地域
                 <span class="header_bottom">HOME CARE</span>
               </a>
             </li>
-            <li class="pc">
-              <a href="#" class="header_up">
-                <span class="header_up_text"> 療所紹介</span>
+            <li>
+              <a href="#">
+                診療所紹介
                 <span class="header_bottom">CLINIC</span>
               </a>
             </li>
-            <li class="pc">
-              <a href="#" class="header_up">
-                <span class="header_up_text">採用情報</span>
+            <li>
+              <a href="#">
+                採用情報
                 <span class="header_bottom">RECRUIT</span>
               </a>
             </li>
@@ -110,15 +82,34 @@
               <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp" alt="" />
               <a href="#">
                 <span class="nav_child child01">
-                 <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />
                 </span>
               </a>
               <a href="#">
                 <span class="nav_child child02">
-                 <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp" alt="" />
                 </span>
               </a>
             </li>
+          </ul>
+        </nav>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="globalMenuSp">
+          <ul>
+            <!-- <li>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logo_white@2x.webp" alt="芳縁会" />
+            </li> -->
+            <li><a href="#">芳縁会について</a></li>
+            <li><a href="#">診療内容</a></li>
+            <li><a href="#">訪問地域</a></li>
+            <li><a href="#">診療所紹介</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
           </ul>
         </nav>
       </div>

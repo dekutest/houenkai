@@ -6,10 +6,8 @@
 
 <?php get_header(); ?>
 
-
       <section class="entry_title"></section>
       <div class="entry_form_title"></div>
-
       <section class="entry_form">
         <div class="entry_top">
       <img

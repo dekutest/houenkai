@@ -5,30 +5,36 @@
 ?>
 
 <?php get_header(); ?>
-      <section class="top_title">
+<section class="top_title">
         <img class="top_title_img" src="<?php echo get_template_directory_uri(); ?>/images/top01.webp" alt="" />
-      <img src="<?php echo get_template_directory_uri(); ?>/images/top_title.webp" alt="" class="top_title_text" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/top_title.webp" alt="" class="top_title_text" />
         <!-- <h1 class="top_title_text">
         質の高い医療で <br>
         <span class="title_lg">縁</span><span class="title_md">ある人に</span><span class="title_lg"> 貢献 </span><span
           class="title_md"> する。</span>
       </h1> -->
         <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top12.webp" alt="" class="top_title_info" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top12.webp" alt="" class="top_title_info" />
         </a>
         <div class="top_sub">
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top09.webp" alt="" class="top_sub_img" /></a>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top10.webp" alt="" class="top_sub_img" /></a>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top11.webp" alt="" class="top_sub_img" /></a>
+          <a href="#"
+            ><img src="<?php echo get_template_directory_uri(); ?>/images/top09.webp" alt="" class="top_sub_img"
+          /></a>
+          <a href="#"
+            ><img src="<?php echo get_template_directory_uri(); ?>/images/top10.webp" alt="" class="top_sub_img"
+          /></a>
+          <a href="#"
+            ><img src="<?php echo get_template_directory_uri(); ?>/images/top11.webp" alt="" class="top_sub_img"
+          /></a>
         </div>
       </section>
       <!-- <section class="top_sub">
     </section> -->
       <section class="promise">
         <div class="promise_wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_text10.webp" alt="" class="promise_left" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top_text10.webp" alt="" class="promise_left" />
 
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_text11.webp" alt="" class="promise_right" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top_text11.webp" alt="" class="promise_right" />
         </div>
       </section>
       <!-- ---------about---------------- -->
@@ -59,7 +65,7 @@
                 一人ひとりの関わりを大切にし、皆様の健康と幸せに貢献します。
               </p>
             </div>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top02.webp" alt="" class="box_right" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top02.webp" alt="" class="box_right scroll_up" />
           </div>
 
           <div class="top_about_box02 about_box">
@@ -84,7 +90,7 @@
                 不安がなく最期まで幸せに生きることができる社会の実現。
               </p>
             </div>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top03.webp" alt="" class="box_right" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top03.webp" alt="" class="box_right scroll_up" />
           </div>
 
           <div class="top_about_box03 about_box">
@@ -109,7 +115,7 @@
                 より健康で豊かな地域社会を創り上げることです。
               </p>
             </div>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top04.webp" alt="" class="box_right" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top04.webp" alt="" class="box_righ scroll_up" />
           </div>
         </div>
       </section>
@@ -141,7 +147,7 @@
             class="top_section_title"
           />
           <div class="top_profile_box">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top06.webp" alt="" class="profile_box_left" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top06.webp" alt="" class="profile_box_left" />
             <div class="profile_box_right">
               <p class="profile_position">理事長</p>
               <p class="profile_name">ジャ・ウェンティン</p>
@@ -192,33 +198,35 @@
               </div>
               <p>日本脳神経外科学会</p>
               <p>日本脳卒中学会</p>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top15.webp" alt="" class="radio_link" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/top15.webp" alt="" class="radio_link" />
             </div>
           </div>
         </div>
       </section>
       <section class="top_clinic">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_06.webp" alt="" class="top_clinic_title" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_06.webp" alt="" class="top_clinic_title" />
         <div class="top_clinic_box">
           <div class="top_clinic_box_upper">
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/top07.webp"
               alt=""
-              class="top_clinic_box_upper_img"
+              class="top_clinic_box_upper_img scroll_up"
             />
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/top08.webp"
               alt=""
-              class="top_clinic_box_upper_img"
+              class="top_clinic_box_upper_img scroll_up"
             />
           </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn" />
+          <a href="#"
+            ><img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn"
+          /></a>
         </div>
       </section>
       <section class="top_area">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_07.webp" alt="" class="top_clinic_title" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_07.webp" alt="" class="top_clinic_title" />
         <div class="top_area_box">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top17.webp" alt="" class="top_area_map" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top17.webp" alt="" class="top_area_map" />
           <div class="top_area_box_right">
             <div class="top_area_box_right_up">訪問診療の可能地域</div>
             <p class="top_area_box_right_mid">
@@ -226,7 +234,7 @@
               名取市、多賀城市、塩釜市、富谷市
             </p>
 
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn" />
           </div>
         </div>
       </section>

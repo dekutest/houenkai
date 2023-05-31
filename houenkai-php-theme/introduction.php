@@ -6,7 +6,7 @@
 
 <?php get_header(); ?>
 
-      <section class="clinic_title title_line">
+<section class="clinic_title title_line">
         <img
           src="<?php echo get_template_directory_uri(); ?>/images/intro_text_01.webp 1x,"
           srcset="
@@ -16,13 +16,13 @@
           alt="clinic"
         />
       </section>
-      <section class="clinic_main2">
+      <section class="clinic_main2 scroll_up">
         <div class="title">
           <p>ほうえん</p>
           <h1>芳縁在宅診療所八幡</h1>
         </div>
 
-        <div class="clinic_feature">
+        <div class="clinic_feature2">
           <div class="clinic_left">
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/intro01.webp"
@@ -91,13 +91,13 @@
         </div>
       </section>
 
-      <section class="clinic_main2 section2">
+      <section class="clinic_main2 section2 scroll_up">
         <div class="title">
           <p>ほうえん</p>
           <h1>芳縁ファミリークリニック</h1>
         </div>
 
-        <div class="clinic_feature">
+        <div class="clinic_feature2">
           <div class="clinic_left">
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/intro03.webp"

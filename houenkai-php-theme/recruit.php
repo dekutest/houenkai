@@ -4,8 +4,8 @@
  */
 ?>
 
-<?php get_header(); ?>      
-      <section class="recruit_title title_line">
+<?php get_header(); ?>
+<section class="recruit_title title_line">
         <img
           src="<?php echo get_template_directory_uri(); ?>/images/recruit_text01.webp"
           srcset="
@@ -33,9 +33,10 @@
               <?php echo get_template_directory_uri(); ?>/images/recruit_text03@2x.webp 2x
             "
             alt="recruit"
+            class="recruit_text"
           />
         </div>
-        <div class="recruit_right">
+        <div class="recruit_right scroll_right">
           <img
             src="<?php echo get_template_directory_uri(); ?>/images/recruit02.webp"
             srcset="<?php echo get_template_directory_uri(); ?>/images/recruit02.webp, <?php echo get_template_directory_uri(); ?>/images/recruit02@2x.webp 2x"
@@ -75,7 +76,7 @@
       <section class="recruit_occupation">
         <div class="recruit_occupation_box doctor" id="doctor">
           <div class="title">
-          <img
+            <img
               src="<?php echo get_template_directory_uri(); ?>/images/recruit06_1.webp"
               srcset="<?php echo get_template_directory_uri(); ?>/images/recruit06_1.webp, <?php echo get_template_directory_uri(); ?>/images/recruit06_1@2x.webp2x"
               alt="recruit"
@@ -115,11 +116,14 @@
         <div class="recruit_occupation_box nurse">
           <div class="recruit_occupation_box doctor" id="nurse">
             <div class="title">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/images/recruit05_1.webp"
-              srcset="<?php echo get_template_directory_uri(); ?>/images/recruit05_1.webp, <?php echo get_template_directory_uri(); ?>/images/recruit05_1@2x.webp2x"
-              alt="recruit"
-            />
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/images/recruit05_1.webp"
+                srcset="
+                  <?php echo get_template_directory_uri(); ?>/images/recruit05_1.webp,
+                  <?php echo get_template_directory_uri(); ?>/images/recruit05_1@2x.webp2x
+                "
+                alt="recruit"
+              />
             </div>
           </div>
           <table>
@@ -171,11 +175,14 @@
         <div class="recruit_occupation_box medicalclerk">
           <div class="recruit_occupation_box doctor" id="medicalclerk">
             <div class="title">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/images/recruit04_1.webp"
-              srcset="<?php echo get_template_directory_uri(); ?>/images/recruit04_1.webp, <?php echo get_template_directory_uri(); ?>/images/recruit04_1@2x.webp2x"
-              alt="recruit"
-            />
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/images/recruit04_1.webp"
+                srcset="
+                  <?php echo get_template_directory_uri(); ?>/images/recruit04_1.webp,
+                  <?php echo get_template_directory_uri(); ?>/images/recruit04_1@2x.webp 2x
+                "
+                alt="recruit"
+              />
             </div>
           </div>
           <table>
@@ -225,7 +232,7 @@
         <div class="recruit_occupation_box caremanager">
           <div class="recruit_occupation_box doctor" id="caremanager">
             <div class="title">
-            <img
+              <img
                 src="<?php echo get_template_directory_uri(); ?>/images/recruit_text_03.webp"
                 srcset="
                   <?php echo get_template_directory_uri(); ?>/images/recruit_text_03.webp    1x,

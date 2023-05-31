@@ -611,10 +611,6 @@ a :hover {
   opacity: 0.8 !important;
 }
 
-.l-animation {
-  background-color: #0b7eb8;
-}
-
 .br_none {
   display: block;
 }
@@ -1172,6 +1168,17 @@ a :hover {
     width: 95%;
   }
 }
+@media screen and (max-width: 768px) {
+  .top_greeting_box_text {
+    width: 58%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top_greeting_box_text {
+    width: 90%;
+    padding-bottom: 30px;
+  }
+}
 
 .top_profile_wrapper {
   width: 72%;
@@ -1421,6 +1428,7 @@ a :hover {
   width: 1080px;
   margin: 0 auto;
   border: 1px solid #000;
+  margin-top: 30px;
 }
 @media screen and (max-width: 1200px) {
   .top_area_box {
@@ -1602,6 +1610,48 @@ a :hover {
   top: 0;
   left: 0;
   z-index: 9999;
+}
+
+.top_greeting_box_text {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .top_greeting_box_text {
+    display: none;
+  }
+}
+
+.top_greeting_box_text2 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .top_greeting_box_text2 {
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top_greeting_box_text2 {
+    display: none;
+  }
+}
+
+.top_greeting_box_text3 {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .top_greeting_box_text3 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .l-animation svg {
+    width: 200vw !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(0px, 0px, 0px) translateY(-50%) translateX(-50%) !important;
+  }
 }
 
 .treat_title {
@@ -3339,4 +3389,54 @@ main .container .news_contents .blog-note .news-title ul .top-3-contents .top-3-
   main .container .news_contents .blog-note .news-title ul .top-3-contents .top-3-contents-1 a .top-3-contents-arrow img {
     display: none;
   }
+}
+
+.pp_main {
+  width: 66%;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 45px;
+}
+@media screen and (max-width: 1200px) {
+  .pp_main {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .pp_main {
+    width: 90vw;
+  }
+}
+.pp_main .pp_img {
+  width: 33%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 1200px) {
+  .pp_main .pp_img {
+    width: 50vw;
+  }
+}
+.pp_main .pp_img img {
+  width: 100%;
+  margin: auto;
+}
+.pp_main .pp_text h2 {
+  color: #112e53;
+  font-family: "Yu Gothic", sans-serif;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.pp_main .pp_text p {
+  color: #000;
+  margin-top: 5px;
+  line-height: 1.5;
+}
+.pp_main .pp_text span {
+  width: 90%;
+}
+.pp_main .pp_text .pp_s {
+  width: 98%;
+  white-space: normal;
+  margin-left: auto;
 }/*# sourceMappingURL=index.css.map */

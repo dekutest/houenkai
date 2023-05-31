@@ -476,6 +476,13 @@
   @include g.respond-to("lg") {
     width: 95%;
   }
+  @include g.respond-to("md") {
+    width: 58%;
+  }
+  @include g.respond-to("sm") {
+    width: 90%;
+    padding-bottom: 30px;
+  }
 }
 // ----------------------------------------------------------------スマホ用テキストが必要-----------------
 
@@ -686,6 +693,7 @@
   width: 1080px;
   margin: 0 auto;
   border: 1px solid#000;
+  margin-top: 30px;
   @include g.respond-to("xl") {
     width: 90vw;
   }
@@ -862,4 +870,35 @@ a :hover {
   top: 0;
   left: 0;
   z-index: 9999;
+}
+.top_greeting_box_text {
+  display: block;
+  @include g.respond-to("md") {
+    display: none;
+  }
+}
+.top_greeting_box_text2 {
+  display: none;
+  @include g.respond-to("md") {
+    display: block;
+  }
+  @include g.respond-to("sm") {
+    display: none;
+  }
+}
+.top_greeting_box_text3 {
+  display: none;
+  @include g.respond-to("sm") {
+    display: block;
+  }
+}
+
+.l-animation svg {
+  @include g.respond-to("sm") {
+    width: 200vw !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(0px, 0px, 0px) translateY(-50%) translateX(-50%) !important;
+  }
 }

@@ -115,7 +115,7 @@
                 より健康で豊かな地域社会を創り上げることです。
               </p>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top04.webp" alt="" class="box_righ scroll_up" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top04.webp" alt="" class="box_right scroll_up" />
           </div>
         </div>
       </section>
@@ -135,6 +135,16 @@
             src="<?php echo get_template_directory_uri(); ?>/images/top_text15.webp"
             alt=""
             class="top_greeting_box_text"
+          />
+          <img
+            src="<?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp"
+            alt=""
+            class="top_greeting_box_text top_greeting_box_text2"
+          />
+          <img
+            src="<?php echo get_template_directory_uri(); ?>/images/top_text17@2x.webp"
+            alt=""
+            class="top_greeting_box_text top_greeting_box_text3"
           />
         </div>
       </section>

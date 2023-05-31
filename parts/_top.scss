@@ -404,7 +404,7 @@ width: 90vw;
         
     }
     @include g.respond-to('sm') {
-        height: 150vw;
+        height: 170vw;
        
     }
 }
@@ -436,6 +436,10 @@ width: 90vw;
             top: 150px;
             width: 95vw;
                }
+        @include g.respond-to('md') {
+padding-bottom: 10vw;
+top: 100px;
+               }
     }
     // ----------------------------------------------------------------スマホ用テキストが必要-----------------
     .top_greeting_box_img{
@@ -456,7 +460,7 @@ width: 90vw;
         }
     }
     
-    .top_greeting_box_text{
+    .top_greeting_box_text01{
         display: inline-block;
         width: g.vw-pc(825);
         @include g.respond-to('ml') {
@@ -465,6 +469,27 @@ width: 90vw;
         @include g.respond-to('lg') {
             width: 95%;
         }
+        @include g.respond-to('md') {
+         display: none;
+        }
+    }
+    .top_greeting_box_text02{
+        display: none;
+        width: 80%;
+        @include g.respond-to('md') {
+           display: inline-block;
+        }
+        @include g.respond-to('sm') {
+           display: none;
+        }
+    }
+    .top_greeting_box_text03{
+display: none;
+        @include g.respond-to('sm') {
+            display: inline-block;
+            width: 95%;
+        }
+
     }
     // ----------------------------------------------------------------スマホ用テキストが必要-----------------
     

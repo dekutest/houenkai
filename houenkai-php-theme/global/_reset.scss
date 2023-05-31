@@ -19,9 +19,11 @@ body {
   font-style: normal;
   // *font: x-small;
   background: #fff;
-  color :#5C5A5A;
-  font-family: "Hiragino Sans", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
-    "Meiryo, Verdana, sans-serif", " 筑紫A丸ゴシック Std" "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  color: #5c5a5a;
+  font-family: "Hiragino Sans", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",
+    "メイリオ", "Meiryo, Verdana, sans-serif",
+    " 筑紫A丸ゴシック Std" "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",
+    sans-serif;
   -webkit-text-size-adjust: 100%;
   font-size: 16px;
   height: auto;
@@ -38,16 +40,14 @@ body {
   a:active {
     color: inherit;
     text-decoration: none;
-    
   }
-.container{
-  width: 100vw;
-}
-
+  .container {
+    width: 100vw;
+  }
 
   h1 {
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-    color :#5C5A5A;
+    color: #5c5a5a;
     font-weight: bold;
     font-feature-settings: "palt" 1;
     letter-spacing: -1px;
@@ -60,13 +60,12 @@ body {
     font-weight: normal;
     margin: 0;
     padding: 0;
-    font-size : min(18px,35px );
-  
+    font-size: min(18px, 35px);
   }
   h3 {
-    font-size: clamp(18px, 1.67vw, 32px);  
+    font-size: clamp(18px, 1.67vw, 32px);
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-    color : #000000;
+    color: #000000;
     font-weight: bold;
     font-feature-settings: "palt" 1;
     letter-spacing: -1px;
@@ -80,13 +79,12 @@ body {
     font: inherit;
     vertical-align: baseline;
   }
-  p {  
+  p {
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-    font-size : min(16px,35px );
-    line-height : normal;
+    font-size: min(16px, 35px);
+    line-height: normal;
     font-feature-settings: "palt" 1;
-    color :#5C5A5A;
+    color: #5c5a5a;
     white-space: initial;
-    
-}
+  }
 }

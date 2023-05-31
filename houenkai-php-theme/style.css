@@ -19,7 +19,7 @@ body {
   font-family: fot-matisse-pron, sans-serif;
   font-style: normal;
   background: #fff;
-  color: #5C5A5A;
+  color: #5c5a5a;
   font-family: "Hiragino Sans", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo, Verdana, sans-serif", " 筑紫A丸ゴシック Std" "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   -webkit-text-size-adjust: 100%;
   font-size: 16px;
@@ -41,7 +41,7 @@ body .container {
 }
 body h1 {
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-  color: #5C5A5A;
+  color: #5c5a5a;
   font-weight: bold;
   font-feature-settings: "palt" 1;
   letter-spacing: -1px;
@@ -78,7 +78,7 @@ body p {
   font-size: 16px;
   line-height: normal;
   font-feature-settings: "palt" 1;
-  color: #5C5A5A;
+  color: #5c5a5a;
   white-space: initial;
 }
 
@@ -328,6 +328,7 @@ footer nav li img {
 header {
   box-shadow: 0px 6px 7px 0px rgba(178, 178, 178, 0.45);
   width: 100%;
+  background-color: #fff;
 }
 
 .inner {
@@ -1610,6 +1611,7 @@ a :hover {
   top: 0;
   left: 0;
   z-index: 9999;
+  background-color: #0b7eb8;
 }
 
 .top_greeting_box_text {

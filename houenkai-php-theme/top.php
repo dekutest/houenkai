@@ -3,8 +3,9 @@
  * Template Name: Top page
  */
 ?>
-<div id="lottie" class="l-animation"></div>
 <?php get_header(); ?>
+<div id="lottie" class="l-animation"></div>
+
 <section class="top_title">
         <img class="top_title_img" src="<?php echo get_template_directory_uri(); ?>/images/top01.webp" alt="" />
         <img src="<?php echo get_template_directory_uri(); ?>/images/top_title.webp" alt="" class="top_title_text" />

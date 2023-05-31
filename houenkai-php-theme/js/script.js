@@ -17,8 +17,8 @@ $(function () {
   });
 });
 
-//scroll_effect
-$(window).scroll(function () {
+// ページの読み込み時に scrollAnimationFunc を実行するように変更
+$(document).ready(function () {
   var scrollAnimationElm = document.querySelectorAll(
     ".scroll_up , .scroll_left , .scroll_right"
   );
@@ -33,8 +33,10 @@ $(window).scroll(function () {
       }
     }
   };
-  window.addEventListener("load", scrollAnimationFunc);
-  window.addEventListener("scroll", scrollAnimationFunc);
+
+  // ページが読み込まれた時とスクロールした時に scrollAnimationFunc を実行
+  scrollAnimationFunc();
+  $(window).scroll(scrollAnimationFunc);
 });
 
 $(window).on("load", function () {

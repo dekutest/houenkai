@@ -26,9 +26,10 @@ if ( have_posts() ) :
   foreach ( $posts as $post ): // ループの開始
   setup_postdata( $post ); // 記事データの取得
 ?>	  
-  <li class="news-text">
-	 <div class="news-day"><?php the_date('Y.m.d'); ?></div>
+  <li class="news-text blog_all">
 	  <div class="news-blog"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div> 
+      <div class="news-day"><?php the_date('Y.m.d'); ?></div>
+
 	</li>
 	  <?php
   endforeach; // ループの終了

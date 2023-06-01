@@ -7,9 +7,9 @@
 <?php get_header(); ?>
 <section class="treat_title title_line">
         <img
-          src="<?php echo get_template_directory_uri(); ?>/images/treat_text_01.webp"
+          src="<?php echo get_template_directory_uri(); ?>/images/treat_text_01@2x.webp"
           srcset="
-            <?php echo get_template_directory_uri(); ?>/images/treat_text_01.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat_text_01@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat_text_01@2x.webp 2x
           "
           alt="treat"
@@ -31,7 +31,11 @@
               </p>
             </div>
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/treat01.webp"
+              src="<?php echo get_template_directory_uri(); ?>/images/treat01@2x.webp"
+              srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat01@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat01@2x.webp 2x
+          "
               alt=""
               class="treat_box_img scroll_left"
             />
@@ -46,7 +50,11 @@
               </p>
             </div>
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/treat02.webp"
+              src="<?php echo get_template_directory_uri(); ?>/images/treat02@2x.webp"
+              srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat02@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat02@2x.webp 2x
+          "
               alt=""
               class="treat_box_img scroll_right"
             />
@@ -60,7 +68,11 @@
             </div>
 
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/treat03.webp"
+              src="<?php echo get_template_directory_uri(); ?>/images/treat03@2x.webp"
+              srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat03@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat03@2x.webp 2x
+          "
               alt=""
               class="treat_box_img scroll_left"
             />
@@ -76,26 +88,44 @@
               </p>
             </div>
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/treat04.webp"
+              src="<?php echo get_template_directory_uri(); ?>/images/treat04@2x.webp"
+              srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat04@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat04@2x.webp 2x
+          "
               alt=""
               class="treat_box_img scroll_right"
             />
           </div>
         </div>
 
-        <img src="<?php echo get_template_directory_uri(); ?>/images/treat08.webp" alt="" class="wave_line" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/treat08@2x.webp"
+        srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat08@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat08@2x.webp 2x
+          "
+        alt="" class="wave_line" />
         <!-- https://taneppa.net/flexbox_row_reverse/ 参照 -->
       </section>
       <section class="treat_service">
         <div class="service_wrapper">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/treat_text_02.webp"
+            src="<?php echo get_template_directory_uri(); ?>/images/treat_text_02@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat_text_02@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat_text_02@2x.webp 2x
+          "
             alt=""
             class="treat_service_upper"
           />
 
           <div class="treat_service_box service_box01">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/treat05.webp" alt="" class="treat_service_img" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/treat05@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat05@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat05@2x.webp 2x
+          "
+            alt="" class="treat_service_img" />
             <div class="treat_service_box_text">
               <p class="title">外来 （内科・外科）</p>
               <p class="txt">
@@ -105,7 +135,12 @@
             </div>
           </div>
           <div class="treat_service_box service_box02">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/treat06.webp" alt="" class="treat_service_img" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/treat06@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat06@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat06@2x.webp 2x
+          "
+            alt="" class="treat_service_img" />
             <div class="treat_service_box_text treat_service_box_text02">
               <p class="title">訪問診療</p>
               <p class="txt">
@@ -117,7 +152,12 @@
             </div>
           </div>
           <div class="treat_service_box service_box03">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/treat07.webp" alt="" class="treat_service_img" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/treat07@2x.webp" 
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat07@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat07@2x.webp 2x
+          "
+            alt="" class="treat_service_img" />
 
             <div class="treat_service_box_text treat_service_box_text03">
               <div class="treat_service_box_title">
@@ -148,7 +188,12 @@
                   ください。誠心誠意尽力いたします。
                 </p>
 
-                <img src="<?php echo get_template_directory_uri(); ?>/images/treat09.webp" alt="" class="treat_person" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/treat09@2x.webp" 
+                srcset="
+            <?php echo get_template_directory_uri(); ?>/images/treat09@2x.webp,
+            <?php echo get_template_directory_uri(); ?>/images/treat09@2x.webp 2x
+          "
+                alt="" class="treat_person" />
               </div>
             </div>
           </div>

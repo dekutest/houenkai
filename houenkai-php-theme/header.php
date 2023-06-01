@@ -46,7 +46,10 @@
       <div class="inner">
         <h1>
           <a href="/houenkai-test">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.webp" alt="芳縁会" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo@4x.jpg"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/logo@4x.jpg 1x,
+            <?php echo get_template_directory_uri(); ?>/images/logo@4x.jpg 2x" alt="芳縁会" />
           </a>
         </h1>
         <nav class="menu_pc">
@@ -64,15 +67,15 @@
               </a>
             </li>
             <li>
-              <a href="/houenkai-test/clinic">
-                訪問地域
-                <span class="header_bottom">HOME CARE</span>
+            <a href="/houenkai-test/introduction">
+                診療所
+                <span class="header_bottom">CLINIC</span>
               </a>
             </li>
             <li>
-              <a href="/houenkai-test/introduction">
-                診療所紹介
-                <span class="header_bottom">CLINIC</span>
+            <a href="/houenkai-test/clinic">
+              訪問診療
+                <span class="header_bottom">HOME CARE</span>
               </a>
             </li>
             <li>
@@ -82,7 +85,7 @@
               </a>
             </li>
             <li>
-              <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp" alt="" />
+              <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01@2x.webp" alt="" />
               <a href="tel:022-341-2882">
                 <span class="nav_child child01">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />
@@ -109,8 +112,8 @@
             </li> -->
             <li><a href="/houenkai-test/#about">芳縁会について</a></li>
             <li><a href="/houenkai-test/treat">診療内容</a></li>
-            <li><a href="/houenkai-test/clinic">訪問地域</a></li>
-            <li><a href="/houenkai-test/introduction">診療所紹介</a></li>
+            <li><a href="/houenkai-test/clinic">診療所</a></li>
+            <li><a href="/houenkai-test/introduction">訪問診療</a></li>
             <li><a href="/houenkai-test/recruit">採用情報</a></li>
             <li><a href="/houenkai-test/contact">お問い合わせ</a></li>
           </ul>

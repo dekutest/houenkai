@@ -139,7 +139,9 @@
             本ポリシーに関するお問い合わせは、下記の窓口までお願いいたします。<br /><br />
             住所：宮城県仙台市青葉区八幡２丁目３−６グラシアスはちまん303<br />
             社名：芳縁株式会社 担当部署：web広報部<br />
-            Eメールアドレス：management@houen-homecare.com<br />
+            Eメールアドレス：management@houen-homecare.com<br /><br>
+            
+            2023.06.01
           </p>
         </div>
       </section>

@@ -7,25 +7,49 @@
 <div id="lottie" class="l-animation"></div>
 
 <section class="top_title">
-        <img class="top_title_img" src="<?php echo get_template_directory_uri(); ?>/images/top01.webp" alt="" />
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_title.webp" alt="" class="top_title_text" />
+        <img class="top_title_img" src="<?php echo get_template_directory_uri(); ?>/images/top01@2x.webp"
+        srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top01@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top01@2x.webp 2x"
+             alt="" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/top_title@2x.webp"
+        srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_title@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_title@2x.webp 2x"
+             alt="" class="top_title_text" />
         <!-- <h1 class="top_title_text">
         質の高い医療で <br>
         <span class="title_lg">縁</span><span class="title_md">ある人に</span><span class="title_lg"> 貢献 </span><span
           class="title_md"> する。</span>
       </h1> -->
         <a href="/houenkai-test/clinic">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top12.webp" alt="" class="top_title_info" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top12@2x.webp"
+          srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top12@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top12@2x.webp 2x"
+             alt="" class="top_title_info" />
         </a>
         <div class="top_sub">
           <a href="/houenkai-test/#about"
-            ><img src="<?php echo get_template_directory_uri(); ?>/images/top09.webp" alt="" class="top_sub_img"
+            ><img src="<?php echo get_template_directory_uri(); ?>/images/top09@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top09@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top09@2x.webp 2x"
+            alt="" class="top_sub_img"
           /></a>
           <a href="/houenkai-test/treat"
-            ><img src="<?php echo get_template_directory_uri(); ?>/images/top10.webp" alt="" class="top_sub_img"
+            ><img src="<?php echo get_template_directory_uri(); ?>/images/top10@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top10@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top10@2x.webp 2x"
+            alt="" class="top_sub_img"
           /></a>
           <a href="/houenkai-test/recruit"
-            ><img src="<?php echo get_template_directory_uri(); ?>/images/top11.webp" alt="" class="top_sub_img"
+            ><img src="<?php echo get_template_directory_uri(); ?>/images/top11@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top11@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top11@2x.webp 2x"
+            alt="" class="top_sub_img"
           /></a>
         </div>
       </section>
@@ -33,15 +57,26 @@
     </section> -->
       <section class="promise">
         <div class="promise_wrapper">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top_text10.webp" alt="" class="promise_left" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top_text10.webp" 
+          srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text10.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text10@2x.webp 2x"
+          alt="" class="promise_left" />
 
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top_text11.webp" alt="" class="promise_right" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top_text11@2x.webp"
+          srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text11@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text11@2x.webp 2x"
+          alt="" class="promise_right" />
         </div>
       </section>
       <!-- ---------about---------------- -->
       <section class="top_about" id="about">
         <img
           src="<?php echo get_template_directory_uri(); ?>/images/top_text_08.webp"
+          srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text_08.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text_08@2x.webp 2x"
           alt=""
           class="top_about_title_img"
         />
@@ -49,12 +84,18 @@
           <div class="top_about_box01 about_box">
             <div class="box_left">
               <img
-                src="<?php echo get_template_directory_uri(); ?>/images/top_text_01.webp"
+                src="<?php echo get_template_directory_uri(); ?>/images/top_text_01@2x.webp"
+                srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text_01@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text_01@2x.webp 2x"
                 alt=""
                 class="top_about_upper01"
               />
               <img
-                src="<?php echo get_template_directory_uri(); ?>/images/top_text12.webp"
+                src="<?php echo get_template_directory_uri(); ?>/images/top_text12@2x.webp"
+                srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text12@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text12@2x.webp 2x"
                 alt=""
                 class="top_box_title01"
               />
@@ -66,18 +107,28 @@
                 一人ひとりの関わりを大切にし、皆様の健康と幸せに貢献します。
               </p>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top02.webp" alt="" class="box_right scroll_up" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top02@2x.png" 
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top02@2x.png 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top02@2x.png 2x" 
+            alt="" class="box_right scroll_up" />
           </div>
 
           <div class="top_about_box02 about_box">
             <div class="box_left">
               <img
-                src="<?php echo get_template_directory_uri(); ?>/images/top_text_02.webp"
+                src="<?php echo get_template_directory_uri(); ?>/images/top_text_02@2x.webp"
+                srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text_02@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text_02@2x.webp 2x"
                 alt=""
                 class="top_about_upper02"
               />
               <img
-                src="<?php echo get_template_directory_uri(); ?>/images/top_text13.webp"
+                src="<?php echo get_template_directory_uri(); ?>/images/top_text13@2x.webp"
+                srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text13@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text13@2x.webp 2x"
                 alt=""
                 class="top_box_title02"
               />
@@ -91,18 +142,28 @@
                 不安がなく最期まで幸せに生きることができる社会の実現。
               </p>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top03.webp" alt="" class="box_right scroll_up" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top03@2x.webp" 
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top03@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top03@2x.webp 2x"
+            alt="" class="box_right scroll_up" />
           </div>
 
           <div class="top_about_box03 about_box">
             <div class="box_left">
               <img
-                src="<?php echo get_template_directory_uri(); ?>/images/top_text_03.webp"
+                src="<?php echo get_template_directory_uri(); ?>/images/top_text_03@2x.webp"
+                srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text_03@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text_03@2x.webp 2x"
                 alt=""
                 class="top_about_upper03"
               />
               <img
-                src="<?php echo get_template_directory_uri(); ?>/images/top_text14.webp"
+                src="<?php echo get_template_directory_uri(); ?>/images/top_text14@2x.webp"
+                srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text14@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text14@2x.webp 2x"
                 alt=""
                 class="top_box_title03"
               />
@@ -116,7 +177,11 @@
                 より健康で豊かな地域社会を創り上げることです。
               </p>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top04.webp" alt="" class="box_right scroll_up" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top04@2x.webp" 
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top04@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top04@2x.webp 2x"
+            alt="" class="box_right scroll_up" />
           </div>
         </div>
       </section>
@@ -124,26 +189,38 @@
       <!-- ----------------greetimg-------------- -->
 
       <section class="top_greeting">
-        <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/top05.webp" alt="" class="top_greeting_img"> -->
+        <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/top05@2x.webp" alt="" class="top_greeting_img"> -->
 
         <div class="top_greeting_box">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/top_text_04.webp"
+            src="<?php echo get_template_directory_uri(); ?>/images/top_text_04.png"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text_04.png 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text_04@2x.png 2x"
             alt=""
             class="top_greeting_box_img"
           />
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/top_text15.webp"
+            src="<?php echo get_template_directory_uri(); ?>/images/top_text15.png"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text15.png 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text15@2x.png 2x"
             alt=""
             class="top_greeting_box_text"
           />
           <img
             src="<?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp 2x"
             alt=""
             class="top_greeting_box_text top_greeting_box_text2"
           />
           <img
             src="<?php echo get_template_directory_uri(); ?>/images/top_text17@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text17@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text17@2x.webp 2x"
             alt=""
             class="top_greeting_box_text top_greeting_box_text3"
           />
@@ -153,18 +230,25 @@
       <section class="top_profile">
         <div class="top_profile_wrapper">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/top_text_05.webp"
+            src="<?php echo get_template_directory_uri(); ?>/images/top_text_05@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text_05@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text_05@2x.webp 2x"
             alt=""
             class="top_section_title"
           />
           <div class="top_profile_box">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top06.webp" alt="" class="profile_box_left" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top06@2x.png" 
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top06@2x.png 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top06@2x.png 2x"
+            alt="" class="profile_box_left" />
             <div class="profile_box_right">
               <p class="profile_position">理事長</p>
               <p class="profile_name">ジャ・ウェンティン</p>
               <div class="profile_line">
                 <p>経歴</p>
-                <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/top14.webp" alt="" class="profile_line_img"> -->
+                <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/top14@2x.webp" alt="" class="profile_line_img"> -->
                 <div class="profile_line_img"></div>
               </div>
               <p class="from">中国 湖南省出身</p>
@@ -204,40 +288,66 @@
 
               <div class="profile_line">
                 <p>所属</p>
-                <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/top14.webp" alt="" class="profile_line_img"> -->
+                <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/top14@2x.webp" alt="" class="profile_line_img"> -->
                 <div class="profile_line_img"></div>
               </div>
               <p>日本脳神経外科学会</p>
               <p>日本脳卒中学会</p>
-              <img src="<?php echo get_template_directory_uri(); ?>/images/top15.webp" alt="" class="radio_link" />
+              <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/top15@2x.webp"
+              srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top15@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top15@2x.webp 2x"
+              alt="" class="radio_link" /></a>
             </div>
           </div>
         </div>
       </section>
       <section class="top_clinic">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_06.webp" alt="" class="top_clinic_title" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_06@2x.webp" 
+        srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text_06@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text_06@2x.webp 2x"
+        alt="" class="top_clinic_title" />
         <div class="top_clinic_box">
           <div class="top_clinic_box_upper">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/top07.webp"
+              src="<?php echo get_template_directory_uri(); ?>/images/top07@2x.webp"
+              srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top07@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top07@2x.webp 2x"
               alt=""
               class="top_clinic_box_upper_img scroll_up"
             />
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/top08.webp"
+              src="<?php echo get_template_directory_uri(); ?>/images/top08@2x.webp"
+              srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top08@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top08@2x.webp 2x"
               alt=""
               class="top_clinic_box_upper_img scroll_up"
             />
           </div>
           <a href="/houenkai-test/introduction"
-            ><img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn"
+            ><img src="<?php echo get_template_directory_uri(); ?>/images/top16@2x.png" 
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top16@2x.png 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top16@2x.png 2x"
+            alt="" class="top_clinic_btn"
           /></a>
         </div>
       </section>
       <section class="top_area">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_07.webp" alt="" class="top_clinic_title" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_07@2x.webp"
+        srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text_07@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text_07@2x.webp 2x"
+        alt="" class="top_clinic_title" />
         <div class="top_area_box">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/clinic05.webp" alt="" class="top_area_map" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/clinic05@2x.webp"
+          srcset="
+            <?php echo get_template_directory_uri(); ?>/images/clinic05@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/clinic05@2x.webp 2x"
+             alt="" class="top_area_map" />
           <div class="top_area_box_right">
             <div class="top_area_box_right_up">訪問診療の可能地域</div>
             <p class="top_area_box_right_mid">
@@ -245,7 +355,11 @@
               名取市、多賀城市、塩釜市、富谷市
             </p>
 
-            <a href="/houenkai-test/clinic"><img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn" /></a>
+            <a href="/houenkai-test/clinic"><img src="<?php echo get_template_directory_uri(); ?>/images/top16@2x.webp" 
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top16@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top16@2x.webp 2x"
+            alt="" class="top_clinic_btn" /></a>
           </div>
         </div>
       </section>
@@ -253,8 +367,12 @@
         <div class="top_news_wrapper">
           <div class="top_news_up">
             <p class="top_news_title">最新のお知らせをご案内します</p>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top_text09.webp" alt="" class="top_news_link" />
-
+         <a href="/houenkai-test/news-all"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
+          srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 2x"
+          alt="" class="top_news_link" />
+          </a>
           </div>
           <div class="news_box">
         <div class="news-box-wrapper">

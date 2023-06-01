@@ -154,6 +154,8 @@
   object-fit: contain;
   position: relative;
   top: 18px;
+  width: g.vw-pc(409);
+
   @include g.respond-to("xxl") {
     width: g.vw-pc(650);
   }
@@ -246,6 +248,8 @@
   position: relative;
   right: -10px;
   margin-bottom: 6.4vw;
+  width: g.vw-pc(256);
+
   @include g.respond-to("xxl") {
     width: 25vw;
   }
@@ -321,6 +325,8 @@
   position: relative;
   left: -86px;
   margin-bottom: 2.3vw;
+  width: 151px;
+
   @include g.respond-to("md") {
     position: unset;
   }
@@ -333,6 +339,8 @@
   position: relative;
   left: -87px;
   margin-bottom: 2.3vw;
+  width: 151px;
+
   @include g.respond-to("md") {
     position: unset;
   }
@@ -345,6 +353,8 @@
   position: relative;
   left: -86px;
   margin-bottom: 2.3vw;
+  width: 151px;
+
   @include g.respond-to("md") {
     position: unset;
   }
@@ -504,6 +514,8 @@
 }
 .top_section_title {
   margin-bottom: 3.3vw;
+  width: g.vw-pc(212);
+
   @include g.respond-to("xxl") {
     width: 25vw;
   }
@@ -568,6 +580,7 @@
 }
 .radio_link {
   margin-top: 2vw;
+  width: 229px;
 }
 .profile_box_left {
   width: g.vw-pc(533);
@@ -708,6 +721,7 @@
     margin: 0 2.5vw;
   }
   .top_area_map {
+    width: 409px;
     @include g.respond-to("sm") {
       width: 100%;
     }
@@ -906,4 +920,9 @@ a :hover {
 
 .top_clinic_title {
   margin-bottom: 30px;
+  width: 125px;
+}
+
+.top_clinic_btn {
+  width: 238px;
 }

@@ -350,6 +350,9 @@ header h1 {
   padding-left: 44px;
   padding-top: 38px;
 }
+header h1 img {
+  width: 249px;
+}
 
 header nav {
   position: absolute;
@@ -430,6 +433,7 @@ header nav li img {
 .nav_parent {
   position: relative;
   bottom: 7px;
+  width: 219px;
 }
 @media screen and (max-width: 1600px) {
   .nav_parent {
@@ -808,6 +812,7 @@ a:hover {
   object-fit: contain;
   position: relative;
   top: 18px;
+  width: 21.3020833333vw;
 }
 @media screen and (max-width: 1300px) {
   .promise_left {
@@ -863,6 +868,7 @@ a:hover {
   position: relative;
   right: -10px;
   margin-bottom: 6.4vw;
+  width: 13.3333333333vw;
 }
 @media screen and (max-width: 1300px) {
   .top_about_title_img {
@@ -964,6 +970,7 @@ a:hover {
   position: relative;
   left: -86px;
   margin-bottom: 2.3vw;
+  width: 151px;
 }
 @media screen and (max-width: 768px) {
   .top_about_upper01 {
@@ -981,6 +988,7 @@ a:hover {
   position: relative;
   left: -87px;
   margin-bottom: 2.3vw;
+  width: 151px;
 }
 @media screen and (max-width: 768px) {
   .top_about_upper02 {
@@ -998,6 +1006,7 @@ a:hover {
   position: relative;
   left: -86px;
   margin-bottom: 2.3vw;
+  width: 151px;
 }
 @media screen and (max-width: 768px) {
   .top_about_upper03 {
@@ -1209,6 +1218,7 @@ a:hover {
 
 .top_section_title {
   margin-bottom: 3.3vw;
+  width: 11.0416666667vw;
 }
 @media screen and (max-width: 1300px) {
   .top_section_title {
@@ -1288,6 +1298,7 @@ a:hover {
 
 .radio_link {
   margin-top: 2vw;
+  width: 229px;
 }
 
 .profile_box_left {
@@ -1455,6 +1466,9 @@ a:hover {
   .top_area_box {
     margin: 0 2.5vw;
   }
+}
+.top_area_box .top_area_map {
+  width: 409px;
 }
 @media screen and (max-width: 480px) {
   .top_area_box .top_area_map {
@@ -1664,6 +1678,11 @@ a :hover {
 
 .top_clinic_title {
   margin-bottom: 30px;
+  width: 125px;
+}
+
+.top_clinic_btn {
+  width: 238px;
 }
 
 .treat_title {
@@ -3441,6 +3460,16 @@ main .container .news_contents .blog-note .news-title ul .top-3-contents .top-3-
   main .container .news_contents .blog-note .news-title ul .top-3-contents .top-3-contents-1 a .top-3-contents-arrow img {
     display: none;
   }
+}
+
+.blog_all {
+  margin-bottom: 30px;
+}
+.blog_all .news-blog {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "游ゴシック", "Yu Gothic", sans-serif;
+  color: #112e53;
 }
 
 .pp_main {

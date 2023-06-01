@@ -22,6 +22,9 @@ header h1 {
   height: 60px;
   padding-left: 44px;
   padding-top: 38px;
+  img {
+    width: 249px;
+  }
 }
 
 header nav {
@@ -99,6 +102,8 @@ header nav li img {
 .nav_parent {
   position: relative;
   bottom: 7px;
+  width: 219px;
+
   @include g.respond-to("ml") {
     margin-right: 10px;
   }

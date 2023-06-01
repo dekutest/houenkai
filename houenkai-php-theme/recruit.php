@@ -282,8 +282,7 @@
               ><div class="back">
                 <span class="dli-chevron-round-right back_color"></span>
               </div>
-              <p>エントリーフォーム</p></a
-            >
+              <p>エントリーフォーム</p></a>
           </div>
         </div>
       </section>

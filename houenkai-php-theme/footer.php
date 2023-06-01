@@ -26,16 +26,16 @@
                   <a href="/houenkai-test/treat"> 診療内容 </a>
                 </li>
                 <li>
-                <a href="/houenkai-test/clinic"> 訪問地域 </a>
+                <a href="/houenkai-test/clinic"> 診療所</a>
                 </li>
                 <li>
-                  <a href="/houenkai-test/introduction"> 診療所紹介 </a>
+                  <a href="/houenkai-test/introduction"> 訪問診療 </a>
                 </li>
                 <li>
                 <a href="/houenkai-test/recruit"> 採用情報 </a>
                 </li>
                 <li class="contact_footer">
-                  <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp" alt="" />
+                  <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01@2x.webp" alt="" />
                   <a href="tel:022-341-2882">
                     <span class="nav_child child01">
                       <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />

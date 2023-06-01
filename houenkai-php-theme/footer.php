@@ -1,18 +1,18 @@
 </main>
 <footer>
       <div class="footer_inner">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/footer05.webp" alt="" class="footer_upper" />
+        <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/images/footer05.webp" alt="" class="footer_upper" /></a>
 
         <div class="footer_mid">
           <div class="footer_left">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.webp" alt="logo" class="footer_logo" />
+            <a href="/houenkai-test"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.webp" alt="logo" class="footer_logo" /></a>
             <p>
-              980-0871 宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F
+              〒980-0871<br>宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F
             </p>
             <p>
-              tel.<span class="footer_lg">022-341-2882</span
+              Tel.<span class="footer_lg">022-341-2882</span
               ><br class="br_none1" />
-              fax. 022-341-8896
+              Fax. 022-341-8896
             </p>
             <p>緊急往診：24時間365日</p>
           </div>
@@ -20,28 +20,28 @@
             <nav>
               <ul>
                 <li>
-                  <a href="#"> 芳縁会について </a>
+                  <a href="/houenkai-test/#about"> 芳縁会について </a>
                 </li>
                 <li>
-                  <a href="#"> 診療内容 </a>
+                  <a href="/houenkai-test/treat"> 診療内容 </a>
                 </li>
                 <li>
-                  <a href="#"> 採用情報 </a>
+                <a href="/houenkai-test/clinic"> 訪問地域 </a>
                 </li>
                 <li>
-                  <a href="#"> 診療所紹介 </a>
+                  <a href="/houenkai-test/introduction"> 診療所紹介 </a>
                 </li>
                 <li>
-                  <a href="#"> 訪問地域 </a>
+                <a href="/houenkai-test/recruit"> 採用情報 </a>
                 </li>
                 <li class="contact_footer">
                   <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp" alt="" />
-                  <a href="#">
+                  <a href="tel:022-341-2882">
                     <span class="nav_child child01">
                       <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />
                     </span>
                   </a>
-                  <a href="#">
+                  <a href="/houenkai-test/contact">
                     <span class="nav_child child02">
                       <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp" alt="" />
                     </span>
@@ -56,12 +56,13 @@
         </div>
       </div>
     </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
 
 

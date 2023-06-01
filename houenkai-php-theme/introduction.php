@@ -80,7 +80,7 @@
                 〒980-0871<br />
                 宮城県仙台市青葉区八幡２丁目３-６グラシアスはちまん1F
               </p>
-              <a href=""
+              <a href="https://goo.gl/maps/U7GpUJ1SJcUtuvDR6"
                 ><img
                   src="<?php echo get_template_directory_uri(); ?>/images/intro02.webp"
                   srcset="<?php echo get_template_directory_uri(); ?>/images/intro02.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro02@2x.webp 2x"
@@ -155,7 +155,7 @@
                 〒981-3108<br />
                 宮城県仙台市泉区松陵４丁目２-５
               </p>
-              <a href=""
+              <a href="https://goo.gl/maps/QmSMkTrTrUQvtYQT9"
                 ><img
                   src="<?php echo get_template_directory_uri(); ?>/images/intro02.webp"
                   srcset="<?php echo get_template_directory_uri(); ?>/images/intro02.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro02@2x.webp 2x"

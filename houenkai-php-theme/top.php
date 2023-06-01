@@ -14,17 +14,17 @@
         <span class="title_lg">縁</span><span class="title_md">ある人に</span><span class="title_lg"> 貢献 </span><span
           class="title_md"> する。</span>
       </h1> -->
-        <a href="#">
+        <a href="/houenkai-test/clinic">
           <img src="<?php echo get_template_directory_uri(); ?>/images/top12.webp" alt="" class="top_title_info" />
         </a>
         <div class="top_sub">
-          <a href="#"
+          <a href="/houenkai-test/#about"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top09.webp" alt="" class="top_sub_img"
           /></a>
-          <a href="#"
+          <a href="/houenkai-test/treat"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top10.webp" alt="" class="top_sub_img"
           /></a>
-          <a href="#"
+          <a href="/houenkai-test/recruit"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top11.webp" alt="" class="top_sub_img"
           /></a>
         </div>
@@ -229,7 +229,7 @@
               class="top_clinic_box_upper_img scroll_up"
             />
           </div>
-          <a href="#"
+          <a href="/houenkai-test/introduction"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn"
           /></a>
         </div>
@@ -237,7 +237,7 @@
       <section class="top_area">
         <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_07.webp" alt="" class="top_clinic_title" />
         <div class="top_area_box">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top17.webp" alt="" class="top_area_map" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/clinic05.webp" alt="" class="top_area_map" />
           <div class="top_area_box_right">
             <div class="top_area_box_right_up">訪問診療の可能地域</div>
             <p class="top_area_box_right_mid">
@@ -245,7 +245,7 @@
               名取市、多賀城市、塩釜市、富谷市
             </p>
 
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn" />
+            <a href="/houenkai-test/clinic"><img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn" /></a>
           </div>
         </div>
       </section>

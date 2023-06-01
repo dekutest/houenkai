@@ -2,7 +2,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/2x/favicon.ico" id="favicon" />
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" id="favicon" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -26,6 +26,7 @@
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/parts/index.css" />
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -41,7 +42,7 @@
 
   </head>
   <body>
-  <header>
+  <header  id="top">
       <div class="inner">
         <h1>
           <a href="/houenkai-test">
@@ -82,12 +83,12 @@
             </li>
             <li>
               <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp" alt="" />
-              <a href="/houenkai-test/contact">
+              <a href="tel:022-341-2882">
                 <span class="nav_child child01">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />
                 </span>
               </a>
-              <a href="#">
+              <a href="/houenkai-test/contact">
                 <span class="nav_child child02">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp" alt="" />
                 </span>

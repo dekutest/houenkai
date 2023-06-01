@@ -49,7 +49,7 @@ footer {
 .footer_logo {
   position: relative;
   left: -115px;
-  @include g.respond-to("xl") {
+  @include g.respond-to("ml") {
     left: -190px;
   }
   @include g.respond-to("xl") {
@@ -94,6 +94,9 @@ footer nav {
   z-index: 1;
   right: -18%;
 
+  @include g.respond-to("ml") {
+    right: -14%;
+  }
   @include g.respond-to("xl") {
     right: 0px;
     top: 130px;

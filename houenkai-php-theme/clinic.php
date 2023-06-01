@@ -74,15 +74,19 @@
             お住まいが診察エリアの範囲外の方も、遠慮なく一度お問い合わせください。
           </p>
         </div>
-        <div class="top_area_box">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top17.webp" alt="" class="top_area_map" />
-          <div class="top_area_box_right">
-            <div class="top_area_box_right_up">訪問診療の可能地域</div>
-            <p class="top_area_box_right_mid">
-              仙台市全域<br />
-              名取市、多賀城市、塩釜市、富谷市
+        <div class="top_area_box area_color">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/clinic05.webp" alt="" class="top_area_map" />
+          <div class="top_area_box_right top_area_box_right2">
+            <div class="top_area_box_right_up top_area_box_right_up2">仙台市全域<br>
+名取市、多賀城市、塩釜市、富谷市</div>
+            <p class="top_area_box_right_mid top_area_box_right_mid2">
+            診療受付日<br>
+            定期訪問<br>
+            月曜日～金曜日<br>
+            【午前】9：00～12：00<br>
+            【午後】13：00～18：00<br>
+            ※24時間365日電話対応受付、随時診療
             </p>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" alt="" class="top_clinic_btn" />
           </div>
         </div>
       </section>

@@ -106,7 +106,7 @@
     bottom: -6.5%;
     left: 50%;
     height: fit-content;
-    top: 90%;
+    top: 94%;
     transform: translate(-50%, -50%);
   }
   @include g.respond-to("sm") {
@@ -902,4 +902,8 @@ a :hover {
     left: 50%;
     transform: translate3d(0px, 0px, 0px) translateY(-50%) translateX(-50%) !important;
   }
+}
+
+.top_clinic_title {
+  margin-bottom: 30px;
 }

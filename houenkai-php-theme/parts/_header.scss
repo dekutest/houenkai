@@ -2,7 +2,7 @@
 
 header {
   // ------ドロップシャドウ-----
-  box-shadow: 0px 6px 7px 0px rgba(178, 178, 178, 0.45);
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
   width: 100%;
   background-color: #fff;
 }
@@ -13,7 +13,6 @@ header {
   // height: inherit;
   box-sizing: border-box;
   margin: auto;
-  padding-top: 38px;
   height: 125px;
 }
 
@@ -22,6 +21,7 @@ header h1 {
   width: 249px;
   height: 60px;
   padding-left: 44px;
+  padding-top: 38px;
 }
 
 header nav {
@@ -50,6 +50,8 @@ header nav li {
   position: relative;
   height: inherit;
   padding-right: 39px;
+  margin-top: 40px;
+
   @include g.respond-to("ml") {
     padding-right: 10px;
   }
@@ -60,10 +62,9 @@ header nav li a {
   padding: 3px 15px 3px 0;
   /* padding: 3px 10px; */
   vertical-align: middle;
-  line-height: 80px;
   font-size: 17px;
   /* font-size: 15px; */
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   letter-spacing: 1px;
   font-family: "Yu Gothic", sans-serif;
@@ -92,18 +93,19 @@ header nav li img {
   font-size: 10px;
   color: g.$m-color;
   bottom: 14px;
+  margin-top: 20px;
 }
 
 .nav_parent {
   position: relative;
-  bottom: 11px;
+  bottom: 7px;
   @include g.respond-to("ml") {
     margin-right: 10px;
   }
 }
 .nav_child {
   position: absolute;
-  top: -4px;
+  top: 4px;
 }
 
 .child01 {
@@ -261,6 +263,6 @@ nav.globalMenuSp.active {
   }
 }
 
-a :hover {
+a:hover {
   opacity: 0.8 !important;
 }

@@ -89,6 +89,8 @@
   }
   @include g.respond-to("md") {
     width: 100%;
+    padding-left: 0px;
+    padding-top: 0px;
   }
 }
 
@@ -171,12 +173,14 @@
     top: -8px;
     .txt {
       line-height: 32.4px;
+      color: black;
     }
   }
   .treat_service_box_text03 {
     .txt {
       line-height: 28.4px;
       margin-bottom: 25px;
+      color: black;
     }
     .box_bottom {
       display: flex;
@@ -188,6 +192,7 @@
     }
     .box_bottom_text {
       line-height: 28.4px;
+      color: black;
     }
     .treat_person {
       position: relative;
@@ -203,6 +208,11 @@
 
   .hid {
     @include g.respond-to("lg") {
+      display: none;
+    }
+  }
+  .hid2 {
+    @include g.respond-to("ml") {
       display: none;
     }
   }
@@ -224,6 +234,11 @@
 
   margin-bottom: 5.9vw;
   align-items: flex-start;
+  @include g.respond-to("xl") {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5.9vw;
+  }
   @include g.respond-to("lg") {
     flex-direction: column;
     align-items: center;
@@ -290,6 +305,7 @@
     margin: 0;
     margin-top: 5px;
     line-height: 31px;
+    color: black;
   }
 }
 

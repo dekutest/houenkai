@@ -38,8 +38,8 @@
         </div>
         <div class="recruit_right scroll_right">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/recruit02.webp"
-            srcset="<?php echo get_template_directory_uri(); ?>/images/recruit02.webp, <?php echo get_template_directory_uri(); ?>/images/recruit02@2x.webp 2x"
+            src="<?php echo get_template_directory_uri(); ?>/images/recruit_img.png"
+            srcset="<?php echo get_template_directory_uri(); ?>/images/recruit_img.png, <?php echo get_template_directory_uri(); ?>/images/recruit_img@2x.png 2x"
             alt="recruit"
           />
         </div>
@@ -106,7 +106,7 @@
           </tr>
         </table>
         <div class="form">
-          <a href=""
+          <a href="/houenkai-test/contact"
             ><div class="back">
               <span class="dli-chevron-round-right back_color"></span>
             </div>
@@ -164,7 +164,7 @@
             </tr>
           </table>
           <div class="form">
-            <a href=""
+            <a href="/houenkai-test/contact"
               ><div class="back">
                 <span class="dli-chevron-round-right back_color"></span>
               </div>
@@ -221,7 +221,7 @@
             </tr>
           </table>
           <div class="form">
-            <a href=""
+            <a href="/houenkai-test/contact"
               ><div class="back">
                 <span class="dli-chevron-round-right back_color"></span>
               </div>
@@ -278,7 +278,7 @@
             </tr>
           </table>
           <div class="form">
-            <a href=""
+            <a href="/houenkai-test/contact"
               ><div class="back">
                 <span class="dli-chevron-round-right back_color"></span>
               </div>

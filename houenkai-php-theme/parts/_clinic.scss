@@ -320,3 +320,24 @@
     }
   }
 }
+.top_area_box_right_up2 {
+  font-size: clamp(18px, 1.094vw, 20px);
+  font-family: g.$font-m1;
+  color: #0b7eb8;
+  margin-bottom: 23px;
+}
+
+.top_area_box_right_mid2 {
+  font-size: clamp(16px, 1.042vw, 18px);
+  line-height: 1.6;
+  color: #112e53;
+  margin-bottom: 20px;
+}
+
+.area_color {
+  background: #fff;
+}
+
+.top_area_box_right2 {
+  margin-top: 35px;
+}

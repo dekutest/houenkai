@@ -55,6 +55,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/footer02.webp" alt="" />
         </div>
       </div>
+      <div class="footer_bottom_c"></div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script

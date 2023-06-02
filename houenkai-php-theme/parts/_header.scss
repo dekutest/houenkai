@@ -259,6 +259,7 @@ nav.globalMenuSp.active {
 .inner img {
   @include g.respond-to("sm") {
     width: 150px;
+    margin-top: 6px;
   }
 }
 

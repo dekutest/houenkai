@@ -90,7 +90,7 @@
   width: fit-content;
   background: linear-gradient(transparent 70%, #d5edf3 50%);
   display: inline;
-  padding: 5px 1px !important;
+  padding: 0px 1px !important;
   font-weight: 600;
   @include g.respond-to("md") {
     line-height: 2;
@@ -111,6 +111,7 @@
 .clinic_feature {
   width: g.vw-pc(1021);
   margin: auto;
+  margin-top: 48px;
   @include g.respond-to("xl") {
     width: 80%;
   }
@@ -125,7 +126,6 @@
   height: 35px;
   border-radius: 50%;
   padding-left: 30px;
-  margin-top: 48px;
 }
 
 .clinic_feature_1_2 {
@@ -134,11 +134,12 @@
   margin-top: -35px;
   color: #112e53;
   font-family: g.$font-m1;
+  white-space: normal;
 }
 
 .clinic_feature_2 {
   font-size: 18px;
-  letter-spacing: -1.5px;
+  letter-spacing: -0.5px;
   padding-top: 24px;
   padding-bottom: 60px;
   margin: auto;
@@ -241,6 +242,16 @@
   @include g.respond-to("md") {
     width: 100%;
     padding-bottom: 50px;
+    display: none;
+  }
+}
+
+.clinic_feature_6_2 {
+  display: none;
+  @include g.respond-to("md") {
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
   }
 }
 
@@ -321,10 +332,11 @@
   }
 }
 .top_area_box_right_up2 {
-  font-size: clamp(18px, 1.094vw, 20px);
+  font-size: clamp(17px, 1.094vw, 20px);
   font-family: g.$font-m1;
   color: #0b7eb8;
   margin-bottom: 23px;
+  white-space: normal;
 }
 
 .top_area_box_right_mid2 {
@@ -340,4 +352,26 @@
 
 .top_area_box_right2 {
   margin-top: 35px;
+}
+
+.clinic_feature_3_2 {
+  letter-spacing: -1px;
+}
+
+.clinic_map p {
+  margin-bottom: 15px;
+}
+
+.top_area_box_right_mid2 {
+  span {
+    margin-left: 9px;
+  }
+}
+
+.c_text_furi {
+  margin: 0;
+  margin-left: 229px;
+  font-size: 12px;
+  color: #112e53;
+  margin-bottom: -5px;
 }

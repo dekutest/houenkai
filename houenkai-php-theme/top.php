@@ -209,18 +209,18 @@
             class="top_greeting_box_text"
           />
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp"
-            srcset="
-            <?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp 1x,
-            <?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp 2x"
-            alt=""
-            class="top_greeting_box_text top_greeting_box_text2"
-          />
-          <img
             src="<?php echo get_template_directory_uri(); ?>/images/top_text17@2x.webp"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text17@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text17@2x.webp 2x"
+            alt=""
+            class="top_greeting_box_text top_greeting_box_text2"
+          />
+          <img
+            src="<?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp"
+            srcset="
+            <?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp 2x"
             alt=""
             class="top_greeting_box_text top_greeting_box_text3"
           />
@@ -293,7 +293,7 @@
               </div>
               <p>日本脳神経外科学会</p>
               <p>日本脳卒中学会</p>
-              <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/top15@2x.webp"
+              <a href="https://www.youtube.com/playlist?list=PLXRXgR7U1Kq9BwItATa0gBZclkw29vR2l" target="_blank" rel="noopener" ><img src="<?php echo get_template_directory_uri(); ?>/images/top15@2x.webp"
               srcset="
             <?php echo get_template_directory_uri(); ?>/images/top15@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top15@2x.webp 2x"
@@ -310,7 +310,7 @@
         alt="" class="top_clinic_title" />
         <div class="top_clinic_box">
           <div class="top_clinic_box_upper">
-            <img
+            <a href="houenkai-test/introduction/#hachiman"><img
               src="<?php echo get_template_directory_uri(); ?>/images/top07@2x.webp"
               srcset="
             <?php echo get_template_directory_uri(); ?>/images/top07@2x.webp 1x,
@@ -318,7 +318,8 @@
               alt=""
               class="top_clinic_box_upper_img scroll_up"
             />
-            <img
+            </a>
+            <a href="houenkai-test/introduction/#family"><img
               src="<?php echo get_template_directory_uri(); ?>/images/top08@2x.webp"
               srcset="
             <?php echo get_template_directory_uri(); ?>/images/top08@2x.webp 1x,
@@ -326,6 +327,7 @@
               alt=""
               class="top_clinic_box_upper_img scroll_up"
             />
+            </a>
           </div>
           <a href="/houenkai-test/introduction"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top16@2x.png" 

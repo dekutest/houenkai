@@ -16,7 +16,7 @@
           alt="clinic"
         />
       </section>
-      <section class="clinic_main2 scroll_up">
+      <section class="clinic_main2 scroll_up" id="hachiman">
         <div class="title">
           <p>ほうえん</p>
           <h1>芳縁在宅診療所八幡</h1>
@@ -80,7 +80,7 @@
                 〒980-0871<br />
                 宮城県仙台市青葉区八幡２丁目３-６グラシアスはちまん1F
               </p>
-              <a href="https://goo.gl/maps/U7GpUJ1SJcUtuvDR6"
+              <a href="https://goo.gl/maps/U7GpUJ1SJcUtuvDR6" target="_blank" rel="noopener"
                 ><img
                   src="<?php echo get_template_directory_uri(); ?>/images/intro02.webp"
                   srcset="<?php echo get_template_directory_uri(); ?>/images/intro02.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro02@2x.webp 2x"
@@ -91,7 +91,7 @@
         </div>
       </section>
 
-      <section class="clinic_main2 section2 scroll_up">
+      <section class="clinic_main2 section2 scroll_up"  id="family">
         <div class="title">
           <p>ほうえん</p>
           <h1>芳縁ファミリークリニック</h1>
@@ -131,7 +131,7 @@
                 <td>ー</td>
               </tr>
               <tr>
-                <td>13:00 - 18:00</td>
+                <td>14:00 - 17:00</td>
                 <td class="c_circle">◯</td>
                 <td class="c_circle">◯</td>
                 <td>ー</td>
@@ -155,7 +155,7 @@
                 〒981-3108<br />
                 宮城県仙台市泉区松陵４丁目２-５
               </p>
-              <a href="https://goo.gl/maps/QmSMkTrTrUQvtYQT9"
+              <a href="https://goo.gl/maps/QmSMkTrTrUQvtYQT9" target="_blank" rel="noopener"
                 ><img
                   src="<?php echo get_template_directory_uri(); ?>/images/intro02.webp"
                   srcset="<?php echo get_template_directory_uri(); ?>/images/intro02.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro02@2x.webp 2x"

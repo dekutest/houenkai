@@ -127,7 +127,7 @@
           "
             alt="" class="treat_service_img" />
             <div class="treat_service_box_text">
-              <p class="title">外来 （内科・外科）</p>
+              <p class="title">外来診療 （内科・外科）</p>
               <p class="txt">
                 生活習慣病の予防と管理から慢性疾患の診療、複雑な病態の診断まで幅広く対応しています。<br />
                 患者様の体調や生活習慣を詳しく把握し、それぞれに適した治療計画を立てます。また、最新の医療情報と技術を活用して、患者様の健康をサポートします。

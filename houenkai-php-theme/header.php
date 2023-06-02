@@ -91,7 +91,7 @@
                   <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />
                 </span>
               </a>
-              <a href="/houenkai-test/contact">
+              <a href="https://lin.ee/P0nzIlj">
                 <span class="nav_child child02">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp" alt="" />
                 </span>
@@ -112,8 +112,8 @@
             </li> -->
             <li><a href="/houenkai-test/#about">芳縁会について</a></li>
             <li><a href="/houenkai-test/treat">診療内容</a></li>
-            <li><a href="/houenkai-test/clinic">診療所</a></li>
-            <li><a href="/houenkai-test/introduction">訪問診療</a></li>
+            <li><a href="/houenkai-test/introduction">診療所</a></li>
+            <li><a href="/houenkai-test/clinic">訪問診療</a></li>
             <li><a href="/houenkai-test/recruit">採用情報</a></li>
             <li><a href="/houenkai-test/contact">お問い合わせ</a></li>
           </ul>

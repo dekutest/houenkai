@@ -180,6 +180,9 @@ footer nav li img {
     @include g.respond-to("md") {
       width: 30vw;
     }
+    @include g.respond-to("sm") {
+      width: 50vw;
+    }
   }
 }
 

@@ -14,7 +14,7 @@
               ><br class="br_none1" />
               Fax. 022-341-8896
             </p>
-            <p>緊急往診：24時間365日</p>
+            <p>※24時間365日、緊急往診対応</p>
           </div>
           <div class="footer_center">
             <nav>
@@ -26,10 +26,10 @@
                   <a href="/houenkai-test/treat"> 診療内容 </a>
                 </li>
                 <li>
-                <a href="/houenkai-test/clinic"> 診療所</a>
+                <a href="/houenkai-test/introduction">診療所</a>
                 </li>
                 <li>
-                  <a href="/houenkai-test/introduction"> 訪問診療 </a>
+                <a href="/houenkai-test/clinic">訪問診療</a>
                 </li>
                 <li>
                 <a href="/houenkai-test/recruit"> 採用情報 </a>
@@ -41,7 +41,7 @@
                       <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />
                     </span>
                   </a>
-                  <a href="/houenkai-test/contact">
+                  <a href="https://lin.ee/P0nzIlj">
                     <span class="nav_child child02">
                       <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp" alt="" />
                     </span>

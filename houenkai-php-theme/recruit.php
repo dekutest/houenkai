@@ -86,7 +86,7 @@
         <table>
           <tr>
             <td>募集職種</td>
-            <td>内科医師</td>
+            <td>医師</td>
           </tr>
           <tr class="big_table">
             <td>給与</td>
@@ -129,7 +129,7 @@
           <table>
             <tr>
               <td>募集職種</td>
-              <td>看護師</td>
+              <td>正看護師・准看護師</td>
             </tr>
             <tr class="big_table">
               <td>給与</td>

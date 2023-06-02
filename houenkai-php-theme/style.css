@@ -320,6 +320,11 @@ footer nav li img {
     width: 30vw;
   }
 }
+@media screen and (max-width: 480px) {
+  .footer_bottom img {
+    width: 50vw;
+  }
+}
 
 .br_none1 {
   display: none;
@@ -616,6 +621,7 @@ nav.globalMenuSp.active {
 @media screen and (max-width: 480px) {
   .inner img {
     width: 150px;
+    margin-top: 6px;
   }
 }
 
@@ -1093,7 +1099,8 @@ a:hover {
 .top_greeting {
   background-image: url(./images/top05.webp);
   background-repeat: no-repeat;
-  height: 41vw;
+  height: 33vw;
+  margin-bottom: 8vw;
 }
 @media screen and (max-width: 1600px) {
   .top_greeting {
@@ -1112,12 +1119,13 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
   .top_greeting {
-    height: 120vw;
+    height: 80vw;
+    margin-bottom: 60px;
   }
 }
 @media screen and (max-width: 480px) {
   .top_greeting {
-    height: 150vw;
+    height: 162vw;
   }
 }
 
@@ -1142,11 +1150,24 @@ a:hover {
 @media screen and (max-width: 1300px) {
   .top_greeting_box {
     width: 70vw;
+    top: 150px;
   }
 }
 @media screen and (max-width: 1020px) {
   .top_greeting_box {
     top: 150px;
+    width: 95vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top_greeting_box {
+    top: 60px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top_greeting_box {
+    top: 60px;
     width: 95vw;
   }
 }
@@ -1193,7 +1214,7 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
   .top_greeting_box_text {
-    width: 58%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1433,11 +1454,15 @@ a:hover {
 .top_clinic_box_upper_img {
   width: 295px;
   object-fit: contain;
+  transition: transform 0.3s ease-in-out;
 }
 @media screen and (max-width: 768px) {
   .top_clinic_box_upper_img {
     margin-bottom: 4vw;
   }
+}
+.top_clinic_box_upper img:hover {
+  transform: scale(1.1);
 }
 
 .top_area {
@@ -1446,6 +1471,11 @@ a:hover {
 }
 .top_area_title {
   margin-bottom: 5vw;
+}
+@media screen and (max-width: 768px) {
+  .top_area {
+    padding-bottom: 50px;
+  }
 }
 
 .top_area_box {
@@ -1466,20 +1496,26 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: fit-content;
   }
 }
 @media screen and (max-width: 480px) {
   .top_area_box {
-    margin: 0 2.5vw;
+    margin: auto;
+    width: 90vw;
   }
 }
 .top_area_box .top_area_map {
   width: 409px;
 }
+@media screen and (max-width: 1020px) {
+  .top_area_box .top_area_map {
+    margin-top: 40px;
+  }
+}
 @media screen and (max-width: 480px) {
   .top_area_box .top_area_map {
     width: 100%;
+    margin-top: 0px;
   }
 }
 .top_area_box_right {
@@ -1525,10 +1561,22 @@ a:hover {
   width: 56.25vw;
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  .top_news_wrapper {
+    width: 90vw;
+  }
+}
 
 .top_news_up {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+}
+@media screen and (max-width: 768px) {
+  .top_news_up {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
 }
 .top_news_up .top_news_title {
   font-size: 15px;
@@ -1538,11 +1586,24 @@ a:hover {
   padding-left: 12px;
   margin-bottom: 27px;
 }
+@media screen and (max-width: 768px) {
+  .top_news_up .top_news_title {
+    margin-bottom: 10px;
+    padding-left: 0px;
+  }
+}
 
 .top_news_link {
   width: 116.16px;
   object-fit: contain;
   margin-right: 15px;
+}
+@media screen and (max-width: 768px) {
+  .top_news_link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+  }
 }
 
 .news_box .news-box-wrapper .news-day {
@@ -1553,6 +1614,11 @@ a:hover {
   padding-left: 12px;
   letter-spacing: 2px;
 }
+@media screen and (max-width: 768px) {
+  .news_box .news-box-wrapper .news-day {
+    padding-left: 0px;
+  }
+}
 .news_box .news-box-wrapper .news-text {
   display: flex;
   font-size: 15px;
@@ -1562,6 +1628,12 @@ a:hover {
   align-items: center;
   border-top: #4b7282 1px solid;
 }
+@media screen and (max-width: 768px) {
+  .news_box .news-box-wrapper .news-text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 .news_box .news-box-wrapper .news-blog {
   display: flex;
   font-size: 15px;
@@ -1569,6 +1641,15 @@ a:hover {
   font-weight: 400;
   padding-left: 35px;
   letter-spacing: 1px;
+  white-space: normal;
+}
+@media screen and (max-width: 768px) {
+  .news_box .news-box-wrapper .news-blog {
+    padding-left: 0px;
+  }
+}
+.news_box .news-box-wrapper .news-blog a {
+  white-space: normal;
 }
 
 /*----------------------------
@@ -1919,6 +2000,12 @@ a :hover {
   right: -13px;
   top: -7px;
 }
+@media screen and (max-width: 768px) {
+  .service_wrapper .treat_service_box_text03 .treat_person {
+    right: 0px;
+    top: 0px;
+  }
+}
 
 .treat_service {
   display: flex;
@@ -1979,7 +2066,7 @@ a :hover {
   background-color: #3168a6;
   color: white;
   font-size: 18px;
-  border-radius: 5%;
+  border-radius: 5px;
   padding: 3px 25px;
   font-family: "M PLUS 1p", sans-serif;
   margin: 0;
@@ -2721,7 +2808,7 @@ main .recruit_occupation .form p {
   width: fit-content;
   background: linear-gradient(transparent 70%, #d5edf3 50%);
   display: inline;
-  padding: 5px 1px !important;
+  padding: 0px 1px !important;
   font-weight: 600;
 }
 @media screen and (max-width: 768px) {
@@ -2744,6 +2831,7 @@ main .recruit_occupation .form p {
 .clinic_feature {
   width: 53.1770833333vw;
   margin: auto;
+  margin-top: 48px;
 }
 @media screen and (max-width: 1200px) {
   .clinic_feature {
@@ -2762,7 +2850,6 @@ main .recruit_occupation .form p {
   height: 35px;
   border-radius: 50%;
   padding-left: 30px;
-  margin-top: 48px;
 }
 
 .clinic_feature_1_2 {
@@ -2771,11 +2858,12 @@ main .recruit_occupation .form p {
   margin-top: -35px;
   color: #112e53;
   font-family: "M PLUS 1p", sans-serif;
+  white-space: normal;
 }
 
 .clinic_feature_2 {
   font-size: 18px;
-  letter-spacing: -1.5px;
+  letter-spacing: -0.5px;
   padding-top: 24px;
   padding-bottom: 60px;
   margin: auto;
@@ -2902,6 +2990,18 @@ main .recruit_occupation .form p {
   .clinic_feature_6 {
     width: 100%;
     padding-bottom: 50px;
+    display: none;
+  }
+}
+
+.clinic_feature_6_2 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .clinic_feature_6_2 {
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
   }
 }
 
@@ -2981,10 +3081,11 @@ main .recruit_occupation .form p {
 }
 
 .top_area_box_right_up2 {
-  font-size: clamp(18px, 1.094vw, 20px);
+  font-size: clamp(17px, 1.094vw, 20px);
   font-family: "M PLUS 1p", sans-serif;
   color: #0b7eb8;
   margin-bottom: 23px;
+  white-space: normal;
 }
 
 .top_area_box_right_mid2 {
@@ -3000,6 +3101,26 @@ main .recruit_occupation .form p {
 
 .top_area_box_right2 {
   margin-top: 35px;
+}
+
+.clinic_feature_3_2 {
+  letter-spacing: -1px;
+}
+
+.clinic_map p {
+  margin-bottom: 15px;
+}
+
+.top_area_box_right_mid2 span {
+  margin-left: 9px;
+}
+
+.c_text_furi {
+  margin: 0;
+  margin-left: 229px;
+  font-size: 12px;
+  color: #112e53;
+  margin-bottom: -5px;
 }
 
 .entry_form {
@@ -3258,7 +3379,11 @@ main .container .news_contents .news_content {
 @media screen and (max-width: 768px) {
   main .container .news_contents .news_content {
     width: 90vw;
+    padding: 0;
   }
+}
+main .container .news_contents .news_content a {
+  white-space: normal;
 }
 main .container .news_contents .news_content .blog_title {
   margin-top: 0;
@@ -3275,6 +3400,13 @@ main .container .news_contents .news_content .blog_title {
 @media screen and (max-width: 1200px) {
   main .container .news_contents .news_content .blog_title {
     font-size: 28px;
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .container .news_contents .news_content .blog_title {
+    font-size: 20px;
+    white-space: normal;
   }
 }
 main .container .news_contents .news_content h1 {
@@ -3283,6 +3415,7 @@ main .container .news_contents .news_content h1 {
   font-family: "m-plus-1p", sans-serif;
   font-weight: 400;
   font-style: normal;
+  white-space: normal;
 }
 main .container .news_contents .news_content h2 {
   font-size: 30px;
@@ -3290,6 +3423,7 @@ main .container .news_contents .news_content h2 {
   font-family: "m-plus-1p", sans-serif;
   font-weight: 400;
   font-style: normal;
+  white-space: normal;
 }
 main .container .news_contents .news_content h3 {
   font-size: 30px;
@@ -3297,6 +3431,7 @@ main .container .news_contents .news_content h3 {
   font-family: "m-plus-1p", sans-serif;
   font-weight: 400;
   font-style: normal;
+  white-space: normal;
 }
 main .container .news_contents .news_content h4 {
   font-size: 30px;
@@ -3304,6 +3439,7 @@ main .container .news_contents .news_content h4 {
   font-family: "m-plus-1p", sans-serif;
   font-weight: 400;
   font-style: normal;
+  white-space: normal;
 }
 main .container .news_contents .news_content p {
   font-size: 16px;
@@ -3311,6 +3447,7 @@ main .container .news_contents .news_content p {
   font-family: "m-plus-1p", sans-serif;
   font-weight: 400;
   font-style: normal;
+  white-space: normal;
 }
 main .container .news_contents .blog-note {
   background-color: #ffffff;
@@ -3477,6 +3614,12 @@ main .container .news_contents .blog-note .news-title ul .top-3-contents .top-3-
   font-weight: bold;
   font-family: "游ゴシック", "Yu Gothic", sans-serif;
   color: #112e53;
+}
+@media screen and (max-width: 768px) {
+  .blog_all .news-blog {
+    font-size: 16px;
+    white-space: normal;
+  }
 }
 
 .pp_main {

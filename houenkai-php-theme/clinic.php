@@ -37,7 +37,7 @@
         <h2 class="clinic_main_3">当院にご相談ください。</h2>
         <div class="clinic_main_4">
           <p class="clinic_main_4_1">
-            通院が困難な方、要介護・寝たきりの方・がん・老衰・末期・難病など在宅で緩和ケアを希望される方、ご自宅や施設での療養を希望される方、病院ではなく最後まで住み慣れた場所で過ごしたい方、在宅医療が必要な方
+            通院が困難な方、要介護・寝たきりの方・がん・老衰・終末期・難病など在宅で緩和ケアを希望される方、ご自宅や施設での療養を希望される方、病院ではなく最後まで住み慣れた場所で過ごしたい方、在宅医療が必要な方
           </p>
         </div>
       </section>
@@ -54,7 +54,7 @@
           <p class="clinic_feature_3_1">24時間365日対応</p>
           <p class="clinic_feature_3_1">薬の処方</p>
           <p class="clinic_feature_3_1 clinic_feature_3_2">高齢・がん・難病の患者にも対応</p>
-          <p class="clinic_feature_3_1">末期の看取り</p>
+          <p class="clinic_feature_3_1">終末期の看取り</p>
         </div>
         <div class="scroll_up">
           <img

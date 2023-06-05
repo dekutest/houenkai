@@ -115,7 +115,6 @@
             <li><a href="/houenkai-test/introduction">診療所</a></li>
             <li><a href="/houenkai-test/clinic">訪問診療</a></li>
             <li><a href="/houenkai-test/recruit">採用情報</a></li>
-            <li><a href="/houenkai-test/contact">お問い合わせ</a></li>
           </ul>
         </nav>
       </div>

@@ -130,6 +130,9 @@
 // -----promise-----------------
 .promise {
   margin-bottom: 9.2vw;
+  @include g.respond-to("md") {
+    width: 60px;
+  }
 }
 
 .promise_wrapper {
@@ -258,6 +261,8 @@
   }
   @include g.respond-to("md") {
     width: 40vw;
+    right: 0px;
+    margin-bottom: 50px;
   }
   @include g.respond-to("sm") {
     width: 45vw;
@@ -331,7 +336,7 @@
     position: unset;
   }
   @include g.respond-to("sm") {
-    width: 180px;
+    width: 150px;
     margin-bottom: 7vw;
   }
 }
@@ -345,7 +350,7 @@
     position: unset;
   }
   @include g.respond-to("sm") {
-    width: 180px;
+    width: 150px;
     margin-bottom: 7vw;
   }
 }
@@ -359,7 +364,7 @@
     position: unset;
   }
   @include g.respond-to("sm") {
-    width: 180px;
+    width: 150px;
     margin-bottom: 7vw;
   }
 }

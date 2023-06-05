@@ -7,7 +7,6 @@
 }
 
 html {
-  overflow-y: scroll;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
   -webkit-box-sizing: border-box;
@@ -26,6 +25,7 @@ body {
   height: auto;
   margin: 0;
   overflow-x: hidden;
+  overflow-y: scroll;
   font-feature-settings: "palt" 1;
   font-size: 16px;
 }
@@ -819,6 +819,11 @@ a:hover {
 .promise {
   margin-bottom: 9.2vw;
 }
+@media screen and (max-width: 768px) {
+  .promise {
+    width: 60px;
+  }
+}
 
 .promise_wrapper {
   padding-top: 11px;
@@ -918,6 +923,8 @@ a:hover {
 @media screen and (max-width: 768px) {
   .top_about_title_img {
     width: 40vw;
+    right: 0px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1014,7 +1021,7 @@ a:hover {
 }
 @media screen and (max-width: 480px) {
   .top_about_upper01 {
-    width: 180px;
+    width: 150px;
     margin-bottom: 7vw;
   }
 }
@@ -1032,7 +1039,7 @@ a:hover {
 }
 @media screen and (max-width: 480px) {
   .top_about_upper02 {
-    width: 180px;
+    width: 150px;
     margin-bottom: 7vw;
   }
 }
@@ -1050,7 +1057,7 @@ a:hover {
 }
 @media screen and (max-width: 480px) {
   .top_about_upper03 {
-    width: 180px;
+    width: 150px;
     margin-bottom: 7vw;
   }
 }

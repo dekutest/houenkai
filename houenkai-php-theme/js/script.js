@@ -42,3 +42,22 @@ $(document).ready(function () {
 $(window).on("load", function () {
   $("#lottie").delay(3000).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
 });
+
+$(function () {
+  $('a[href*="#"]:not(.no-scroll)').click(function (event) {
+    var speed = 500;
+    var href = $(this).attr("href");
+    var hash = href.indexOf("#");
+    var target;
+    if (hash != -1) {
+      var targetId = href.substr(hash + 1);
+      target = $("#" + targetId);
+    } else {
+      target = $(href == "#" || href == "" ? "html" : href);
+    }
+    var header = $("header").height();
+    var position = target.offset().top - header;
+    $("html, body").animate({ scrollTop: position }, speed, "swing");
+    event.preventDefault();
+  });
+});

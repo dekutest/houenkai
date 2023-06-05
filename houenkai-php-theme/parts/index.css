@@ -1179,7 +1179,7 @@ a:hover {
 @media screen and (max-width: 1300px) {
   .top_greeting_box {
     width: 70vw;
-    top: 150px;
+    top: 240px;
   }
 }
 @media screen and (max-width: 1020px) {
@@ -1208,7 +1208,7 @@ a:hover {
 }
 @media screen and (max-width: 1300px) {
   .top_greeting_box_img {
-    width: 15vw;
+    width: auto;
   }
 }
 @media screen and (max-width: 1020px) {

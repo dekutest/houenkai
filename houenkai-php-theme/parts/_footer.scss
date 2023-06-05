@@ -37,6 +37,8 @@ footer {
   @include g.respond-to("md") {
     margin-top: 400px;
     width: 80vw;
+    flex-direction: column;
+    align-items: center;
   }
   & p {
     color: g.$m-color;
@@ -63,13 +65,26 @@ footer {
   }
 }
 
+.footer_logo_pc {
+  @include g.respond-to("md") {
+    display: none;
+  }
+}
+
+.footer_logo_ph {
+  display: none;
+  @include g.respond-to("md") {
+    display: block;
+  }
+}
+
 .footer_left {
   img {
     @include g.respond-to("xl") {
       width: 300px;
     }
     @include g.respond-to("md") {
-      width: fit-content;
+      width: 150px;
     }
   }
 }
@@ -104,6 +119,9 @@ footer nav {
     left: 50%;
     transform: translateX(-50%);
   }
+  @include g.respond-to("md") {
+    top: 184px;
+  }
 }
 footer nav ul {
   text-align: center;
@@ -111,7 +129,7 @@ footer nav ul {
   @include g.respond-to("xl") {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 80%;
     margin: auto;
   }

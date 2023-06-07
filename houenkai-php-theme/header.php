@@ -27,6 +27,7 @@
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -36,8 +37,7 @@
       href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Serif+JP&display=swap"
       rel="stylesheet"
     />
-    <script src="<?php echo get_template_directory_uri(); ?>/js/lottie.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+ 
     <?php wp_head(); ?>
 
   </head>
@@ -46,10 +46,10 @@
       <div class="inner">
         <h1>
           <a href="/houenkai-test">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo@4x.jpg"
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"
             srcset="
-            <?php echo get_template_directory_uri(); ?>/images/logo@4x.jpg 1x,
-            <?php echo get_template_directory_uri(); ?>/images/logo@4x.jpg 2x" alt="芳縁会" />
+            <?php echo get_template_directory_uri(); ?>/images/logo.png 1x,
+            <?php echo get_template_directory_uri(); ?>/images/logo@2x.png 2x" alt="芳縁会" />
           </a>
         </h1>
         <nav class="menu_pc">

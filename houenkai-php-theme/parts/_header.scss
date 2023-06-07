@@ -14,6 +14,9 @@ header {
   box-sizing: border-box;
   margin: auto;
   height: 125px;
+  @include g.respond-to("sm") {
+    height: 80px;
+  }
 }
 
 header h1 {
@@ -22,6 +25,9 @@ header h1 {
   height: 60px;
   padding-left: 44px;
   padding-top: 38px;
+  @include g.respond-to("sm") {
+    padding-left: 36px;
+  }
   img {
     width: 249px;
   }
@@ -144,6 +150,9 @@ header nav li img {
   height: 42px;
   cursor: pointer;
   text-align: center;
+  @include g.respond-to("sm") {
+    top: 19px;
+  }
 }
 .hamburger span {
   display: block;
@@ -259,7 +268,7 @@ nav.globalMenuSp.active {
 .inner img {
   @include g.respond-to("sm") {
     width: 150px;
-    margin-top: 6px;
+    margin-top: -10px;
   }
 }
 

@@ -83,6 +83,10 @@
     bottom: 38.5%;
     width: 80%;
   }
+  @include g.respond-to("sm") {
+    width: 107%;
+    right: -17vw;
+  }
 }
 .top_sub {
   position: absolute;
@@ -110,7 +114,7 @@
     transform: translate(-50%, -50%);
   }
   @include g.respond-to("sm") {
-    top: 103%;
+    top: 99%;
   }
 }
 
@@ -123,7 +127,7 @@
     width: 50vw;
   }
   @include g.respond-to("sm") {
-    width: 70vw;
+    width: 80vw;
   }
 }
 
@@ -132,6 +136,9 @@
   margin-bottom: 9.2vw;
   @include g.respond-to("md") {
     width: 60px;
+  }
+  @include g.respond-to("sm") {
+    width: auto;
   }
 }
 
@@ -144,7 +151,7 @@
   align-items: stretch;
   font-family: g.$font-fot;
   @include g.respond-to("xxl") {
-    width: 86vw;
+    width: 100vw;
   }
   @include g.respond-to("sm") {
     display: flex;
@@ -166,9 +173,9 @@
     width: 40vw;
   }
   @include g.respond-to("sm") {
-    width: 70%;
+    width: 72%;
     position: unset;
-    margin-bottom: 5vw;
+    margin-bottom: 40px;
   }
 }
 .promise_right {
@@ -420,22 +427,29 @@
   background-image: url(./images/top05.webp);
   background-repeat: no-repeat;
   height: 33vw;
-  margin-bottom: 8vw;
+  margin-bottom: 200px;
   @include g.respond-to("ml") {
     height: 55vw;
+    margin-bottom: 50px;
   }
   @include g.respond-to("xxl") {
     height: 63vw;
   }
   @include g.respond-to("lg") {
-    height: 70vw;
+    height: 60vw;
+    margin-bottom: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
   }
   @include g.respond-to("md") {
     height: 80vw;
     margin-bottom: 60px;
   }
   @include g.respond-to("sm") {
-    height: 162vw;
+    height: 90vw;
+    margin-bottom: 80vw;
   }
 }
 
@@ -462,15 +476,21 @@
     top: 240px;
   }
   @include g.respond-to("lg") {
-    top: 150px;
+    top: 27vw;
     width: 95vw;
+    padding-top: 70px;
+  }
+  @include g.respond-to("md_850") {
+    top: 9vw;
+    padding-top: 50px;
   }
   @include g.respond-to("md") {
-    top: 60px;
+    top: 16vw;
     padding-bottom: 50px;
+    width: 90vw;
   }
   @include g.respond-to("sm") {
-    top: 60px;
+    top: 90px;
     width: 95vw;
   }
 }

@@ -163,7 +163,7 @@
       width: 11px; /*チェックボックスの横幅*/
       height: 11px; /*チェックボックスの縦幅*/
       transform: translateY(-50%);
-      top: 50%;
+      top: 45%;
       left: 5px;
     }
     input[type="checkbox"]::after {
@@ -254,4 +254,9 @@
       width: 0.1em;
     }
   }
+}
+
+.a_pp {
+  border-bottom: 1px solid;
+  padding-bottom: 4px;
 }

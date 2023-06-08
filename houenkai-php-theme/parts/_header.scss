@@ -5,6 +5,7 @@ header {
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
   width: 100%;
   background-color: #fff;
+  height: auto;
 }
 
 .inner {
@@ -27,6 +28,7 @@ header h1 {
   padding-top: 38px;
   @include g.respond-to("sm") {
     padding-left: 36px;
+    padding-top: 20px;
   }
   img {
     width: 249px;
@@ -45,6 +47,9 @@ header nav ul {
   text-align: right;
   position: relative;
   left: 15px;
+  @include g.respond-to("xl") {
+    left: 0;
+  }
 
   .pc {
     padding-top: 12px;
@@ -118,12 +123,25 @@ header nav li img {
   position: absolute;
   top: 4px;
 }
+.nav_child_f {
+  position: absolute;
+  top: -3px !important;
+  @include g.respond-to("xl") {
+    top: 3px !important;
+  }
+}
 
 .child01 {
   left: 90px;
+  img {
+    width: 23px;
+  }
 }
 .child02 {
   left: 162px;
+  img {
+    width: 20px;
+  }
 }
 
 .menu_pc {
@@ -238,10 +256,10 @@ nav.globalMenuSp ul li a {
   padding: 1em 0;
   text-decoration: none;
   font-weight: normal;
-
   @include g.respond-to("xl") {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 18px;
+    padding: 8px 0;
   }
 }
 

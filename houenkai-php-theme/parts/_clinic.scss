@@ -94,6 +94,7 @@
   font-weight: 600;
   @include g.respond-to("md") {
     line-height: 2;
+    font-size: 16px;
   }
 }
 

@@ -12,7 +12,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat_text_01@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat_text_01@2x.webp 2x
           "
-          alt="treat"
+          alt="診療内容"
         />
       </section>
 
@@ -35,7 +35,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat01@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat01@2x.webp 2x
           "
-              alt=""
+              alt="外来、訪問診療"
               class="treat_box_img scroll_left"
             />
           </div>
@@ -53,7 +53,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat02@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat02@2x.webp 2x
           "
-              alt=""
+              alt="24時間365日サポート"
               class="treat_box_img scroll_right"
             />
           </div>
@@ -71,7 +71,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat03@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat03@2x.webp 2x
           "
-              alt=""
+              alt="多言語対応"
               class="treat_box_img scroll_left"
             />
           </div>
@@ -91,7 +91,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat04@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat04@2x.webp 2x
           "
-              alt=""
+              alt="自費診療"
               class="treat_box_img scroll_right"
             />
           </div>
@@ -102,7 +102,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat08@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat08@2x.webp 2x
           "
-        alt="" class="wave_line" />
+        alt="波線" class="wave_line" />
         <!-- https://taneppa.net/flexbox_row_reverse/ 参照 -->
       </section>
       <section class="treat_service">
@@ -113,7 +113,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat_text_02@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat_text_02@2x.webp 2x
           "
-            alt=""
+            alt="事業のご案内"
             class="treat_service_upper"
           />
 
@@ -123,7 +123,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat05@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat05@2x.webp 2x
           "
-            alt="" class="treat_service_img" />
+            alt="外来診療 （内科・外科）" class="treat_service_img" />
             <div class="treat_service_box_text">
               <p class="title">外来診療 （内科・外科）</p>
               <p class="txt">
@@ -138,7 +138,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat06@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat06@2x.webp 2x
           "
-            alt="" class="treat_service_img" />
+            alt="訪問診療" class="treat_service_img" />
             <div class="treat_service_box_text treat_service_box_text02">
               <p class="title">訪問診療</p>
               <p class="txt">
@@ -155,7 +155,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat07@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat07@2x.webp 2x
           "
-            alt="" class="treat_service_img" />
+            alt="居宅支援事業" class="treat_service_img" />
 
             <div class="treat_service_box_text treat_service_box_text03">
               <div class="treat_service_box_title">
@@ -191,7 +191,7 @@
             <?php echo get_template_directory_uri(); ?>/images/treat09@2x.webp,
             <?php echo get_template_directory_uri(); ?>/images/treat09@2x.webp 2x
           "
-                alt="" class="treat_person" />
+                alt="ケアマネージャー" class="treat_person" />
               </div>
             </div>
           </div>

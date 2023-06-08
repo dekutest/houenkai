@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -49,7 +51,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/logo.png 1x,
-            <?php echo get_template_directory_uri(); ?>/images/logo@2x.png 2x" alt="芳縁会" />
+            <?php echo get_template_directory_uri(); ?>/images/logo@2x.png 2x" alt="ロゴ" />
           </a>
         </h1>
         <nav class="menu_pc">
@@ -85,15 +87,23 @@
               </a>
             </li>
             <li>
-              <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01@2x.webp" alt="" />
+              <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp"
+              srcset="
+            <?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/yoyaku01@2x.webp 2x" alt="ご予約" />
               <a href="tel:022-341-2882">
                 <span class="nav_child child01">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp"
+                  srcset="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp 1x,
+                  <?php echo get_template_directory_uri(); ?>/images/yoyaku02@2x.webp 2x" alt="TEL" />
                 </span>
               </a>
               <a href="https://lin.ee/P0nzIlj">
                 <span class="nav_child child02">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp"
+                  srcset="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/yoyaku03@2x.webp 2x"
+             alt="LINE" />
                 </span>
               </a>
             </li>

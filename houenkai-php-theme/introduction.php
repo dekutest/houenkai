@@ -13,7 +13,7 @@
             <?php echo get_template_directory_uri(); ?>/images/intro_text_01.webp    1x,
             <?php echo get_template_directory_uri(); ?>/images/intro_text_01@2x.webp 2x
           "
-          alt="clinic"
+          alt="診療所"
         />
       </section>
       <section class="clinic_main2 scroll_up" id="hachiman">
@@ -27,7 +27,7 @@
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/intro01.webp"
               srcset="<?php echo get_template_directory_uri(); ?>/images/intro01.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro01@2x.webp 2x"
-              alt="clinic"
+              alt="芳縁在宅診療所"
             />
           </div>
           <div class="clinic_right">
@@ -71,7 +71,7 @@
             <div class="clinic_tel">
               <p>
                 TEL：　022-341-2882 <br />
-                FAX：　022-341-8896
+                FAX：　<span class="clinic_tel_p">022-341-8896</span>
               </p>
             </div>
 
@@ -84,7 +84,7 @@
                 ><img
                   src="<?php echo get_template_directory_uri(); ?>/images/intro02.webp"
                   srcset="<?php echo get_template_directory_uri(); ?>/images/intro02.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro02@2x.webp 2x"
-                  alt="clinic"
+                  alt="Google maps"
               /></a>
             </div>
           </div>
@@ -102,7 +102,7 @@
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/intro03.webp"
               srcset="<?php echo get_template_directory_uri(); ?>/images/intro03.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro03@2x.webp 2x"
-              alt="clinic"
+              alt="芳縁ファミリークリニック"
             />
           </div>
           <div class="clinic_right">
@@ -146,7 +146,7 @@
             <div class="clinic_tel">
               <p>
                 TEL：　022-375-8023<br />
-                FAX：　022-375-8168
+                FAX：　<span class="clinic_tel_p">022-375-8168</span>
               </p>
             </div>
 
@@ -159,7 +159,7 @@
                 ><img
                   src="<?php echo get_template_directory_uri(); ?>/images/intro02.webp"
                   srcset="<?php echo get_template_directory_uri(); ?>/images/intro02.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro02@2x.webp 2x"
-                  alt="clinic"
+                  alt="Google maps"
               /></a>
             </div>
           </div>

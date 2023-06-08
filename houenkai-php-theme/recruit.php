@@ -9,10 +9,10 @@
         <img
           src="<?php echo get_template_directory_uri(); ?>/images/recruit_text01.webp"
           srcset="
-            <?php echo get_template_directory_uri(); ?>/images/recruit_text01.webp,
+            <?php echo get_template_directory_uri(); ?>/images/recruit_text01.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/recruit_text01@2x.webp 2x
           "
-          alt="recruit"
+          alt="採用情報"
         />
       </section>
       <section class="recruit_main">
@@ -20,34 +20,34 @@
           <img
             src="<?php echo get_template_directory_uri(); ?>/images/recruit_text02.webp"
             srcset="
-              <?php echo get_template_directory_uri(); ?>/images/recruit_text02.webp,
+              <?php echo get_template_directory_uri(); ?>/images/recruit_text02.webp 1x,
               <?php echo get_template_directory_uri(); ?>/images/recruit_text02@2x.webp 2x
             "
-            alt="recruit"
+            alt="採用情報"
           />
 
           <img
             src="<?php echo get_template_directory_uri(); ?>/images/recruit_text03.webp"
             srcset="
-              <?php echo get_template_directory_uri(); ?>/images/recruit_text03.webp,
+              <?php echo get_template_directory_uri(); ?>/images/recruit_text03.webp 1x,
               <?php echo get_template_directory_uri(); ?>/images/recruit_text03@2x.webp 2x
             "
-            alt="recruit"
+            alt="スタッフを募集しています。"
             class="recruit_text"
           />
         </div>
         <div class="recruit_right scroll_right">
           <img
             src="<?php echo get_template_directory_uri(); ?>/images/recruit_img@2x.webp"
-            srcset="<?php echo get_template_directory_uri(); ?>/images/recruit_img@2x.webp, <?php echo get_template_directory_uri(); ?>/images/recruit_img@2x.webp 2x"
-            alt="recruit"
+            srcset="<?php echo get_template_directory_uri(); ?>/images/recruit_img@2x.webp 1x, <?php echo get_template_directory_uri(); ?>/images/recruit_img@2x.webp 2x"
+            alt="スタッフ"
           />
         </div>
       </section>
       <img
         src="<?php echo get_template_directory_uri(); ?>/images/recruit01.webp"
-        srcset="<?php echo get_template_directory_uri(); ?>/images/recruit01.webp, <?php echo get_template_directory_uri(); ?>/images/recruit01@2x.webp 2x"
-        alt="recruit"
+        srcset="<?php echo get_template_directory_uri(); ?>/images/recruit01.webp 1x, <?php echo get_template_directory_uri(); ?>/images/recruit01@2x.webp 2x"
+        alt="背景"
         class="back_img"
       />
       <section class="recruit_select">
@@ -78,8 +78,8 @@
           <div class="title">
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/recruit06_1.webp"
-              srcset="<?php echo get_template_directory_uri(); ?>/images/recruit06_1.webp, <?php echo get_template_directory_uri(); ?>/images/recruit06_1@2x.webp2x"
-              alt="recruit"
+              srcset="<?php echo get_template_directory_uri(); ?>/images/recruit06_1.webp 1x, <?php echo get_template_directory_uri(); ?>/images/recruit06_1@2x.webp 2x"
+              alt="医師"
             />
           </div>
         </div>
@@ -119,10 +119,10 @@
               <img
                 src="<?php echo get_template_directory_uri(); ?>/images/recruit05_1.webp"
                 srcset="
-                  <?php echo get_template_directory_uri(); ?>/images/recruit05_1.webp,
-                  <?php echo get_template_directory_uri(); ?>/images/recruit05_1@2x.webp2x
+                  <?php echo get_template_directory_uri(); ?>/images/recruit05_1.webp 1x,
+                  <?php echo get_template_directory_uri(); ?>/images/recruit05_1@2x.webp 2x
                 "
-                alt="recruit"
+                alt="看護師"
               />
             </div>
           </div>
@@ -178,10 +178,10 @@
               <img
                 src="<?php echo get_template_directory_uri(); ?>/images/recruit04_1.webp"
                 srcset="
-                  <?php echo get_template_directory_uri(); ?>/images/recruit04_1.webp,
+                  <?php echo get_template_directory_uri(); ?>/images/recruit04_1.webp 1x,
                   <?php echo get_template_directory_uri(); ?>/images/recruit04_1@2x.webp 2x
                 "
-                alt="recruit"
+                alt="事務職員"
               />
             </div>
           </div>
@@ -235,10 +235,10 @@
               <img
                 src="<?php echo get_template_directory_uri(); ?>/images/recruit_text_03.webp"
                 srcset="
-                  <?php echo get_template_directory_uri(); ?>/images/recruit_text_03.webp    1x,
+                  <?php echo get_template_directory_uri(); ?>/images/recruit_text_03.webp 1x,
                   <?php echo get_template_directory_uri(); ?>/images/recruit_text_03@2x.webp 2x
                 "
-                alt="recruit"
+                alt="ケアマネージャー"
               />
             </div>
           </div>

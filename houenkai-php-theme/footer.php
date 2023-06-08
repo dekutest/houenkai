@@ -1,14 +1,14 @@
 </main>
 <footer>
       <div class="footer_inner">
-        <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/images/footer05.webp" alt="" class="footer_upper" /></a>
+        <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/images/footer05.webp" alt="TOP" class="footer_upper" /></a>
 
         <div class="footer_mid">
           <div class="footer_left">
             <a href="/houenkai-test"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.webp"
-            srcset="<?php echo get_template_directory_uri(); ?>/images/logo.webp 1x,<?php echo get_template_directory_uri(); ?>/images/logo@2x.webp 2x" alt="logo" class="footer_logo footer_logo_pc" /></a>
+            srcset="<?php echo get_template_directory_uri(); ?>/images/logo.webp 1x,<?php echo get_template_directory_uri(); ?>/images/logo@2x.webp 2x" alt="ロゴ" class="footer_logo footer_logo_pc" /></a>
             <a href="/houenkai-test"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_ph.webp"
-            srcset="<?php echo get_template_directory_uri(); ?>/images/logo_ph.webp 1x,<?php echo get_template_directory_uri(); ?>/images/logo_ph@2x.webp 2x" alt="logo" class="footer_logo footer_logo_ph" /></a>
+            srcset="<?php echo get_template_directory_uri(); ?>/images/logo_ph.webp 1x,<?php echo get_template_directory_uri(); ?>/images/logo_ph@2x.webp 2x" alt="ロゴ" class="footer_logo footer_logo_ph" /></a>
             <p>
               〒980-0871<br>宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F
             </p>
@@ -38,15 +38,25 @@
                 <a href="/houenkai-test/recruit"> 採用情報 </a>
                 </li>
                 <li class="contact_footer">
-                  <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01@2x.webp" alt="" />
+                  <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp"
+                  srcset="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp 1x,
+                  <?php echo get_template_directory_uri(); ?>/images/yoyaku01@2x.webp 2x"
+                  
+                  alt="予約" />
                   <a href="tel:022-341-2882">
-                    <span class="nav_child child01">
-                      <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp" alt="" />
+                    <span class="nav_child child01 nav_child_f">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp"
+                      srcset="<?php echo get_template_directory_uri(); ?>/images/yoyaku02.webp 1x,
+                  <?php echo get_template_directory_uri(); ?>/images/yoyaku02@2x.webp 2x"
+                   alt="TEL" />
                     </span>
                   </a>
                   <a href="https://lin.ee/P0nzIlj">
-                    <span class="nav_child child02">
-                      <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp" alt="" />
+                    <span class="nav_child child02 nav_child_f">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp"
+                      srcset="<?php echo get_template_directory_uri(); ?>/images/yoyaku03.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/yoyaku03@2x.webp 2x"
+                      alt="LINE" />
                     </span>
                   </a>
                 </li>
@@ -55,7 +65,10 @@
           </div>
         </div>
         <div class="footer_bottom">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/footer02.webp" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/footer02.webp" alt="Copyright"
+          srcset="<?php echo get_template_directory_uri(); ?>/images/footer02.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/footer02@2x.webp 2x"
+          />
         </div>
       </div>
       <div class="footer_bottom_c"></div>

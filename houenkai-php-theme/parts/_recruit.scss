@@ -60,9 +60,13 @@ main {
       @include g.respond-to("xl") {
         width: 100%;
       }
+      @include g.respond-to("xl") {
+        margin-top: 0px;
+      }
       .recruit_text {
         @include g.respond-to("md") {
           width: 100%;
+          margin-bottom: 15px;
         }
       }
 
@@ -321,12 +325,13 @@ main {
         font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro", "HiraMinProN-W3",
           "Hiragino Mincho ProN", "HG明朝E", serif;
         color: #000;
-        @include g.respond-to("xl") {
+        @include g.respond-to("xxl") {
           white-space: normal;
+          padding: 15px;
         }
         @include g.respond-to("md") {
-          padding-left: 15px;
           white-space: normal;
+          font-size: 14px;
         }
       }
 

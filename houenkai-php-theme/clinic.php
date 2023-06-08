@@ -10,7 +10,7 @@
           class="clinic_title_text01"
           src="<?php echo get_template_directory_uri(); ?>/images/clinic_text01.webp"
           srcset="
-            <?php echo get_template_directory_uri(); ?>/images/clinic_text01.webp,
+            <?php echo get_template_directory_uri(); ?>/images/clinic_text01.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/clinic_text01@2x.webp 2x
           "
           alt="訪問診療"
@@ -21,7 +21,7 @@
           <img
             src="<?php echo get_template_directory_uri(); ?>/images/clinic_top.webp"
             srcset="<?php echo get_template_directory_uri(); ?>/images/clinic_top.webp 1x, <?php echo get_template_directory_uri(); ?>/images/clinic_top@2x.webp 2x"
-            alt="clinic"
+            alt="訪問診療で地域医療の問題を解決します。"
             class="clinic_top"
           />
         </div>
@@ -29,10 +29,10 @@
           class="clinic_main_2 scroll_up"
           src="<?php echo get_template_directory_uri(); ?>/images/clinic01.webp"
           srcset="
-            <?php echo get_template_directory_uri(); ?>/images/clinic01.webp,
+            <?php echo get_template_directory_uri(); ?>/images/clinic01.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/clinic01@2x.webp 2x
           "
-          alt="clinic01"
+          alt="訪問診療"
         />
         <h2 class="clinic_main_3">当院にご相談ください。</h2>
         <div class="clinic_main_4">
@@ -61,10 +61,10 @@
             class="clinic_feature_4"
             src="<?php echo get_template_directory_uri(); ?>/images/clinic04.webp"
             srcset="
-            <?php echo get_template_directory_uri(); ?>/images/clinic04.webp,
+            <?php echo get_template_directory_uri(); ?>/images/clinic04.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/clinic04@2x.webp 2x
           "
-            alt="clinic04 scroll_up"
+            alt="訪問診療の形 scroll_up"
           />
         </div>
         <h2 class="clinic_feature_5">ご自宅で可能な処置について</h2>
@@ -75,29 +75,29 @@
           class="clinic_feature_6"
           src="<?php echo get_template_directory_uri(); ?>/images/clinic04_1.webp"
           srcset="
-            <?php echo get_template_directory_uri(); ?>/images/clinic04_1.webp,
+            <?php echo get_template_directory_uri(); ?>/images/clinic04_1.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/clinic04_1@2x.webp 2x
           "
-          alt="clinic"
+          alt="ご自宅で可能な処置について"
         />
         <img
           class="clinic_feature_6 clinic_feature_6_2"
           src="<?php echo get_template_directory_uri(); ?>/images/clinic04_2.webp"
           srcset="
-            <?php echo get_template_directory_uri(); ?>/images/clinic04_2.webp,
+            <?php echo get_template_directory_uri(); ?>/images/clinic04_2.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/clinic04_2@2x.webp 2x
           "
-          alt="clinic"
+          alt="ご自宅で可能な処置について"
         />
 
       </section>
       <section class="top_area c_area">
         <img src="<?php echo get_template_directory_uri(); ?>/images/top_text_07.webp" 
         srcset="
-            <?php echo get_template_directory_uri(); ?>/images/top_text_07.webp,
+            <?php echo get_template_directory_uri(); ?>/images/top_text_07.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text_07@2x.webp 2x
           "
-        alt="" class="top_clinic_title" />
+        alt="訪問可能エリア" class="top_clinic_title" />
         <div class="area_text">
           <p>
           「芳縁在宅診療所八幡」では、以下の診察エリアを訪問いたします。<br class="hid" />
@@ -107,10 +107,10 @@
         <div class="top_area_box area_color ">
           <img src="<?php echo get_template_directory_uri(); ?>/images/clinic05.webp" 
           srcset="
-            <?php echo get_template_directory_uri(); ?>/images/clinic05.webp,
+            <?php echo get_template_directory_uri(); ?>/images/clinic05.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/clinic05@2x.webp 2x
           "
-          alt="" class="top_area_map c_map" />
+          alt="訪問可能エリア" class="top_area_map c_map" />
           <div class="top_area_box_right top_area_box_right2">
             <div class="top_area_box_right_up top_area_box_right_up2">仙台市全域<br>
 名取市、多賀城市、塩釜市、富谷市</div>

@@ -55,11 +55,13 @@
 .treat_boxs02 {
   margin-bottom: 6vw;
   .treat_box_left {
-    padding-left: 15px;
+    padding-left: 0px;
     padding-top: 27px;
+    padding-right: 35px;
     @include g.respond-to("lg") {
       padding-left: 0px;
       padding-top: 0px;
+      padding-right: 0px;
     }
   }
 }
@@ -147,7 +149,9 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 4.9vw;
-
+  @include g.respond-to("md") {
+    width: 130px;
+  }
   .hid {
     @include g.respond-to("lg") {
       display: none;

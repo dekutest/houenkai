@@ -112,10 +112,13 @@ main {
           font-family: g.$font-m-plus;
 
           @include g.respond-to("xl") {
-            font-size: 14px;
+            font-size: 16px;
           }
           @include g.respond-to("lg") {
             margin-left: 0;
+          }
+          @include g.respond-to("md") {
+            font-size: 14px;
           }
         }
 
@@ -128,15 +131,24 @@ main {
           }
           tr:first-child td {
             border-top: 1px solid #94aab4;
+            @include g.respond-to("md") {
+              font-size: 12px;
+            }
           }
           tr {
             .c_title {
               font-size: fontSize(20);
               color: #4b7282;
+              @include g.respond-to("xl") {
+                font-size: 14px;
+              }
             }
             .c_circle {
               font-size: fontSize(20);
               color: #4b7282;
+              @include g.respond-to("lg") {
+                font-size: 12px;
+              }
             }
 
             td {
@@ -146,11 +158,21 @@ main {
               text-align: center;
               font-size: fontSize(18);
               color: #4b7282;
+              @include g.respond-to("xxl") {
+                font-size: 14px;
+              }
+              @include g.respond-to("sm") {
+                padding: 17px 8px;
+              }
             }
           }
           td:first-child {
             padding: 18px;
             letter-spacing: 1px;
+            @include g.respond-to("md") {
+              font-size: 12px;
+              padding: 5px;
+            }
           }
         }
         .holiday {
@@ -173,6 +195,12 @@ main {
         font-feature-settings: "palt";
         letter-spacing: 4px !important;
         line-height: 1.6 !important;
+        @include g.respond-to("md") {
+          font-size: 20px !important;
+        }
+      }
+      .clinic_tel_p {
+        margin-left: -3px;
       }
     }
 

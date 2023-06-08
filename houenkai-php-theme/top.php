@@ -11,12 +11,12 @@
         srcset="
             <?php echo get_template_directory_uri(); ?>/images/top01@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top01@2x.webp 2x"
-             alt="" />
+             alt="芳縁会" />
         <img src="<?php echo get_template_directory_uri(); ?>/images/top_title@2x.webp"
         srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_title@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_title@2x.webp 2x"
-             alt="" class="top_title_text" />
+             alt="質の高い医療で縁ある人に貢献する" class="top_title_text" />
         <!-- <h1 class="top_title_text">
         質の高い医療で <br>
         <span class="title_lg">縁</span><span class="title_md">ある人に</span><span class="title_lg"> 貢献 </span><span
@@ -27,7 +27,7 @@
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top12@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top12@2x.webp 2x"
-             alt="" class="top_title_info" />
+             alt="訪問診療を行っています" class="top_title_info" />
         </a>
         <div class="top_sub">
           <a href="/houenkai-test/#about"
@@ -35,21 +35,21 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top09@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top09@2x.webp 2x"
-            alt="" class="top_sub_img"
+            alt="芳縁会について" class="top_sub_img"
           /></a>
           <a href="/houenkai-test/treat"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top10@2x.webp"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top10@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top10@2x.webp 2x"
-            alt="" class="top_sub_img"
+            alt="診療内容" class="top_sub_img"
           /></a>
           <a href="/houenkai-test/recruit"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top11@2x.webp"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top11@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top11@2x.webp 2x"
-            alt="" class="top_sub_img"
+            alt="採用情報" class="top_sub_img"
           /></a>
         </div>
       </section>
@@ -61,13 +61,13 @@
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text10.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text10@2x.webp 2x"
-          alt="" class="promise_left" />
+          alt="在宅医療を提供します。" class="promise_left" />
 
           <img src="<?php echo get_template_directory_uri(); ?>/images/top_text11@2x.webp"
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text11@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text11@2x.webp 2x"
-          alt="" class="promise_right" />
+          alt="外来、訪問診療、多言語診察、自費診療" class="promise_right" />
         </div>
       </section>
       <!-- ---------about---------------- -->
@@ -77,7 +77,7 @@
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text_08.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text_08@2x.webp 2x"
-          alt=""
+          alt="医療法人芳縁会について"
           class="top_about_title_img"
         />
         <div class="top_about_wrapper">
@@ -88,7 +88,7 @@
                 srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text_01@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text_01@2x.webp 2x"
-                alt=""
+                alt="Concept"
                 class="top_about_upper01"
               />
               <img
@@ -96,7 +96,7 @@
                 srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text12@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text12@2x.webp 2x"
-                alt=""
+                alt="縁ある人に貢献する"
                 class="top_box_title01"
               />
               <p class="top_box_text">
@@ -111,7 +111,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top02@2x.png 1x,
             <?php echo get_template_directory_uri(); ?>/images/top02@2x.png 2x" 
-            alt="" class="box_right scroll_up" />
+            alt="芳縁会メンバー" class="box_right scroll_up" />
           </div>
 
           <div class="top_about_box02 about_box">
@@ -121,7 +121,7 @@
                 srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text_02@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text_02@2x.webp 2x"
-                alt=""
+                alt="Mission"
                 class="top_about_upper02"
               />
               <img
@@ -129,7 +129,7 @@
                 srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text13@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text13@2x.webp 2x"
-                alt=""
+                alt="芳縁会の目指す未来。"
                 class="top_box_title02"
               />
               <p class="top_box_text">
@@ -146,7 +146,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top03@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top03@2x.webp 2x"
-            alt="" class="box_right scroll_up" />
+            alt="芳縁会の目指す未来。" class="box_right scroll_up" />
           </div>
 
           <div class="top_about_box03 about_box">
@@ -156,7 +156,7 @@
                 srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text_03@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text_03@2x.webp 2x"
-                alt=""
+                alt="Value"
                 class="top_about_upper03"
               />
               <img
@@ -164,7 +164,7 @@
                 srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text14@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text14@2x.webp 2x"
-                alt=""
+                alt="地域の方と連携し、患者様の支えになる。"
                 class="top_box_title03"
               />
               <p class="top_box_text">
@@ -181,7 +181,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top04@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top04@2x.webp 2x"
-            alt="" class="box_right scroll_up" />
+            alt="医療サービス" class="box_right scroll_up" />
           </div>
         </div>
       </section>
@@ -197,7 +197,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text_04.png 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text_04@2x.png 2x"
-            alt=""
+            alt="理事長挨拶"
             class="top_greeting_box_img"
           />
           <img
@@ -205,7 +205,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text15.png 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text15@2x.png 2x"
-            alt=""
+            alt="挨拶文"
             class="top_greeting_box_text"
           />
           <img
@@ -213,7 +213,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text17@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text17@2x.webp 2x"
-            alt=""
+            alt="挨拶文"
             class="top_greeting_box_text top_greeting_box_text2"
           />
           <img
@@ -221,7 +221,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text16@2x.webp 2x"
-            alt=""
+            alt="挨拶文"
             class="top_greeting_box_text top_greeting_box_text3"
           />
         </div>
@@ -234,7 +234,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text_05@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text_05@2x.webp 2x"
-            alt=""
+            alt="理事長プロフィール"
             class="top_section_title"
           />
           <div class="top_profile_box">
@@ -242,7 +242,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top06@2x.png 1x,
             <?php echo get_template_directory_uri(); ?>/images/top06@2x.png 2x"
-            alt="" class="profile_box_left" />
+            alt="ジャ・ウェンティン" class="profile_box_left" />
             <div class="profile_box_right">
               <p class="profile_position">理事長</p>
               <p class="profile_name">ジャ・ウェンティン</p>
@@ -297,7 +297,7 @@
               srcset="
             <?php echo get_template_directory_uri(); ?>/images/top15@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top15@2x.webp 2x"
-              alt="" class="radio_link" /></a>
+              alt="出演ラジオ" class="radio_link" /></a>
             </div>
           </div>
         </div>
@@ -307,7 +307,7 @@
         srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text_06@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text_06@2x.webp 2x"
-        alt="" class="top_clinic_title" />
+        alt="診療所情報" class="top_clinic_title" />
         <div class="top_clinic_box">
           <div class="top_clinic_box_upper">
             <a href="houenkai-test/introduction/#hachiman"><img
@@ -315,7 +315,7 @@
               srcset="
             <?php echo get_template_directory_uri(); ?>/images/top07@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top07@2x.webp 2x"
-              alt=""
+              alt="芳縁在宅診療所八幡"
               class="top_clinic_box_upper_img scroll_up"
             />
             </a>
@@ -324,7 +324,7 @@
               srcset="
             <?php echo get_template_directory_uri(); ?>/images/top08@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top08@2x.webp 2x"
-              alt=""
+              alt="芳縁ファミリークリニック"
               class="top_clinic_box_upper_img scroll_up"
             />
             </a>
@@ -334,7 +334,7 @@
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top16@2x.png 1x,
             <?php echo get_template_directory_uri(); ?>/images/top16@2x.png 2x"
-            alt="" class="top_clinic_btn"
+            alt="詳細について" class="top_clinic_btn"
           /></a>
         </div>
       </section>
@@ -343,13 +343,13 @@
         srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text_07@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text_07@2x.webp 2x"
-        alt="" class="top_clinic_title" />
+        alt="訪問可能エリア" class="top_clinic_title" />
         <div class="top_area_box">
           <img src="<?php echo get_template_directory_uri(); ?>/images/clinic05@2x.webp"
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/clinic05@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/clinic05@2x.webp 2x"
-             alt="" class="top_area_map" />
+             alt="訪問可能エリア" class="top_area_map" />
           <div class="top_area_box_right">
             <div class="top_area_box_right_up">訪問診療の可能地域</div>
             <p class="top_area_box_right_mid">
@@ -357,11 +357,11 @@
               名取市、多賀城市、塩釜市、富谷市
             </p>
 
-            <a href="/houenkai-test/clinic"><img src="<?php echo get_template_directory_uri(); ?>/images/top16@2x.webp" 
+            <a href="/houenkai-test/clinic"><img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" 
             srcset="
-            <?php echo get_template_directory_uri(); ?>/images/top16@2x.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/top16.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top16@2x.webp 2x"
-            alt="" class="top_clinic_btn" /></a>
+            alt="詳細について" class="top_clinic_btn" /></a>
           </div>
         </div>
       </section>
@@ -373,7 +373,7 @@
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 2x"
-          alt="" class="top_news_link" />
+          alt="お知らせ一覧" class="top_news_link" />
           </a>
           </div>
           <div class="news_box">

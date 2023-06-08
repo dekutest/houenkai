@@ -11,7 +11,7 @@ html {
   touch-action: manipulation;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 100%;
+  height: 100%;
   overflow-y: scroll;
 }
 
@@ -181,7 +181,7 @@ footer {
 }
 @media screen and (max-width: 768px) {
   .footer_logo {
-    top: -375px;
+    top: -350px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -377,6 +377,7 @@ header {
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
   width: 100%;
   background-color: #fff;
+  height: auto;
 }
 
 .inner {
@@ -401,6 +402,7 @@ header h1 {
 @media screen and (max-width: 480px) {
   header h1 {
     padding-left: 36px;
+    padding-top: 20px;
   }
 }
 header h1 img {
@@ -420,6 +422,11 @@ header nav ul {
   text-align: right;
   position: relative;
   left: 15px;
+}
+@media screen and (max-width: 1200px) {
+  header nav ul {
+    left: 0;
+  }
 }
 header nav ul .pc {
   padding-top: 12px;
@@ -499,12 +506,28 @@ header nav li img {
   top: 4px;
 }
 
+.nav_child_f {
+  position: absolute;
+  top: -3px !important;
+}
+@media screen and (max-width: 1200px) {
+  .nav_child_f {
+    top: 3px !important;
+  }
+}
+
 .child01 {
   left: 90px;
+}
+.child01 img {
+  width: 23px;
 }
 
 .child02 {
   left: 162px;
+}
+.child02 img {
+  width: 20px;
 }
 
 .menu_pc {
@@ -636,7 +659,8 @@ nav.globalMenuSp ul li a {
 @media screen and (max-width: 1200px) {
   nav.globalMenuSp ul li a {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 18px;
+    padding: 8px 0;
   }
 }
 
@@ -933,7 +957,7 @@ a:hover {
 .top_about {
   text-align: center;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
   .top_about .hidd {
     display: none;
   }
@@ -974,7 +998,7 @@ a:hover {
 }
 @media screen and (max-width: 1600px) {
   .top_about_wrapper {
-    width: 70vw;
+    width: 73vw;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1103,14 +1127,15 @@ a:hover {
   display: block;
   margin-bottom: 2.39vw;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1600px) {
   .top_box_title01 {
-    width: 280px;
+    width: 250px;
   }
 }
 @media screen and (max-width: 480px) {
   .top_box_title01 {
     margin-bottom: 7vw;
+    width: 70%;
   }
 }
 
@@ -1120,14 +1145,15 @@ a:hover {
   display: block;
   margin-bottom: 2.39vw;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1600px) {
   .top_box_title02 {
-    width: 300px;
+    width: 250px;
   }
 }
 @media screen and (max-width: 480px) {
   .top_box_title02 {
     margin-bottom: 7vw;
+    width: 70%;
   }
 }
 
@@ -1137,7 +1163,7 @@ a:hover {
   display: block;
   margin-bottom: 2.39vw;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1600px) {
   .top_box_title03 {
     width: 350px;
   }
@@ -1145,6 +1171,7 @@ a:hover {
 @media screen and (max-width: 480px) {
   .top_box_title03 {
     margin-bottom: 7vw;
+    width: 90%;
   }
 }
 
@@ -1154,9 +1181,16 @@ a:hover {
   line-height: 2.3em;
   color: #000;
 }
+@media screen and (max-width: 1200px) {
+  .top_box_text {
+    line-height: 2em;
+    width: 400px;
+  }
+}
 @media screen and (max-width: 1020px) {
   .top_box_text {
     line-height: 2em;
+    width: auto;
   }
 }
 
@@ -1226,7 +1260,7 @@ a:hover {
 }
 @media screen and (max-width: 1020px) {
   .top_greeting_box {
-    top: 27vw;
+    top: 17vw;
     width: 95vw;
     padding-top: 70px;
   }
@@ -1918,13 +1952,15 @@ a :hover {
   margin-bottom: 6vw;
 }
 .treat_boxs02 .treat_box_left {
-  padding-left: 15px;
+  padding-left: 0px;
   padding-top: 27px;
+  padding-right: 35px;
 }
 @media screen and (max-width: 1020px) {
   .treat_boxs02 .treat_box_left {
     padding-left: 0px;
     padding-top: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -2023,6 +2059,11 @@ a :hover {
   display: block;
   margin: 0 auto;
   margin-bottom: 4.9vw;
+}
+@media screen and (max-width: 768px) {
+  .treat_service_upper {
+    width: 130px;
+  }
 }
 @media screen and (max-width: 1020px) {
   .treat_service_upper .hid {
@@ -2315,12 +2356,17 @@ main .clinic_main2 .clinic_feature2 .clinic_right p {
 }
 @media screen and (max-width: 1200px) {
   main .clinic_main2 .clinic_feature2 .clinic_right p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 1020px) {
   main .clinic_main2 .clinic_feature2 .clinic_right p {
     margin-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .clinic_main2 .clinic_feature2 .clinic_right p {
+    font-size: 14px;
   }
 }
 main .clinic_main2 .clinic_feature2 .clinic_right table {
@@ -2336,13 +2382,28 @@ main .clinic_main2 .clinic_feature2 .clinic_right table {
 main .clinic_main2 .clinic_feature2 .clinic_right table tr:first-child td {
   border-top: 1px solid #94aab4;
 }
+@media screen and (max-width: 768px) {
+  main .clinic_main2 .clinic_feature2 .clinic_right table tr:first-child td {
+    font-size: 12px;
+  }
+}
 main .clinic_main2 .clinic_feature2 .clinic_right table tr .c_title {
   font-size: clamp(10px, 1.042vw, 20px);
   color: #4b7282;
 }
+@media screen and (max-width: 1200px) {
+  main .clinic_main2 .clinic_feature2 .clinic_right table tr .c_title {
+    font-size: 14px;
+  }
+}
 main .clinic_main2 .clinic_feature2 .clinic_right table tr .c_circle {
   font-size: clamp(10px, 1.042vw, 20px);
   color: #4b7282;
+}
+@media screen and (max-width: 1020px) {
+  main .clinic_main2 .clinic_feature2 .clinic_right table tr .c_circle {
+    font-size: 12px;
+  }
 }
 main .clinic_main2 .clinic_feature2 .clinic_right table tr td {
   border: none;
@@ -2352,9 +2413,25 @@ main .clinic_main2 .clinic_feature2 .clinic_right table tr td {
   font-size: clamp(9px, 0.938vw, 18px);
   color: #4b7282;
 }
+@media screen and (max-width: 1300px) {
+  main .clinic_main2 .clinic_feature2 .clinic_right table tr td {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .clinic_main2 .clinic_feature2 .clinic_right table tr td {
+    padding: 17px 8px;
+  }
+}
 main .clinic_main2 .clinic_feature2 .clinic_right table td:first-child {
   padding: 18px;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 768px) {
+  main .clinic_main2 .clinic_feature2 .clinic_right table td:first-child {
+    font-size: 12px;
+    padding: 5px;
+  }
 }
 main .clinic_main2 .clinic_feature2 .clinic_right .holiday {
   font-size: 14px;
@@ -2376,6 +2453,14 @@ main .clinic_main2 .clinic_tel p {
   font-feature-settings: "palt";
   letter-spacing: 4px !important;
   line-height: 1.6 !important;
+}
+@media screen and (max-width: 768px) {
+  main .clinic_main2 .clinic_tel p {
+    font-size: 20px !important;
+  }
+}
+main .clinic_main2 .clinic_tel .clinic_tel_p {
+  margin-left: -3px;
 }
 main .clinic_main2 .clinic_map {
   margin-top: 50px;
@@ -2447,9 +2532,15 @@ main .recruit_main .recruit_left {
     width: 100%;
   }
 }
+@media screen and (max-width: 1200px) {
+  main .recruit_main .recruit_left {
+    margin-top: 0px;
+  }
+}
 @media screen and (max-width: 768px) {
   main .recruit_main .recruit_left .recruit_text {
     width: 100%;
+    margin-bottom: 15px;
   }
 }
 main .recruit_main .recruit_left img {
@@ -2708,15 +2799,16 @@ main .recruit_occupation table td:nth-child(2) {
   font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro", "HiraMinProN-W3", "Hiragino Mincho ProN", "HG明朝E", serif;
   color: #000;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   main .recruit_occupation table td:nth-child(2) {
     white-space: normal;
+    padding: 15px;
   }
 }
 @media screen and (max-width: 768px) {
   main .recruit_occupation table td:nth-child(2) {
-    padding-left: 15px;
     white-space: normal;
+    font-size: 14px;
   }
 }
 main .recruit_occupation table table,
@@ -2893,6 +2985,7 @@ main .recruit_occupation .form p {
 @media screen and (max-width: 768px) {
   .clinic_main_4_1 {
     line-height: 2;
+    font-size: 16px;
   }
 }
 
@@ -3322,6 +3415,7 @@ main .recruit_occupation .form p {
   font-size: 13px; /* 文字の大きさを調整します。 */
   border: 1px solid #99a6aa;
   background-color: #f2f4fb;
+  border-radius: 3px !important;
 }
 @media screen and (max-width: 768px) {
   .entry_form .form_wrap .form_text2 input {
@@ -3362,7 +3456,7 @@ main .recruit_occupation .form p {
   width: 11px; /*チェックボックスの横幅*/
   height: 11px; /*チェックボックスの縦幅*/
   transform: translateY(-50%);
-  top: 45%;
+  top: 16px;
   left: 5px;
 }
 .entry_form .p_p input[type=checkbox]::after {

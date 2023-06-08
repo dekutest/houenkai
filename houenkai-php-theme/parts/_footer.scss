@@ -59,7 +59,7 @@ footer {
     top: -200px;
   }
   @include g.respond-to("md") {
-    top: -375px;
+    top: -350px;
     left: 50%;
     transform: translateX(-50%);
   }

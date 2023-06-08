@@ -123,6 +123,8 @@
       font-size: 13px; /* 文字の大きさを調整します。 */
       border: 1px solid #99a6aa;
       background-color: #f2f4fb;
+      border-radius: 3px !important;
+
       @include g.respond-to("md") {
         width: 100%;
       }
@@ -163,7 +165,7 @@
       width: 11px; /*チェックボックスの横幅*/
       height: 11px; /*チェックボックスの縦幅*/
       transform: translateY(-50%);
-      top: 45%;
+      top: 16px;
       left: 5px;
     }
     input[type="checkbox"]::after {

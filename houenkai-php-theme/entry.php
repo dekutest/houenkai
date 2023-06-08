@@ -16,7 +16,7 @@
             <?php echo get_template_directory_uri(); ?>/images/entry_1.webp,
             <?php echo get_template_directory_uri(); ?>/images/entry_1@2x.webp 2x
           "
-          alt="recruit"
+          alt="採用情報"
         />
         </div>
 
@@ -27,7 +27,7 @@
             <?php echo get_template_directory_uri(); ?>/images/entry_2.webp,
             <?php echo get_template_directory_uri(); ?>/images/entry_2@2x.webp 2x
           "
-          alt="recruit"
+          alt="エントリーフォーム"
         /></div>
 
       <?php echo do_shortcode('[mwform_formkey key="39"]'); ?>

@@ -4,11 +4,14 @@ $(function () {
 
     if ($(this).hasClass("active")) {
       $(".globalMenuSp").addClass("active");
+      $("body").addClass("fixed"); // bodyにfixedクラスを追加
     } else {
       $(".globalMenuSp").removeClass("active");
+      $("body").removeClass("fixed"); // bodyからfixedクラスを削除
     }
   });
 });
+
 //メニュー内を閉じておく
 $(function () {
   $(".globalMenuSp a[href]").click(function () {
@@ -60,4 +63,20 @@ $(function () {
     $("html, body").animate({ scrollTop: position }, speed, "swing");
     event.preventDefault();
   });
+});
+
+$(function () {
+  var webStorage = function () {
+    if (sessionStorage.getItem("access")) {
+      // 2回目以降のアクセス時の処理
+      $("#lottie").addClass("animation_no");
+    } else {
+      // 初回アクセス時の処理
+      $(window).on("load", function () {
+        $("#lottie").delay(3000).fadeOut("slow");
+      });
+      sessionStorage.setItem("access", "true"); // セッションストレージにデータを保存
+    }
+  };
+  webStorage();
 });

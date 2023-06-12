@@ -150,6 +150,13 @@ header nav li img {
     display: none;
   }
 }
+
+body.fixed {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
 .hamburger {
   display: none !important;
   @include g.respond-to("xl") {
@@ -298,4 +305,8 @@ nav.globalMenuSp.active {
 
 a:hover {
   opacity: 0.8 !important;
+}
+
+.animation_no {
+  display: none;
 }

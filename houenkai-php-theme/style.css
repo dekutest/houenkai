@@ -539,6 +539,12 @@ header nav li img {
   }
 }
 
+body.fixed {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
 .hamburger {
   display: none !important;
 }
@@ -705,6 +711,10 @@ a:hover {
   opacity: 0.8 !important;
 }
 
+.animation_no {
+  display: none;
+}
+
 .br_none {
   display: block;
 }
@@ -866,7 +876,7 @@ a:hover {
 }
 @media screen and (max-width: 480px) {
   .top_sub_img {
-    width: 80vw;
+    width: 65vw;
   }
 }
 

@@ -6,22 +6,25 @@
     padding-left: 0%;
   }
 
+  p {
+    color: #000;
+  }
+
   .form_d {
     margin: auto;
-    width: 350px;
-    font-size: 22px;
+    width: 375px;
+    font-size: 20px;
     color: #fff;
     margin-bottom: 40px;
 
     @include g.respond-to("sm") {
       width: 100%;
-      font-size: 18px;
+      font-size: 17px;
     }
   }
   p {
     width: fit-content;
     margin: auto;
-    margin-bottom: 40px;
   }
 
   a:hover {
@@ -41,6 +44,19 @@
   }
 }
 
+.form_tel {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 40px !important;
+  @include g.respond-to("md") {
+    width: fit-content;
+    margin: inherit !important;
+    margin-bottom: 40px !important;
+    text-align: left;
+  }
+}
+
 .form_wrap {
   border-bottom: none;
   margin-bottom: 0px;
@@ -51,4 +67,27 @@
   @include g.respond-to("sm") {
     display: block;
   }
+}
+
+.button001 a {
+  border-radius: 3px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.button001 a:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transform: rotate(45deg) translateY(-50%);
+  position: absolute;
+  top: 47%;
+  right: 20px;
+  border-radius: 1px;
+  transition: 0.3s ease-in-out;
+}
+.button001 a:hover:after {
+  border-color: #fff;
 }

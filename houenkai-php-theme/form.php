@@ -22,18 +22,18 @@
           <p>
           こちらの用紙を印刷していただき、医院にお持ちいただくか、FAXにてお送りください。<br>
           ご不明な点などありましたら、お気軽にお問い合わせください。<br><br>
-          
-          TEL : 022-341-2882　<br class="br_no2">FAX : 022-341-8896
           </p>
+          <p class="form_tel">TEL : 022-341-2882　<br class="br_no2">FAX : 022-341-8896</p>
 
-          <div class="clinic_feature_3 form_download">
-          <a href="<?php echo get_template_directory_uri(); ?>/pdf/form_sheet.pdf" download="form_sheet.pdf"  class="clinic_feature_3_1 form_d">申し込み用紙ダウンロード</a>
+
+          <div class="clinic_feature_3 form_download button001">
+          <a href="<?php echo get_template_directory_uri(); ?>/pdf/form_sheet.pdf"  class="clinic_feature_3_1 form_d ">申し込み用紙ダウンロード</a>
         </div>
 
         <div class="Form_img">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/sheet.jpg"
-            srcset="<?php echo get_template_directory_uri(); ?>/images/sheet.jpg 1x, <?php echo get_template_directory_uri(); ?>/images/sheet.jpg 2x"
+            src="<?php echo get_template_directory_uri(); ?>/images/form_sheet.png"
+            srcset="<?php echo get_template_directory_uri(); ?>/images/form_sheet.png 1x, <?php echo get_template_directory_uri(); ?>/images/form_sheet.png 2x"
             alt="訪問診療で地域医療の問題を解決します。"
           />
         </div>

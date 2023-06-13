@@ -126,7 +126,7 @@ header nav li img {
 .nav_child_f {
   position: absolute;
   top: -3px !important;
-  @include g.respond-to("xl") {
+  @include g.respond-to("xxl") {
     top: 3px !important;
   }
 }
@@ -238,7 +238,7 @@ nav.globalMenuSp ul {
   margin: 0 auto;
   padding: 0;
   width: 100%;
-  top: 50%;
+  top: 46%;
   transform: translateY(-50%);
 }
 

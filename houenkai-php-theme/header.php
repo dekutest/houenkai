@@ -88,7 +88,7 @@
             </li>
             <li>
               <a href="/houenkai-test/form">
-                診療の申し込み用紙
+                診療申し込み用紙
                 <span class="header_bottom">APPLICATION FORM</span>
               </a>
             <li>
@@ -130,7 +130,7 @@
             <li><a href="/houenkai-test/introduction">診療所</a></li>
             <li><a href="/houenkai-test/clinic">訪問診療</a></li>
             <li><a href="/houenkai-test/recruit">採用情報</a></li>
-            <li><a href="/houenkai-test/form">診療の申し込み用紙</a></li>
+            <li><a href="/houenkai-test/form">診療申し込み用紙</a></li>
           </ul>
         </nav>
       </div>

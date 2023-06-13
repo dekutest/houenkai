@@ -544,7 +544,7 @@ header nav li img {
 .menu_pc {
   display: block;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .menu_pc {
     display: none;
   }
@@ -559,7 +559,7 @@ body.fixed {
 .hamburger {
   display: none !important;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .hamburger {
     display: block !important;
   }

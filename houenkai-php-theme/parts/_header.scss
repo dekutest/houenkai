@@ -146,7 +146,7 @@ header nav li img {
 
 .menu_pc {
   display: block;
-  @include g.respond-to("xl") {
+  @include g.respond-to("xxl") {
     display: none;
   }
 }
@@ -159,7 +159,7 @@ body.fixed {
 
 .hamburger {
   display: none !important;
-  @include g.respond-to("xl") {
+  @include g.respond-to("xxl") {
     display: block !important;
   }
 }

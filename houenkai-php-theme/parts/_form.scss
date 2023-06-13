@@ -1,0 +1,54 @@
+@use "../global" as g;
+
+.form_main {
+  .form_title {
+    text-align: center;
+    padding-left: 0%;
+  }
+
+  .form_d {
+    margin: auto;
+    width: 350px;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 40px;
+
+    @include g.respond-to("sm") {
+      width: 100%;
+      font-size: 18px;
+    }
+  }
+  p {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  .Form_img {
+    text-align: center;
+    margin-bottom: 50px;
+
+    img {
+      width: 80%;
+      @include g.respond-to("md") {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.form_wrap {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+
+.br_no2 {
+  display: none;
+  @include g.respond-to("sm") {
+    display: block;
+  }
+}

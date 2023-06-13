@@ -37,6 +37,9 @@
                 <li>
                 <a href="/houenkai-test/recruit"> 採用情報 </a>
                 </li>
+                <li>
+                <a href="/houenkai-test/form"> 診療の申し込み用紙 </a>
+                </li>
                 <li class="contact_footer">
                   <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp"
                   srcset="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp 1x,

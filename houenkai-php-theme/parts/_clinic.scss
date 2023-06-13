@@ -376,3 +376,19 @@
   color: #112e53;
   margin-bottom: -5px;
 }
+
+.form_button_wrap {
+  width: fit-content;
+  margin: auto;
+  @include g.respond-to("sm") {
+    width: 90%;
+  }
+
+  img {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    @include g.respond-to("sm") {
+      width: 100%;
+    }
+  }
+}

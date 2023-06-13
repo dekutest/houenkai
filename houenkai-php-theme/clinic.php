@@ -123,6 +123,16 @@
             ※24時間365日、緊急往診対応
             </p>
           </div>
-        </div>
+        </div> 
       </section>
+      <div class="form_button_wrap">
+       <a href="/houenkai-test/form"> <img src="<?php echo get_template_directory_uri(); ?>/images/form_button.webp" 
+        srcset="
+            <?php echo get_template_directory_uri(); ?>/images/form_button.webp 1x,
+            <?php echo get_template_directory_uri(); ?>/images/form_button@2x.webp 2x
+          "
+        alt="診療の申し込み用紙" />
+        </a>
+        </div>
+
       <?php get_footer(); ?> 

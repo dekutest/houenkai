@@ -27,7 +27,7 @@
 
 
           <div class="clinic_feature_3 form_download button001">
-          <a href="<?php echo get_template_directory_uri(); ?>/pdf/form_sheet.pdf"  class="clinic_feature_3_1 form_d ">申し込み用紙ダウンロード</a>
+          <a href="<?php echo get_template_directory_uri(); ?>/pdf/form_sheet.pdf"  class="clinic_feature_3_1 form_d" target="_blank">申し込み用紙ダウンロード</a>
         </div>
 
         <div class="Form_img">

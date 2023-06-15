@@ -126,7 +126,7 @@
         </div> 
       </section>
       <div class="form_button_wrap">
-       <a href="/houenkai-test/form"> <img src="<?php echo get_template_directory_uri(); ?>/images/form_button.webp" 
+       <a href="/form"> <img src="<?php echo get_template_directory_uri(); ?>/images/form_button.webp" 
         srcset="
             <?php echo get_template_directory_uri(); ?>/images/form_button.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/form_button@2x.webp 2x

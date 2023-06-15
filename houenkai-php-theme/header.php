@@ -47,7 +47,7 @@
   <header  id="top">
       <div class="inner">
         <h1>
-          <a href="/houenkai-test">
+          <a href="/">
             <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/logo.png 1x,
@@ -57,37 +57,37 @@
         <nav class="menu_pc">
           <ul>
             <li>
-              <a href="/houenkai-test/#about">
+              <a href="/#about">
                 芳縁会について
                 <span class="header_bottom">ABOUT US</span>
               </a>
             </li>
             <li>
-              <a href="/houenkai-test/treat">
+              <a href="/medical-service">
                 診療内容
                 <span class="header_bottom">MEDICAL SERVICE</span>
               </a>
             </li>
             <li>
-            <a href="/houenkai-test/introduction">
+            <a href="/clinic">
                 診療所
                 <span class="header_bottom">CLINIC</span>
               </a>
             </li>
             <li>
-            <a href="/houenkai-test/clinic">
+            <a href="/home-care">
               訪問診療
                 <span class="header_bottom">HOME CARE</span>
               </a>
             </li>
             <li>
-              <a href="/houenkai-test/recruit">
+              <a href="/recruit">
                 採用情報
                 <span class="header_bottom">RECRUIT</span>
               </a>
             </li>
             <li>
-              <a href="/houenkai-test/form">
+              <a href="/form">
                 診療申し込み用紙
                 <span class="header_bottom">APPLICATION FORM</span>
               </a>
@@ -125,12 +125,12 @@
             <!-- <li>
               <img src="<?php echo get_template_directory_uri(); ?>/images/logo_white@2x.webp" alt="芳縁会" />
             </li> -->
-            <li><a href="/houenkai-test/#about">芳縁会について</a></li>
-            <li><a href="/houenkai-test/treat">診療内容</a></li>
-            <li><a href="/houenkai-test/introduction">診療所</a></li>
-            <li><a href="/houenkai-test/clinic">訪問診療</a></li>
-            <li><a href="/houenkai-test/recruit">採用情報</a></li>
-            <li><a href="/houenkai-test/form">診療申し込み用紙</a></li>
+            <li><a href="/#about">芳縁会について</a></li>
+            <li><a href="/medical-service">診療内容</a></li>
+            <li><a href="/clinic">診療所</a></li>
+            <li><a href="/home-care">訪問診療</a></li>
+            <li><a href="/recruit">採用情報</a></li>
+            <li><a href="/form">診療申し込み用紙</a></li>
           </ul>
         </nav>
       </div>

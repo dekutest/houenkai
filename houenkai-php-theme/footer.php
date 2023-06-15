@@ -5,9 +5,9 @@
 
         <div class="footer_mid">
           <div class="footer_left">
-            <a href="/houenkai-test"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.webp"
+            <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.webp"
             srcset="<?php echo get_template_directory_uri(); ?>/images/logo.webp 1x,<?php echo get_template_directory_uri(); ?>/images/logo@2x.webp 2x" alt="ロゴ" class="footer_logo footer_logo_pc" /></a>
-            <a href="/houenkai-test"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_ph.webp"
+            <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_ph.webp"
             srcset="<?php echo get_template_directory_uri(); ?>/images/logo_ph.webp 1x,<?php echo get_template_directory_uri(); ?>/images/logo_ph@2x.webp 2x" alt="ロゴ" class="footer_logo footer_logo_ph" /></a>
             <p>
               〒980-0871<br>宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F
@@ -23,22 +23,22 @@
             <nav>
               <ul>
                 <li>
-                  <a href="/houenkai-test/#about"> 芳縁会について </a>
+                  <a href="/#about"> 芳縁会について </a>
                 </li>
                 <li>
-                  <a href="/houenkai-test/treat"> 診療内容 </a>
+                  <a href="/medical-service"> 診療内容 </a>
                 </li>
                 <li>
-                <a href="/houenkai-test/introduction">診療所</a>
+                <a href="/clinic">診療所</a>
                 </li>
                 <li>
-                <a href="/houenkai-test/clinic">訪問診療</a>
+                <a href="/home-care">訪問診療</a>
                 </li>
                 <li>
-                <a href="/houenkai-test/recruit"> 採用情報 </a>
+                <a href="/recruit"> 採用情報 </a>
                 </li>
                 <li>
-                <a href="/houenkai-test/form"> 診療申し込み用紙 </a>
+                <a href="/form"> 診療申し込み用紙 </a>
                 </li>
                 <li class="contact_footer">
                   <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp"

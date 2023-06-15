@@ -22,7 +22,7 @@
         <span class="title_lg">縁</span><span class="title_md">ある人に</span><span class="title_lg"> 貢献 </span><span
           class="title_md"> する。</span>
       </h1> -->
-        <a href="/houenkai-test/clinic">
+        <a href="/clinic">
           <img src="<?php echo get_template_directory_uri(); ?>/images/top12@2x.webp"
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top12@2x.webp 1x,
@@ -30,21 +30,21 @@
              alt="訪問診療を行っています" class="top_title_info" />
         </a>
         <div class="top_sub">
-          <a href="/houenkai-test/#about"
+          <a href="/#about"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top09@2x.webp"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top09@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top09@2x.webp 2x"
             alt="芳縁会について" class="top_sub_img"
           /></a>
-          <a href="/houenkai-test/treat"
+          <a href="/medical-service"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top10@2x.webp"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top10@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top10@2x.webp 2x"
             alt="診療内容" class="top_sub_img"
           /></a>
-          <a href="/houenkai-test/recruit"
+          <a href="/recruit"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top11@2x.webp"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top11@2x.webp 1x,
@@ -310,7 +310,7 @@
         alt="診療所情報" class="top_clinic_title" />
         <div class="top_clinic_box">
           <div class="top_clinic_box_upper">
-            <a href="houenkai-test/introduction/#hachiman"><img
+            <a href="/clinic/#hachiman"><img
               src="<?php echo get_template_directory_uri(); ?>/images/top07@2x.webp"
               srcset="
             <?php echo get_template_directory_uri(); ?>/images/top07@2x.webp 1x,
@@ -319,7 +319,7 @@
               class="top_clinic_box_upper_img scroll_up"
             />
             </a>
-            <a href="houenkai-test/introduction/#family"><img
+            <a href="/clinic/#family"><img
               src="<?php echo get_template_directory_uri(); ?>/images/top08@2x.webp"
               srcset="
             <?php echo get_template_directory_uri(); ?>/images/top08@2x.webp 1x,
@@ -329,7 +329,7 @@
             />
             </a>
           </div>
-          <a href="/houenkai-test/introduction"
+          <a href="/clinic"
             ><img src="<?php echo get_template_directory_uri(); ?>/images/top16@2x.png" 
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top16@2x.png 1x,
@@ -357,7 +357,7 @@
               名取市、多賀城市、塩釜市、富谷市
             </p>
 
-            <a href="/houenkai-test/clinic"><img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" 
+            <a href="/home-care"><img src="<?php echo get_template_directory_uri(); ?>/images/top16.webp" 
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/top16.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top16@2x.webp 2x"
@@ -369,7 +369,7 @@
         <div class="top_news_wrapper">
           <div class="top_news_up">
             <p class="top_news_title">最新のお知らせをご案内します</p>
-         <a href="/houenkai-test/news-all"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
+         <a href="/news-all"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 2x"

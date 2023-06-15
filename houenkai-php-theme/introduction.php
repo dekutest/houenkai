@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:Introduction
+ * Template Name:Clinic
  */
 ?>
 

@@ -38,7 +38,7 @@
                 <a href="/recruit"> 採用情報 </a>
                 </li>
                 <li>
-                <a href="/form"> 診療申し込み用紙 </a>
+                <a href="/application-form"> 診療申し込み用紙 </a>
                 </li>
                 <li class="contact_footer">
                   <img class="nav_parent" src="<?php echo get_template_directory_uri(); ?>/images/yoyaku01.webp"

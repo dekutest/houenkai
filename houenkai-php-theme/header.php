@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+	  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JY2M63FWNL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JY2M63FWNL');
+</script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -41,6 +50,7 @@
     />
  
     <?php wp_head(); ?>
+
 
   </head>
   <body>
@@ -87,7 +97,7 @@
               </a>
             </li>
             <li>
-              <a href="/form">
+              <a href="/application-form">
                 診療申し込み用紙
                 <span class="header_bottom">APPLICATION FORM</span>
               </a>
@@ -130,7 +140,7 @@
             <li><a href="/clinic">診療所</a></li>
             <li><a href="/home-care">訪問診療</a></li>
             <li><a href="/recruit">採用情報</a></li>
-            <li><a href="/form">診療申し込み用紙</a></li>
+            <li><a href="/application-form">診療申し込み用紙</a></li>
           </ul>
         </nav>
       </div>

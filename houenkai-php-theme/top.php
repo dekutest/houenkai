@@ -22,7 +22,7 @@
         <span class="title_lg">縁</span><span class="title_md">ある人に</span><span class="title_lg"> 貢献 </span><span
           class="title_md"> する。</span>
       </h1> -->
-        <a href="/clinic">
+        <a href="/home-care">
           <img src="<?php echo get_template_directory_uri(); ?>/images/top12@2x.webp"
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top12@2x.webp 1x,

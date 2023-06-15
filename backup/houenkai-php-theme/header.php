@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+	  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JY2M63FWNL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JY2M63FWNL');
+</script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -41,6 +50,7 @@
     />
  
     <?php wp_head(); ?>
+
 
   </head>
   <body>

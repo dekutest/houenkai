@@ -30,7 +30,7 @@
           alt="エントリーフォーム"
         /></div>
 
-      <?php echo do_shortcode('[mwform_formkey key="39"]'); ?>
+      <?php echo do_shortcode('[mwform_formkey key="127"]'); ?>
 
 
 

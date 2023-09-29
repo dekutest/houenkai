@@ -35,7 +35,10 @@ main {
         }
         .blog_title {
           margin-top: 0;
+          font-size: fontSize(40);
           padding-bottom: 33px;
+          border-bottom: 1px solid #112e53;
+          color: #112e53;
           font-family: m-plus-1p, sans-serif;
           font-weight: 500;
           font-style: normal;

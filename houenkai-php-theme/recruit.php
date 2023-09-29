@@ -38,8 +38,8 @@
         </div>
         <div class="recruit_right scroll_right">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/recruit_img@2x.webp"
-            srcset="<?php echo get_template_directory_uri(); ?>/images/recruit_img@2x.webp 1x, <?php echo get_template_directory_uri(); ?>/images/recruit_img@2x.webp 2x"
+            src="https://houen-zaitaku.jp/wp-content/uploads/2023/06/recruit_img@2x.webp"
+            srcset="https://houen-zaitaku.jp/wp-content/uploads/2023/06/recruit_img@2x.webp 1x,  https://houen-zaitaku.jp/wp-content/uploads/2023/06/recruit_img@2x.webp 2x"
             alt="スタッフ"
           />
         </div>

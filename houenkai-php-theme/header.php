@@ -61,7 +61,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/logo.png 1x,
-            <?php echo get_template_directory_uri(); ?>/images/logo@2x.png 2x" alt="ロゴ" />
+            <?php echo get_template_directory_uri(); ?>/images/logo@2x.png 2x" alt="芳縁会" />
           </a>
         </h1>
         <nav class="menu_pc">

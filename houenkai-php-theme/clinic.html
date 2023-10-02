@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/2x/favicon.ico" id="favicon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon-180x180.webp"
+    />
+    <title></title>
+    <link rel="stylesheet" href="parts/index.css" />
+
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "stt1muk",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>
+          <a href="top.html">
+            <img src="./images/logo.webp" alt="芳縁会" />
+          </a>
+        </h1>
+        <nav class="menu_pc">
+          <ul>
+            <li>
+              <a href="#">
+                芳縁会について
+                <span class="header_bottom">ABOUT US</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                診療内容
+                <span class="header_bottom">MEDICAL SERVICE</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                訪問地域
+                <span class="header_bottom">HOME CARE</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                診療所紹介
+                <span class="header_bottom">CLINIC</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                採用情報
+                <span class="header_bottom">RECRUIT</span>
+              </a>
+            </li>
+            <li>
+              <img class="nav_parent" src="./images/yoyaku01.webp" alt="" />
+              <a href="#">
+                <span class="nav_child child01">
+                  <img src="./images/yoyaku02.webp" alt="" />
+                </span>
+              </a>
+              <a href="#">
+                <span class="nav_child child02">
+                  <img src="./images/yoyaku03.webp" alt="" />
+                </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="globalMenuSp">
+          <ul>
+            <!-- <li>
+              <img src="./images/logo_white@2x.webp" alt="芳縁会" />
+            </li> -->
+            <li><a href="#">芳縁会について</a></li>
+            <li><a href="#">診療内容</a></li>
+            <li><a href="#">訪問地域</a></li>
+            <li><a href="#">診療所紹介</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="clinic_title title_line">
+        <img
+          class="clinic_title_text01"
+          src="./images/clinic_text01 .webp"
+          alt="訪問診療"
+        />
+      </section>
+      <section class="clinic_main">
+        <div class="clinic_top_wrap">
+          <img
+            src="./images/clinic_top.webp"
+            srcset="./images/clinic_top.webp 1x, ./images/clinic_top@2x.webp 2x"
+            alt="clinic"
+            class="clinic_top"
+          />
+        </div>
+        <img
+          class="clinic_main_2 scroll_up"
+          src="./images/clinic01.webp"
+          alt="clinic01"
+        />
+        <h2 class="clinic_main_3">このような方は、当院にご相談ください。</h2>
+        <div class="clinic_main_4">
+          <p class="clinic_main_4_1">
+            通院が困難な方、要介護・寝たきりの方・がん・老衰・末期・難病など在宅で緩和ケアを希望される方、ご自宅や施設での療養を希望される方、病院ではなく最後まで住み慣れた場所で過ごしたい方、在宅医療が必要な方
+          </p>
+        </div>
+      </section>
+      <section class="clinic_feature">
+        <!-- <img src="images/clinic02.webp" alt="clinic02"> -->
+        <div class="clinic_feature_1_1"></div>
+        <h1 class="clinic_feature_1_2">芳縁会の特徴</h1>
+        <p class="clinic_feature_2">
+          芳縁会では、24 時間365
+          日の緊急往診体制で医師や看護師が直接患者様のご自宅を訪れ、その場で適切な医療サービスを提供し
+          ます。定期的にご自宅での生活環境や生活習慣も把握し、よりパーソナライズされたケアを提供します。
+        </p>
+        <!-- <img src="images/clinic03.webp" alt="clinic03"> -->
+        <div class="clinic_feature_3">
+          <p class="clinic_feature_3_1">24時間365日対応</p>
+          <p class="clinic_feature_3_1">薬の処方</p>
+          <p class="clinic_feature_3_1">高齢・がん・難病の患者にも対応</p>
+          <p class="clinic_feature_3_1">末期の看取り</p>
+        </div>
+        <div class="scroll_up">
+          <img
+            class="clinic_feature_4"
+            src="./images/clinic04.webp"
+            alt="clinic04 scroll_up"
+          />
+        </div>
+        <h2 class="clinic_feature_5">ご自宅で可能な処置について</h2>
+        <!-- 検査  薬の処方箋発行  喀痰吸引  経管栄養  点滴注射<br>
+              酸素投与  人工呼吸器  胃瘻交換  気管カニューレ交換<br>
+              褥瘡処置  中心静脈栄養  緩和ケア  看取り -->
+        <img
+          class="clinic_feature_6"
+          src="./images/clinic04_1.webp"
+          alt="clinic04_1"
+        />
+      </section>
+      <section class="top_area c_area">
+        <img src="./images/top_text_07.webp" alt="" class="top_clinic_title" />
+        <div class="area_text">
+          <p>
+            芳縁在宅診療所では、以下の診察エリアを訪問いたします。<br />
+            お住まいが診察エリアの範囲外の方も、遠慮なく一度お問い合わせください。
+          </p>
+        </div>
+        <div class="top_area_box">
+          <img src="./images/top17.webp" alt="" class="top_area_map" />
+          <div class="top_area_box_right">
+            <div class="top_area_box_right_up">訪問診療の可能地域</div>
+            <p class="top_area_box_right_mid">
+              仙台市全域<br />
+              名取市、多賀城市、塩釜市、富谷市
+            </p>
+            <img src="./images/top16.webp" alt="" class="top_clinic_btn" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer_inner">
+        <img src="./images/footer05.webp" alt="" class="footer_upper" />
+
+        <div class="footer_mid">
+          <div class="footer_left">
+            <img src="./images/logo.webp" alt="logo" class="footer_logo" />
+            <p>
+              980-0871 宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F
+            </p>
+            <p>
+              tel.<span class="footer_lg">022-341-2882</span
+              ><br class="br_none1" />
+              fax. 022-341-8896
+            </p>
+            <p>緊急往診：24時間365日</p>
+          </div>
+          <div class="footer_center">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#"> 芳縁会について </a>
+                </li>
+                <li>
+                  <a href="#"> 診療内容 </a>
+                </li>
+                <li>
+                  <a href="#"> 採用情報 </a>
+                </li>
+                <li>
+                  <a href="#"> 診療所紹介 </a>
+                </li>
+                <li>
+                  <a href="#"> 訪問地域 </a>
+                </li>
+                <li class="contact_footer">
+                  <img class="nav_parent" src="./images/yoyaku01.webp" alt="" />
+                  <a href="#">
+                    <span class="nav_child child01">
+                      <img src="./images/yoyaku02.webp" alt="" />
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="nav_child child02">
+                      <img src="./images/yoyaku03.webp" alt="" />
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <img src="./images/footer02.webp" alt="" />
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

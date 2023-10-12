@@ -1014,3 +1014,543 @@ a :hover {
 .top_clinic_btn {
   width: 238px;
 }
+
+.clinic_top0 {
+  // clinic_top0 のスタイル
+  display: flex;
+  margin: auto;
+  width: 82%;
+  min-width: fit-content;
+  @include g.respond-to("xxl") {
+    width: 90%;
+    margin: auto;
+    min-width: inherit;
+  }
+  @include g.respond-to("md") {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .clinic_top1 {
+    // clinic_top1 のスタイル
+
+    img {
+      // clinic_top1 内の img のスタイル
+      width: 100%;
+      @include g.respond-to("xxl") {
+        height: 600px;
+        object-fit: contain;
+        width: 46vw;
+      }
+      @include g.respond-to("md") {
+        width: 100%;
+        height: auto;
+        object-fit: inherit;
+      }
+    }
+  }
+
+  .clinic_top2 {
+    // clinic_top2 のスタイル
+    margin-left: 65px;
+    margin-top: g.vw-pc(104);
+    width: auto;
+    @include g.respond-to("xxl") {
+      margin-right: 3vw;
+      margin-left: 30px;
+    }
+    @include g.respond-to("md") {
+      margin-right: 5vw;
+      margin-left: 5vw;
+    }
+
+    h2 {
+      // clinic_top2 内の h2 のスタイル
+      font-size: 40px;
+      margin-left: 21px;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #112e53;
+      @include g.respond-to("xxl") {
+        font-size: 30px;
+      }
+      @include g.respond-to("md") {
+        margin-left: 0px;
+      }
+
+      span {
+        font-size: 30px;
+        @include g.respond-to("xxl") {
+          font-size: 20px;
+        }
+      }
+    }
+    p {
+      margin-left: 25px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 16px;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #000;
+      @include g.respond-to("md") {
+        margin-left: 0px;
+      }
+    }
+
+    .clinic_top03 {
+      // clinic_top03 のスタイル
+      margin-left: 25px;
+      margin-top: 33px;
+      @include g.respond-to("md") {
+        margin-left: 0px;
+      }
+
+      img {
+        // clinic_top03 内の img のスタイル
+        margin-right: 4px;
+      }
+    }
+
+    .clinic_top04 {
+      img {
+        width: 100%;
+        @include g.respond-to("xxl") {
+          width: 90%;
+        }
+        @include g.respond-to("md") {
+          width: 100%;
+        }
+        @include g.respond-to("sm") {
+          width: 100%;
+        }
+      }
+    }
+
+    img {
+      // clinic_top2 内の他の img のスタイル（clinic_top03 以外）
+    }
+  }
+}
+
+.top_profile_box01 {
+  display: flex;
+  width: 935px;
+  margin: auto;
+  align-items: center;
+  @include g.respond-to("lg") {
+    flex-direction: column;
+    width: auto;
+  }
+
+  img {
+    width: 414px;
+    height: fit-content;
+    @include g.respond-to("md") {
+      width: 80%;
+      max-width: 350px;
+    }
+  }
+}
+
+.profile_box_right1 {
+  // .profile_box_right1 のスタイル
+  width: g.vw-pc(420);
+  margin-left: 77px;
+  min-width: 400px;
+  @include g.respond-to("md") {
+    width: 90%;
+    margin: auto;
+    min-width: inherit;
+  }
+
+  p {
+    color: #000;
+    font-family: "M PLUS 1p", sans-serif;
+    line-height: 1.4;
+    letter-spacing: -0.7px;
+  }
+
+  .profile_position {
+    // .profile_position のスタイル
+    font-size: 21px;
+  }
+  .profile_name1 {
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-bottom: 1px;
+  }
+
+  .profile_name {
+    // .profile_name のスタイル
+    font-size: 34px;
+    letter-spacing: 2px;
+  }
+
+  .profile_line {
+    // .profile_line のスタイル
+
+    p {
+      // .profile_line 内の p のスタイル
+      font-size: 14px;
+      font-weight: bold;
+      width: 60px;
+    }
+
+    .profile_line_img {
+      // .profile_line_img のスタイル
+    }
+  }
+
+  .from {
+    // .from のスタイル
+  }
+
+  .profile_table {
+    // .profile_table のスタイル
+    font-size: 14px;
+
+    tr {
+      // .profile_table 内の tr のスタイル
+      line-height: 20px;
+
+      td {
+        // .profile_table 内の td のスタイル
+
+        &.td_right {
+          // .td_right のスタイル
+
+          .app {
+            // .td_right 内の .app のスタイル
+          }
+        }
+      }
+    }
+  }
+}
+
+.profile_00 {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 78px;
+  margin-top: 150px;
+  text-align: center;
+  @include g.respond-to("xxl") {
+    margin-top: 80px !important;
+  }
+
+  p {
+    color: #000;
+    letter-spacing: 3px;
+    margin: 30px auto;
+    text-align: left;
+    @include g.respond-to("md") {
+      width: 100%;
+    }
+    @include g.respond-to("sm") {
+      width: 90%;
+    }
+  }
+}
+
+.c_f_00 {
+  // .c_f_00 のスタイル
+
+  .c_f_main {
+    // .c_f_main のスタイル
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 1200px;
+
+    @include g.respond-to("xxl") {
+      width: 100vw;
+      justify-content: space-evenly;
+      min-width: inherit;
+    }
+    @include g.respond-to("lg") {
+      flex-direction: column;
+      width: 90%;
+      margin: auto;
+    }
+
+    .c_f_con {
+      // .c_f_con のスタイル
+      width: g.vw-pc(434);
+      position: relative;
+      height: 483px;
+      min-width: 340px;
+      @include g.respond-to("xxl") {
+        min-width: 300px;
+      }
+      @include g.respond-to("lg") {
+        width: 100%;
+        margin: auto;
+        min-width: inherit;
+        margin-bottom: 25px;
+      }
+
+      img {
+        width: 100%;
+        position: absolute;
+        height: 483px;
+        object-fit: contain;
+      }
+
+      h2 {
+        // .c_f_con 内の h2 のスタイル
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #102f52;
+        padding-top: 304px;
+        @include g.respond-to("lg") {
+          font-size: 18px;
+        }
+      }
+
+      p {
+        // .c_f_con 内の p のスタイル
+        font-size: 15px;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #000;
+        width: 80%;
+        margin: auto;
+        margin-top: 29px;
+        line-height: 1.9;
+        max-width: 270px;
+        letter-spacing: -1px;
+
+        @include g.respond-to("xxl") {
+          width: 90%;
+          font-size: 13px;
+          margin-top: 16px;
+        }
+
+        @include g.respond-to("lg") {
+          font-size: 14px;
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+
+  .c_f_main2 {
+    // .c_f_main2 のスタイル
+
+    h4 {
+      // .c_f_main2 内の h4 のスタイル
+    }
+
+    p {
+      // .c_f_main2 内の p のスタイル
+    }
+  }
+}
+
+.c_f_main2 {
+  background-color: #f2f4fb;
+  text-align: center;
+  width: g.vw-pc(1100);
+  margin: 90px auto 50px;
+  min-width: 1000px;
+  @include g.respond-to("lg") {
+    min-width: 90%;
+  }
+  @include g.respond-to("md") {
+    margin: 50px auto 50px;
+  }
+
+  h4 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    font-family: g.$font-yu;
+    padding-top: 50px;
+  }
+
+  p {
+    font-family: g.$font-yu;
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    width: 54%;
+    margin: auto;
+    padding-top: 10px;
+    line-height: 1.7;
+    letter-spacing: 3px;
+    padding-bottom: 52px;
+    @include g.respond-to("lg") {
+      width: 90%;
+      font-size: 16px;
+    }
+
+    span {
+      line-height: 2.3;
+      white-space: normal;
+    }
+  }
+}
+
+.c_top_main_00 {
+  margin-top: 100px;
+  @include g.respond-to("md") {
+    margin-top: 68px;
+  }
+}
+
+.clinic_left {
+  iframe {
+    width: 30vw !important;
+    height: 407px !important;
+    @include g.respond-to("xl") {
+      margin: inherit;
+      width: 100% !important;
+      height: 300px !important;
+    }
+  }
+  margin-right: 94px;
+}
+
+.profile_00_p {
+  margin-top: 50px !important;
+  letter-spacing: -1px;
+}
+
+.c_map_01 {
+  margin-top: 100px !important;
+  @include g.respond-to("md") {
+    margin-top: 0px !important;
+    margin-bottom: 50px !important;
+  }
+}
+
+.footer_left_hachi {
+  img {
+    @include g.respond-to("md") {
+      width: 240px !important    ;
+    }
+  }
+}
+
+.footer_center_hachi {
+  nav {
+    @include g.respond-to("xxl") {
+      top: 105px;
+    }
+    @include g.respond-to("md") {
+      top: 128px;
+    }
+  }
+}
+
+.clinic_main_hachi {
+  margin-top: 50px !important;
+  margin: auto;
+  color: #000;
+  font-family: "M PLUS 1p", sans-serif;
+  width: g.vw-pc(1021);
+  margin-bottom: 42px;
+  padding-left: 0px;
+  @include g.respond-to("xl") {
+    width: 100%;
+  }
+  @include g.respond-to("md") {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
+.c_area_houmon {
+  margin-bottom: 50px;
+}
+
+.clinic_right_hachi {
+  table {
+    @include g.respond-to("md") {
+      width: 100% !important;
+    }
+  }
+}
+
+.inner_hachi {
+  img {
+    @include g.respond-to("sm") {
+      width: 200px;
+    }
+  }
+}
+
+.clinic_map_hachi {
+  p {
+    @include g.respond-to("sm") {
+      width: 100% !important;
+    }
+  }
+}
+
+.font_small {
+  font-size: 16px;
+}
+
+.clinic_main_4_hachi {
+  padding-left: 0px !important;
+  @include g.respond-to("xl") {
+    width: 100% !important;
+  }
+}
+
+.clinic_feature_3_1_2 {
+  letter-spacing: -1px !important;
+}
+
+.clinic_feature_1_2_2 {
+  font-size: 23px;
+}
+
+.profile_line1 {
+  p {
+    font-size: 15px;
+    margin-left: 4px;
+  }
+}
+
+.profile_line_img_c {
+  top: -5px;
+  width: 19vw;
+}
+
+.top_news_wrapper_c {
+  @include g.respond-to("lg") {
+    width: 90vw;
+  }
+}
+
+.profile_table_c {
+  margin-top: 10px;
+}
+
+.profile_box_right1_c {
+  margin-left: 82px;
+
+  @include g.respond-to("lg") {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  @include g.respond-to("md") {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
+.c_name01 {
+  letter-spacing: 3px;
+}
+
+.c_name02 {
+  letter-spacing: 7px;
+}
+
+.clinic_right_hachi_p {
+  margin-top: 0 !important;
+}

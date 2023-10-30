@@ -1020,7 +1020,7 @@ a :hover {
   display: flex;
   margin: auto;
   width: 82%;
-  min-width: 1100px;
+  min-width: fit-content;
   @include g.respond-to("xxl") {
     width: 90%;
     margin: auto;
@@ -1256,9 +1256,17 @@ a :hover {
 
   .c_f_main {
     // .c_f_main のスタイル
-    display: flex;
-    width: fit-content;
+    width: 70vw;
     margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 1200px;
+
+    @include g.respond-to("xxl") {
+      width: 100vw;
+      justify-content: space-evenly;
+      min-width: inherit;
+    }
     @include g.respond-to("lg") {
       flex-direction: column;
       width: 90%;
@@ -1270,7 +1278,10 @@ a :hover {
       width: g.vw-pc(434);
       position: relative;
       height: 483px;
-      min-width: 350px;
+      min-width: 340px;
+      @include g.respond-to("xxl") {
+        min-width: 300px;
+      }
       @include g.respond-to("lg") {
         width: 100%;
         margin: auto;
@@ -1307,7 +1318,7 @@ a :hover {
         margin: auto;
         margin-top: 29px;
         line-height: 1.9;
-        max-width: 260px;
+        max-width: 270px;
         letter-spacing: -1px;
 
         @include g.respond-to("xxl") {
@@ -1424,6 +1435,9 @@ a :hover {
 
 .footer_center_hachi {
   nav {
+    @include g.respond-to("xxl") {
+      top: 105px;
+    }
     @include g.respond-to("md") {
       top: 128px;
     }
@@ -1535,4 +1549,8 @@ a :hover {
 
 .c_name02 {
   letter-spacing: 7px;
+}
+
+.clinic_right_hachi_p {
+  margin-top: 0 !important;
 }

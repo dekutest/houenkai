@@ -47,7 +47,9 @@ $(window).on("load", function () {
 });
 
 $(function () {
-  $('a[href*="#"]:not(.no-scroll)').click(function (event) {
+  $('a[href*="#"]:not(.no-scroll):not([href="#modaal-box"])').click(function (
+    event
+  ) {
     var speed = 500;
     var href = $(this).attr("href");
     var hash = href.indexOf("#");
@@ -79,4 +81,8 @@ $(function () {
     }
   };
   webStorage();
+});
+
+$(function () {
+  $(".modaal-btn").modaal({});
 });

@@ -74,6 +74,12 @@
         </h1>
         <nav class="menu_pc">
           <ul>
+          <li>
+            <a href="#news">
+                お知らせ
+                <span class="header_bottom">NEWS</span>
+              </a>
+            </li>
             <li>
               <a href="#homecare">
                 訪問診療
@@ -90,12 +96,6 @@
             <a href="#feature">
               診療の特徴
                 <span class="header_bottom">MEDICAL FEATURE</span>
-              </a>
-            </li>
-            <li>
-            <a href="#news">
-                お知らせ
-                <span class="header_bottom">NEWS</span>
               </a>
             </li>
             <li>
@@ -143,10 +143,10 @@
             <!-- <li>
               <img src="<?php echo get_template_directory_uri(); ?>/images/logo_white@2x.webp" alt="芳縁会" />
             </li> -->
-            <li><a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/#clinic"> 訪問診療 </a></li>
+            <li><a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/#news">お知らせ</a></li>
+            <li><a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/#homecare"> 訪問診療 </a></li>
                 <li><a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/#director"> 院長紹介 </a></li>
                 <li><a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/#feature">診療の特徴</a></li>
-                <li><a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/#news">お知らせ</a></li>
                 <li><a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/#clinic"> 診療所 </a></li>
                 <li><a href="/application-form"> 診療申し込み用紙 </a></li>
           </ul>
@@ -261,7 +261,7 @@
 
         <div class="clinic_main_4 clinic_main_4_hachi">
           <p class=" clinic_main_hachi">
-          通院が困難な方、要介護・寝たきりの方・がん・老衰・末期・難病など在宅で緩和ケアを希望される方、ご自宅や施設での療養を希望される方、病院ではなく最後まで住み慣れた場所で過ごしたい方はご相談ください。
+          通院が困難な方、要介護・寝たきりの方・がん・老衰・難病など在宅で緩和ケアを希望される方、ご自宅や施設での療養を希望される方、病院ではなく最後まで住み慣れた場所で過ごしたい方はご相談ください。
 
           </p>
         </div>
@@ -432,7 +432,7 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.405174276992!2d140.8501351764842!3d38.27009958347242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a29600a471f3b%3A0xc1cfb81a7c37ff12!2z6Iqz57iB5Zyo5a6F6Ki655mC5omA5YWr5bmh!5e0!3m2!1sja!2sjp!4v1696917730049!5m2!1sja!2sjp"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="clinic_right clinic_right_hachi">
-            <p>一般外来（内科・外科）</p>
+            <p class="clinic_right_hachi_p">一般外来（内科・外科）</p>
 
             <table>
               <tr>
@@ -561,6 +561,9 @@
           <div class="footer_center footer_center_hachi">
             <nav>
               <ul>
+              <li>
+                <a href="#news">お知らせ</a>
+                </li>
                 <li>
                   <a href="#homecare"> 訪問診療 </a>
                 </li>
@@ -569,9 +572,6 @@
                 </li>
                 <li>
                 <a href="#feature">診療の特徴</a>
-                </li>
-                <li>
-                <a href="#news">お知らせ</a>
                 </li>
                 <li>
                 <a href="#clinic"> 診療所 </a>

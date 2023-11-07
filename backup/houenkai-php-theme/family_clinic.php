@@ -64,9 +64,9 @@
   </head>
   <body>
   <header  id="top">
-      <div class="inner inner_hachi">
-        <h1>
-          <a href="/houen-zaitakusinnryoujyo-hachiman">
+      <div class="inner  inner_family">
+        <h1 class="header_img2">
+          <a href="/houen-family-clinic">
             <img src="<?php echo get_template_directory_uri(); ?>/images/fa_16.png"
             srcset="
             <?php echo get_template_directory_uri(); ?>/images/fa_16.png 1x,
@@ -105,7 +105,7 @@
                 <span class="header_bottom">ACCESS</span>
               </a>
               <li>
-              <a href="tel:022-341-2882">
+              <a href="tel:022-375-8023">
               <img class="nav_parent nav_parent02" src="<?php echo get_template_directory_uri(); ?>/images/fa_15.png"
               srcset="
             <?php echo get_template_directory_uri(); ?>/images/fa_15.png 1x,
@@ -140,10 +140,10 @@
     <main>
       <section class="title_line">
         <div class="clinic_top0">
-          <div class="clinic_top1">
+          <div class="clinic_top1 clinic_top1_fa">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/fa_01.png"
-              srcset="<?php echo get_template_directory_uri(); ?>/images/fa_01.png 1x, <?php echo get_template_directory_uri(); ?>/images/fa_01@2x.png 2x"
+              src="<?php echo get_template_directory_uri(); ?>/images/fa_01@2x.png"
+              srcset="<?php echo get_template_directory_uri(); ?>/images/fa_01@2x.png 1x, <?php echo get_template_directory_uri(); ?>/images/fa_01@2x.png 2x"
               alt="clinic"
             />
           </div>
@@ -188,7 +188,7 @@
       <article class="top_news">
         <div class="top_news_wrapper top_news_wrapper_c">
           <div class="top_news_up">
-            <p class="top_news_title">最新のお知らせをご案内します</p>
+          <p class="top_news_title"></p>
          <a href="/news-all"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 1x,
@@ -201,12 +201,13 @@
 <ul>
 <?php
   $args = array(
-    'posts_per_page' => 5 // 表示件数の指定
+    'posts_per_page' => 5,      // 表示件数の指定
+    'category_name'  => 'family' // カテゴリースラッグを指定
   );
   $posts = get_posts( $args );
   foreach ( $posts as $post ): // ループの開始
   setup_postdata( $post ); // 記事データの取得
-?>	  
+?> 
   <li class="news-text">
 	 <div class="news-day"><?php the_date('Y.m.d'); ?></div>
 	  <div class="news-blog"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div> 
@@ -242,8 +243,7 @@
             alt="clinic"
           />
           <p>
-            ご家族一人ひとりの健康を大切にします。<br />
-            患者さまに寄り添う診療を心がけ、地域の方々の健康を支えます。<br />
+            患者さまに寄り添う診療を心がけて、地域の方々の健康を支えます。<br />
             「体調不良・気になる症状」があればお気軽にご相談ください。
           </p>
         </div>
@@ -287,16 +287,16 @@
         />
       </div>
 
-      <div class="family_top4">
+      <div class="family_top4" id="director">
         <img
-          src="<?php echo get_template_directory_uri(); ?>/images/fa_04.png"
-          srcset="<?php echo get_template_directory_uri(); ?>/images/fa_04.png 1x, <?php echo get_template_directory_uri(); ?>/images/fa_04@2x.png 2x"
+          src="<?php echo get_template_directory_uri(); ?>/images/fa_04@2x.png"
+          srcset="<?php echo get_template_directory_uri(); ?>/images/fa_04@2x.png 1x, <?php echo get_template_directory_uri(); ?>/images/fa_04@2x.png 2x"
           alt="clinic"
           class="pc_img"
         />
         <img
-          src="<?php echo get_template_directory_uri(); ?>/images/fa_14.png"
-          srcset="<?php echo get_template_directory_uri(); ?>/images/fa_14.png 1x, <?php echo get_template_directory_uri(); ?>/images/fa_14@2x.png 2x"
+          src="<?php echo get_template_directory_uri(); ?>/images/fa_14@2x.png"
+          srcset="<?php echo get_template_directory_uri(); ?>/images/fa_14@2x.png 1x, <?php echo get_template_directory_uri(); ?>/images/fa_14@2x.png 2x"
           alt="clinic"
           class="md_none"
         />
@@ -311,16 +311,16 @@
         />
       </div>
 
-      <div class="top_profile_box01" id="director">
+      <div class="top_profile_box01 fa_top_profile_box01 scroll_up" >
         <img
           src="<?php echo get_template_directory_uri(); ?>/images/fa_05.png"
           srcset="<?php echo get_template_directory_uri(); ?>/images/fa_05.png 1x, <?php echo get_template_directory_uri(); ?>/images/fa_05@2x.png 2x"
           alt="clinic"
         />
 
-        <div class="profile_box_right1">
+        <div class="profile_box_right1 profile_box_right_fa">
           <p class="profile_position">院長</p>
-          <p class="profile_name1">もりした　じょう</p>
+          <p class="profile_name1 profile_name1_fa"><span>もりした</span>じょう</p>
           <p class="profile_name">森下　城</p>
           <p>
             神奈川県の藤沢市出身です。<br /><br />
@@ -336,14 +336,14 @@
         <div class="profile_top1">
           <h3>経歴</h3>
           <p>
-            1999年　　信州大学医学部卒業<br />
-            　　　　　 東京大学医学部付属病院<br />
-            　　　　　 JR東京総合病院にて研修<br />
-            2001年　　東北大学心療内科 <br />
-            2002年　　北上病院消化器内科医長<br />
-            2003年　　東北大学　便通異常、腹痛の診療・研究<br />
-            2014年　　佐々木胃腸科副院長<br />
-            2020年　　公立黒川病院内科科長
+            <span>1999年</span>信州大学医学部卒業<br />
+            <span class="pro_span"></span>東京大学医学部付属病院　研修<br />
+            <span  class="pro_span"></span>JR東京総合病院　研修<br />
+           <span>2001年</span>東北大学心療内科 <br />
+           <span>2002年</span>北上病院消化器内科医長<br />
+           <span>2003年</span>東北大学　便通異常・腹痛の診療/研究<br />
+           <span>2014年</span>佐々木胃腸科副院長<br />
+           <span>2020年</span>公立黒川病院内科科長
           </p>
         </div>
         <div class="profile_top2">
@@ -371,7 +371,7 @@
         />
       </div>
       <section class="c_f_00">
-        <div class="c_f_main">
+        <div class="c_f_main scroll_up">
           <div class="c_f_con family_con">
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/fa_06.png"
@@ -383,9 +383,21 @@
               お子様からご高齢の方まで、ご家族全員の健康を支えます。一人ひとりの健康状態やライフステージに合わせた診療をします。
             </p>
             <div class="test__box">
-              <a href="#modaal-box" class="modaal-btn">▶︎　治療疾患一覧</a>
-              <div id="modaal-box" style="display: none">
-                ここにモーダルに表示させたい要素を記述します。
+              <a href="#modaal-box" class="modaal-btn">▶︎　診療内容一覧</a>
+              <div id="modaal-box" style="display: none">【診療内容】
+・高血圧症、糖尿病、脂質異常症などの生活習慣病
+・狭心症、心筋梗塞、脳梗塞のフォローアップ
+・不整脈、心不全などの循環器疾患
+・急性上気道炎、急性気管支炎、肺炎、気管支喘息、慢性閉塞性肺疾患（COPD）などの呼吸器疾患
+・頻尿や尿路感染症などの泌尿器系疾患
+・睡眠時無呼吸症候群（CPAP）
+・花粉症などのアレルギー疾患
+・逆流性食道炎、慢性胃炎、胃潰瘍、十二指腸潰瘍、ヘリコバクターピロリ感染症、感染性胃腸炎、機能性ディスペプシア、過敏性腸症候群、脂肪肝、ウイルス性慢性肝炎、肝硬変などの消化器疾患
+・不眠症
+・認知症
+・小児の各種疾患
+・発熱外来
+※内科一般の診療をしています
               </div>
             </div>
           </div>
@@ -400,12 +412,51 @@
             <p>
               予防接種・健康診断・病気の早期発見を行い、皆さまの健康をサポートします。日々の体調についてご相談ください。
             </p>
-            <div class="test__box">
-              <a href="#modaal-box" class="modaal-btn"
-                >▶︎　健康診断・予防接種一覧</a
+            <div class="test__box test__box2">
+              <a href="#modaal-box2" class="modaal-btn"
+                >▶︎　予防接種・健康診断一覧</a
               >
-              <div id="modaal-box" style="display: none">
-                ここにモーダルに表示させたい要素を記述します。
+              <div id="modaal-box2" style="display: none">【予防接種】
+・おたふく
+・日本脳炎
+・MR（麻疹・風疹）
+・水痘
+・2種混合
+・B型肝炎
+・ポリオ
+・高齢者肺炎球菌
+・帯状疱疹
+・狂犬病
+・HPV感染症（子宮頸がん予防）９価
+※自費診療、一部助成有り
+              
+              【検査】
+・血液検査
+貧血検査、肝機能検査、脂質検査、血糖検査、HbA1c検査、ホルモン検査、抗体検査（ヘリコバクターピロリや膠原病特異的抗体など）
+・尿検査
+・心電図検査
+・胸腹部レントゲン検査
+・腹部超音波検査
+・聴力検査
+・視力検査
+・長谷川式簡易知能検査（HDS-R）
+
+【各種抗体検査】
+・風疹
+・麻疹
+・おたふく
+・水痘帯状ヘルペス
+・B型肝炎
+・C型肝炎
+・コロナウイルス
+・コロナワクチン
+
+【その他】
+・前立腺癌マーカー（PSA）
+・ABO式血液型
+・RH＋ABO血液型
+・コロナウイルス抗原定性（自費）
+・コロナウイルスPCR検査（自費）
               </div>
             </div>
           </div>
@@ -421,10 +472,27 @@
               患者様のご希望に添い、連携病院や専門のクリニックのご紹介もいたします。
             </p>
 
-            <div class="test__box test03">
-              <a href="#modaal-box" class="modaal-btn">▶︎　連携病院一覧</a>
-              <div id="modaal-box" style="display: none">
-                ここにモーダルに表示させたい要素を記述します。
+            <div class="test__box test03 test__box3">
+              <a href="#modaal-box3" class="modaal-btn">▶︎　連携病院一覧</a>
+              <div id="modaal-box3" style="display: none">【連携病院】
+              ・東北大学病院
+              ・東北労災病院
+              ・東北公済病院
+              ・JCHO仙台病院
+              ・仙台医療センター
+              ・仙台オープン病院
+              ・仙台厚生病院
+              ・仙台循環器病センター
+              ・仙台徳州会病院
+              ・県立こども病院
+              ・大崎市民病院
+
+              【文書】
+              ・各種診断書
+              ・主治医意見書
+              ・医療要否意見書
+              ※診断書についても対応しております
+              詳しくはご相談ください
               </div>
             </div>
           </div>
@@ -433,19 +501,19 @@
 
       <!-- ------------------------------------------- -->
 
-      <div class="profile_00" >
+      <div class="profile_00" id="clinic"  >
         <img
           src="<?php echo get_template_directory_uri(); ?>/images/fa_18.png"
           srcset="<?php echo get_template_directory_uri(); ?>/images/fa_18.png 1x, <?php echo get_template_directory_uri(); ?>/images/fa_18@2x.png 2x"
           alt="clinic"
           class="profile_001"
         /></div>
-      <section class="clinic_main2 c_map_01" id="clinic" >
+      <section class="clinic_main2 c_map_01"  >
 
         <div class="clinic_feature2">
           <div class="clinic_left">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.405174276992!2d140.8501351764842!3d38.27009958347242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a29600a471f3b%3A0xc1cfb81a7c37ff12!2z6Iqz57iB5Zyo5a6F6Ki655mC5omA5YWr5bmh!5e0!3m2!1sja!2sjp!4v1696917730049!5m2!1sja!2sjp"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.7742615882275!2d140.91132187648617!3d38.33105797992099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f89813c0d6bfa43%3A0x1f288b792cb67860!2z6Iqz57iB44OV44Kh44Of44Oq44O844Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sjp!4v1698655765413!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
           <div class="clinic_right clinic_right_hachi">
             <p class="clinic_right_hachi_p">一般外来（内科・外科）</p>
 
@@ -506,18 +574,17 @@
 
         <div class="footer_mid">
           <div class="footer_left footer_left_hachi">
-            <a href="/houen-zaitakusinnryoujyo-hachiman"><img src="<?php echo get_template_directory_uri(); ?>/images/fa_17.png"
+            <a href="/houen-family-clinic"><img src="<?php echo get_template_directory_uri(); ?>/images/fa_17.png"
             srcset="<?php echo get_template_directory_uri(); ?>/images/fa_17.png 1x,<?php echo get_template_directory_uri(); ?>/images/fa_17@2x.png 2x" alt="ロゴ" class="footer_logo " /></a>
             <p>
               〒980-3108<br>宮城県仙台市泉区松陵４丁目２-５
             </p>
             <p>
-            <a href="tel:022-341-2882">
-              Tel.<span class="footer_lg">022-375-8023</span
+            <a href="tel:022-375-8023">
+              Tel.<span class="footer_lg"> 022-375-8023</span
               ><br class="br_none1" /></a>
               Fax. 022-375-8168
             </p>
-            <p>信頼され結ばれる　ご縁を大切にします。</p>
           </div>
           <div class="footer_center footer_center_family">
             <nav>
@@ -526,7 +593,7 @@
                 <a href="#news">お知らせ</a>
                 </li>
                 <li>
-                  <a href="#information"> 訪問診療 </a>
+                  <a href="#information"> 診療案内 </a>
                 </li>
                 <li>
                   <a href="#director"> 院長紹介 </a>
@@ -535,7 +602,7 @@
                 <a href="#feature">診療の特徴</a>
                 </li>
                 <li>
-                <a href="#clinic"> 診療所 </a>
+                <a href="#clinic"> アクセス </a>
                 </li>
               
                 <li class="contact_footer">

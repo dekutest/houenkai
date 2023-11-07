@@ -47,9 +47,9 @@ $(window).on("load", function () {
 });
 
 $(function () {
-  $('a[href*="#"]:not(.no-scroll):not([href="#modaal-box"])').click(function (
-    event
-  ) {
+  $(
+    'a[href*="#"]:not(.no-scroll):not([href="#modaal-box"]):not([href="#modaal-box2"]):not([href="#modaal-box3"])'
+  ).click(function (event) {
     var speed = 500;
     var href = $(this).attr("href");
     var hash = href.indexOf("#");

@@ -1079,7 +1079,7 @@ a :hover {
 
       span {
         font-size: 30px;
-        @include g.respond-to("xxl") {
+        @include g.respond-to("md") {
           font-size: 20px;
         }
       }
@@ -1113,7 +1113,7 @@ a :hover {
     .clinic_top04 {
       img {
         width: 100%;
-        @include g.respond-to("xxl") {
+        @include g.respond-to("ml") {
           width: 90%;
         }
         @include g.respond-to("md") {
@@ -1553,4 +1553,38 @@ a :hover {
 
 .clinic_right_hachi_p {
   margin-top: 0 !important;
+}
+
+.header_img1 {
+  h1 {
+    width: 298px;
+  }
+}
+
+.inner_hachi {
+  h1 {
+    @include g.respond-to("sm") {
+      padding-top: 14px !important;
+    }
+    img {
+      width: 285px !important;
+      @include g.respond-to("sm") {
+        width: 168px !important;
+      }
+    }
+  }
+}
+
+.inner_family {
+  h1 {
+    @include g.respond-to("sm") {
+      padding-top: 14px !important;
+    }
+    img {
+      width: 330px !important;
+      @include g.respond-to("sm") {
+        width: 198px !important;
+      }
+    }
+  }
 }

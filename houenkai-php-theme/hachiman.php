@@ -64,7 +64,7 @@
   <body>
   <header  id="top">
       <div class="inner inner_hachi">
-        <h1>
+        <h1 class="header_img1">
           <a href="/houen-zaitakusinnryoujyo-hachiman">
             <img src="<?php echo get_template_directory_uri(); ?>/images/c_016.png"
             srcset="
@@ -214,7 +214,7 @@
         <div class="top_news_wrapper top_news_wrapper_c">
           <div class="top_news_up">
             <p class="top_news_title">最新のお知らせをご案内します</p>
-         <a href="/news-all"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
+         <a href="/news-all-hachiman"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 2x"
@@ -226,12 +226,13 @@
 <ul>
 <?php
   $args = array(
-    'posts_per_page' => 5 // 表示件数の指定
+    'posts_per_page' => 5,      // 表示件数の指定
+    'category_name'  => 'hachiman' // カテゴリースラッグを指定
   );
   $posts = get_posts( $args );
   foreach ( $posts as $post ): // ループの開始
   setup_postdata( $post ); // 記事データの取得
-?>	  
+?>
   <li class="news-text">
 	 <div class="news-day"><?php the_date('Y.m.d'); ?></div>
 	  <div class="news-blog"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div> 
@@ -552,11 +553,11 @@
             </p>
             <p>
             <a href="tel:022-341-2882">
-              Tel.<span class="footer_lg">022-341-2882</span
+              Tel.<span class="footer_lg"> 022-341-2882</span
               ><br class="br_none1" /></a>
               Fax. 022-341-8896
             </p>
-            <p>※24時間365日、緊急往診対応</p>
+            <p>24時間365日、緊急往診対応</p>
           </div>
           <div class="footer_center footer_center_hachi">
             <nav>

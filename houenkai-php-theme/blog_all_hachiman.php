@@ -1,7 +1,7 @@
 
 <?php
 /**
- * Template Name: blog_all
+ * Template Name: blog_all_hachiman
  */
 ?>
 	
@@ -19,10 +19,10 @@ if ( have_posts() ) :
 
     <ul>
 <?php
-  $args = array(
-    'posts_per_page' => 40, // 表示件数の指定
-    'category_name'  => 'houenkai' // カテゴリースラッグを指定
-  );
+ $args = array(
+  'posts_per_page' => 40, // 表示件数の指定
+  'category_name'  => 'hachiman' // カテゴリースラッグを指定
+);
   $posts = get_posts( $args );
   foreach ( $posts as $post ): // ループの開始
   setup_postdata( $post ); // 記事データの取得

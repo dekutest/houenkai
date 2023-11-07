@@ -13,7 +13,7 @@
               〒980-0871<br>宮城県仙台市青葉区八幡2丁目3 - 6 グラシアスはちまん 1F
             </p>
             <p>
-              Tel.<span class="footer_lg">022-341-2882</span
+              Tel.<span class="footer_lg"> 022-341-2882</span
               ><br class="br_none1" />
               Fax. 022-341-8896
             </p>

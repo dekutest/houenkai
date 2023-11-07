@@ -18,14 +18,14 @@
       </section>
       <section class="clinic_main2 scroll_up" id="hachiman">
         <div class="title">
-          <a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/">
+          <a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/" target=”_blank”>
           <p>ほうえん</p>
           <h1>芳縁在宅診療所八幡</h1></a>
         </div>
 
         <div class="clinic_feature2">
           <div class="clinic_left">
-          <a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/">
+          <a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/" target=”_blank”>
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/intro01.webp"
               srcset="<?php echo get_template_directory_uri(); ?>/images/intro01.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro01@2x.webp 2x"
@@ -95,17 +95,20 @@
 
       <section class="clinic_main2 section2 scroll_up"  id="family">
         <div class="title">
+        <a href="https://houen-zaitaku.jp/houen-family-clinic/" target=”_blank”>
           <p>ほうえん</p>
           <h1>芳縁ファミリークリニック</h1>
+        </a>
         </div>
 
         <div class="clinic_feature2">
           <div class="clinic_left">
+          <a href="https://houen-zaitaku.jp/houen-family-clinic/" target=”_blank”>
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/intro03.webp"
               srcset="<?php echo get_template_directory_uri(); ?>/images/intro03.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro03@2x.webp 2x"
               alt="芳縁ファミリークリニック"
-            />
+            /></a>
           </div>
           <div class="clinic_right">
             <h2>「院内処方が、とても便利！」</h2>

@@ -41,6 +41,9 @@
       color: black;
       margin-top: 42px;
       line-height: 2;
+      @include g.respond-to("md") {
+        font-size: 16px;
+      }
     }
     img {
       @include g.respond-to("md") {
@@ -57,29 +60,17 @@
 }
 
 .family_title {
-  font-size: 40px !important;
-  @include g.respond-to("lg") {
+  font-size: 30px !important;
+  @include g.respond-to("xl") {
     font-size: 20px !important;
-  }
-  @include g.respond-to("md") {
-    font-size: 25px !important;
-  }
-  @include g.respond-to("sm") {
-    font-size: 16px !important;
   }
 }
 
 .family_top {
   h2 {
-    font-size: 50px !important;
-    @include g.respond-to("lg") {
+    font-size: 40px !important;
+    @include g.respond-to("xl") {
       font-size: 30px !important;
-    }
-    @include g.respond-to("md") {
-      font-size: 40px !important;
-    }
-    @include g.respond-to("sm") {
-      font-size: 25px !important;
     }
   }
 }
@@ -87,6 +78,12 @@
 .family_top2 {
   text-align: center;
   margin-top: 150px;
+  margin-bottom: 82px;
+  @include g.respond-to("md") {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
   img {
     @include g.respond-to("md") {
       width: 100%;
@@ -110,16 +107,16 @@
   text-align: center;
   width: 1200px;
   margin: auto;
-  padding: 30px 60px;
+  padding: 30px 60px 60px 30px;
   background-color: #dfe1e8;
-  border-radius: 10px;
-  margin-bottom: 200px;
+  border-radius: 40px;
+  margin-bottom: 240px;
 
   @include g.respond-to("xl") {
     width: 100%;
   }
   @include g.respond-to("md") {
-    padding: 20px 5%;
+    padding: 40px 5%;
     margin-bottom: 100px;
   }
 
@@ -128,12 +125,16 @@
     font-family: "M PLUS 1p", sans-serif;
     font-weight: normal;
     white-space: normal;
+    margin-bottom: 47px;
+
     @include g.respond-to("md") {
       font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 25px;
     }
   }
   img {
-    width: 80%;
+    width: 90%;
     @include g.respond-to("lg") {
       width: 100%;
       max-width: 500px;
@@ -147,9 +148,9 @@
   img {
     width: 100%;
     object-fit: cover;
-    height: 500px;
+    height: 580px;
     @include g.respond-to("lg") {
-      height: auto;
+      height: auto !important;
     }
   }
 }
@@ -174,6 +175,7 @@
     border: #000 solid 1px;
     padding: 32px 40px;
     width: 376px;
+    height: max-content;
 
     @include g.respond-to("md") {
       width: auto;
@@ -194,6 +196,22 @@
       color: #000;
       font-size: 13px;
       line-height: 1.9;
+      min-width: 300px;
+      margin-bottom: 0;
+
+      @include g.respond-to("md") {
+        margin: 0 10px;
+      }
+    }
+    span {
+      margin-right: 26px;
+      width: 40px;
+      display: inline-block;
+    }
+    .pro_span {
+      margin-right: 25px !important;
+      display: inline-block;
+      width: 40px;
     }
   }
   .profile_top2 {
@@ -201,6 +219,8 @@
     border: #112e53 solid 1px;
     padding: 32px 40px;
     width: 376px;
+    height: max-content;
+
     @include g.respond-to("md") {
       width: auto;
     }
@@ -219,6 +239,11 @@
       color: #000;
       font-size: 13px;
       line-height: 1.9;
+      margin-bottom: 0;
+
+      @include g.respond-to("md") {
+        margin: 0 20px;
+      }
     }
   }
 }
@@ -250,7 +275,7 @@
 .test__box {
   position: relative;
   max-width: auto;
-  width: 80%;
+  width: 90%;
   margin: auto;
   max-width: 270px;
   margin-top: 15px;
@@ -258,6 +283,68 @@
   a {
     color: #000 !important;
     font-size: 13px;
+  }
+  a::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    width: 105px;
+    height: 1px;
+    background: #000000;
+    bottom: -1px; /*アンダーラインがaタグの下端から現れる*/
+    transform: scale(0, 1); /*アンダーラインの縮尺比率。ホバー前はx方向に0*/
+    transform-origin: left top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の左端*/
+    transition: transform 0.5s; /*変形の時間*/
+  }
+
+  a:hover::after {
+    transform: scale(1); /*ホバー後、x軸方向に1（相対値）伸長*/
+  }
+}
+
+.test__box2 {
+  a {
+    color: #000 !important;
+    font-size: 13px;
+  }
+  a::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    width: 163px;
+    height: 1px;
+    background: #000000;
+    bottom: -1px; /*アンダーラインがaタグの下端から現れる*/
+    transform: scale(0, 1); /*アンダーラインの縮尺比率。ホバー前はx方向に0*/
+    transform-origin: left top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の左端*/
+    transition: transform 0.5s; /*変形の時間*/
+  }
+
+  a:hover::after {
+    transform: scale(1); /*ホバー後、x軸方向に1（相対値）伸長*/
+  }
+}
+
+.test__box3 {
+  a {
+    color: #000 !important;
+    font-size: 13px;
+  }
+  a::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    width: 105px;
+    height: 1px;
+    background: #000000;
+    bottom: -1px; /*アンダーラインがaタグの下端から現れる*/
+    transform: scale(0, 1); /*アンダーラインの縮尺比率。ホバー前はx方向に0*/
+    transform-origin: left top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の左端*/
+    transition: transform 0.5s; /*変形の時間*/
+  }
+
+  a:hover::after {
+    transform: scale(1); /*ホバー後、x軸方向に1（相対値）伸長*/
   }
 }
 
@@ -306,10 +393,53 @@
 .footer_center_family {
   nav {
     width: 72% !important;
+    @include g.respond-to("md") {
+      top: 132px !important;
+    }
   }
 }
 
 .nav_child_family {
-  left: 50% !important;
-  transform: translateX(-50%);
+  @include g.respond-to("md") {
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+}
+
+.fa_top_profile_box01 img {
+  @include g.respond-to("md") {
+    min-width: none !important;
+  }
+  @include g.respond-to("sm") {
+    width: 100% !important;
+  }
+}
+
+.profile_name1_fa {
+  span {
+    letter-spacing: 7px;
+    margin-right: 35px;
+  }
+}
+
+.profile_box_right_fa {
+  min-width: 450px;
+  @include g.respond-to("md") {
+    min-width: inherit;
+  }
+}
+
+.clinic_top1_fa img {
+  width: 54vw !important;
+  @include g.respond-to("xxl") {
+    width: 100% !important;
+    height: 600px;
+    object-fit: contain;
+    width: 46vw;
+  }
+  @include g.respond-to("md") {
+    width: 100%;
+    height: auto;
+    object-fit: inherit;
+  }
 }

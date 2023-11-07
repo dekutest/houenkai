@@ -135,7 +135,7 @@
   background: #fff;
 }
 .modaal-close:focus:before, .modaal-close:focus:after, .modaal-close:hover:before, .modaal-close:hover:after {
-  background: #b93d0c;
+  background: #112e53;
 }
 .modaal-close span {
   position: absolute !important;
@@ -173,6 +173,9 @@
 
 .modaal-content-container {
   padding: 30px;
+  white-space: pre-line;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 .modaal-confirm-wrap {
@@ -626,7 +629,8 @@
   animation-delay: 0s;
 }
 
-.modaal-loading-spinner > div:nth-of-type(2) > div, .modaal-loading-spinner > div:nth-of-type(3) > div {
+.modaal-loading-spinner > div:nth-of-type(2) > div,
+.modaal-loading-spinner > div:nth-of-type(3) > div {
   -ms-animation: modaal-loading-spinner 1s linear infinite;
   -moz-animation: modaal-loading-spinner 1s linear infinite;
   -webkit-animation: modaal-loading-spinner 1s linear infinite;
@@ -667,7 +671,8 @@
   animation-delay: 0.25s;
 }
 
-.modaal-loading-spinner > div:nth-of-type(4) > div, .modaal-loading-spinner > div:nth-of-type(5) > div {
+.modaal-loading-spinner > div:nth-of-type(4) > div,
+.modaal-loading-spinner > div:nth-of-type(5) > div {
   -ms-animation: modaal-loading-spinner 1s linear infinite;
   -moz-animation: modaal-loading-spinner 1s linear infinite;
   -webkit-animation: modaal-loading-spinner 1s linear infinite;
@@ -708,7 +713,8 @@
   animation-delay: 0.5s;
 }
 
-.modaal-loading-spinner > div:nth-of-type(6) > div, .modaal-loading-spinner > div:nth-of-type(7) > div {
+.modaal-loading-spinner > div:nth-of-type(6) > div,
+.modaal-loading-spinner > div:nth-of-type(7) > div {
   -ms-animation: modaal-loading-spinner 1s linear infinite;
   -moz-animation: modaal-loading-spinner 1s linear infinite;
   -webkit-animation: modaal-loading-spinner 1s linear infinite;
@@ -776,4 +782,8 @@
   -webkit-transform: translate(84px, 84px) rotate(360deg) translate(70px, 0);
   -o-transform: translate(84px, 84px) rotate(360deg) translate(70px, 0);
   transform: translate(84px, 84px) rotate(360deg) translate(70px, 0);
+}
+
+.modaal-overlay {
+  opacity: 0.6 !important;
 }/*# sourceMappingURL=modaal.css.map */

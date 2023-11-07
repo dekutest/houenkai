@@ -5245,7 +5245,7 @@ a :hover {
 .clinic_top0 .clinic_top2 h2 span {
   font-size: 30px;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 768px) {
   .clinic_top0 .clinic_top2 h2 span {
     font-size: 20px;
   }
@@ -5278,7 +5278,7 @@ a :hover {
 .clinic_top0 .clinic_top2 .clinic_top04 img {
   width: 100%;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1600px) {
   .clinic_top0 .clinic_top2 .clinic_top04 img {
     width: 90%;
   }
@@ -5684,6 +5684,38 @@ a :hover {
   margin-top: 0 !important;
 }
 
+.header_img1 h1 {
+  width: 298px;
+}
+
+@media screen and (max-width: 480px) {
+  .inner_hachi h1 {
+    padding-top: 14px !important;
+  }
+}
+.inner_hachi h1 img {
+  width: 285px !important;
+}
+@media screen and (max-width: 480px) {
+  .inner_hachi h1 img {
+    width: 168px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .inner_family h1 {
+    padding-top: 14px !important;
+  }
+}
+.inner_family h1 img {
+  width: 330px !important;
+}
+@media screen and (max-width: 480px) {
+  .inner_family h1 img {
+    width: 198px !important;
+  }
+}
+
 .br_none {
   display: block;
 }
@@ -5735,6 +5767,11 @@ a :hover {
   line-height: 2;
 }
 @media screen and (max-width: 768px) {
+  .top_infomation .top_information01 p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
   .top_infomation .top_information01 img {
     width: 90%;
     max-width: 338px;
@@ -5745,46 +5782,33 @@ a :hover {
 }
 
 .family_title {
-  font-size: 40px !important;
+  font-size: 30px !important;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
   .family_title {
     font-size: 20px !important;
   }
 }
-@media screen and (max-width: 768px) {
-  .family_title {
-    font-size: 25px !important;
-  }
-}
-@media screen and (max-width: 480px) {
-  .family_title {
-    font-size: 16px !important;
-  }
-}
 
 .family_top h2 {
-  font-size: 50px !important;
+  font-size: 40px !important;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
   .family_top h2 {
     font-size: 30px !important;
-  }
-}
-@media screen and (max-width: 768px) {
-  .family_top h2 {
-    font-size: 40px !important;
-  }
-}
-@media screen and (max-width: 480px) {
-  .family_top h2 {
-    font-size: 25px !important;
   }
 }
 
 .family_top2 {
   text-align: center;
   margin-top: 150px;
+  margin-bottom: 82px;
+}
+@media screen and (max-width: 768px) {
+  .family_top2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
 @media screen and (max-width: 768px) {
   .family_top2 img {
@@ -5812,10 +5836,10 @@ a :hover {
   text-align: center;
   width: 1200px;
   margin: auto;
-  padding: 30px 60px;
+  padding: 30px 60px 60px 30px;
   background-color: #dfe1e8;
-  border-radius: 10px;
-  margin-bottom: 200px;
+  border-radius: 40px;
+  margin-bottom: 240px;
 }
 @media screen and (max-width: 1200px) {
   .family_top3 {
@@ -5824,7 +5848,7 @@ a :hover {
 }
 @media screen and (max-width: 768px) {
   .family_top3 {
-    padding: 20px 5%;
+    padding: 40px 5%;
     margin-bottom: 100px;
   }
 }
@@ -5833,14 +5857,17 @@ a :hover {
   font-family: "M PLUS 1p", sans-serif;
   font-weight: normal;
   white-space: normal;
+  margin-bottom: 47px;
 }
 @media screen and (max-width: 768px) {
   .family_top3 h3 {
     font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 25px;
   }
 }
 .family_top3 img {
-  width: 80%;
+  width: 90%;
 }
 @media screen and (max-width: 1020px) {
   .family_top3 img {
@@ -5856,11 +5883,11 @@ a :hover {
 .family_top4 img {
   width: 100%;
   object-fit: cover;
-  height: 500px;
+  height: 580px;
 }
 @media screen and (max-width: 1020px) {
   .family_top4 img {
-    height: auto;
+    height: auto !important;
   }
 }
 
@@ -5886,6 +5913,7 @@ a :hover {
   border: #000 solid 1px;
   padding: 32px 40px;
   width: 376px;
+  height: max-content;
 }
 @media screen and (max-width: 768px) {
   .profile_top0 .profile_top1 {
@@ -5910,12 +5938,30 @@ a :hover {
   color: #000;
   font-size: 13px;
   line-height: 1.9;
+  min-width: 300px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .profile_top0 .profile_top1 p {
+    margin: 0 10px;
+  }
+}
+.profile_top0 .profile_top1 span {
+  margin-right: 26px;
+  width: 40px;
+  display: inline-block;
+}
+.profile_top0 .profile_top1 .pro_span {
+  margin-right: 25px !important;
+  display: inline-block;
+  width: 40px;
 }
 .profile_top0 .profile_top2 {
   border-radius: 24px;
   border: #112e53 solid 1px;
   padding: 32px 40px;
   width: 376px;
+  height: max-content;
 }
 @media screen and (max-width: 768px) {
   .profile_top0 .profile_top2 {
@@ -5939,6 +5985,12 @@ a :hover {
   color: #000;
   font-size: 13px;
   line-height: 1.9;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .profile_top0 .profile_top2 p {
+    margin: 0 20px;
+  }
 }
 
 .wrapper {
@@ -5970,7 +6022,7 @@ a :hover {
 .test__box {
   position: relative;
   max-width: auto;
-  width: 80%;
+  width: 90%;
   margin: auto;
   max-width: 270px;
   margin-top: 15px;
@@ -5978,6 +6030,61 @@ a :hover {
 .test__box a {
   color: #000 !important;
   font-size: 13px;
+}
+.test__box a::after {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 105px;
+  height: 1px;
+  background: #000000;
+  bottom: -1px; /*アンダーラインがaタグの下端から現れる*/
+  transform: scale(0, 1); /*アンダーラインの縮尺比率。ホバー前はx方向に0*/
+  transform-origin: left top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の左端*/
+  transition: transform 0.5s; /*変形の時間*/
+}
+.test__box a:hover::after {
+  transform: scale(1); /*ホバー後、x軸方向に1（相対値）伸長*/
+}
+
+.test__box2 a {
+  color: #000 !important;
+  font-size: 13px;
+}
+.test__box2 a::after {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 163px;
+  height: 1px;
+  background: #000000;
+  bottom: -1px; /*アンダーラインがaタグの下端から現れる*/
+  transform: scale(0, 1); /*アンダーラインの縮尺比率。ホバー前はx方向に0*/
+  transform-origin: left top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の左端*/
+  transition: transform 0.5s; /*変形の時間*/
+}
+.test__box2 a:hover::after {
+  transform: scale(1); /*ホバー後、x軸方向に1（相対値）伸長*/
+}
+
+.test__box3 a {
+  color: #000 !important;
+  font-size: 13px;
+}
+.test__box3 a::after {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 105px;
+  height: 1px;
+  background: #000000;
+  bottom: -1px; /*アンダーラインがaタグの下端から現れる*/
+  transform: scale(0, 1); /*アンダーラインの縮尺比率。ホバー前はx方向に0*/
+  transform-origin: left top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の左端*/
+  transition: transform 0.5s; /*変形の時間*/
+}
+.test__box3 a:hover::after {
+  transform: scale(1); /*ホバー後、x軸方向に1（相対値）伸長*/
 }
 
 .md_none {
@@ -6003,7 +6110,7 @@ a :hover {
 }
 @media screen and (max-width: 768px) {
   .family_con img {
-    object-fit: fill !important;
+    object-fit: contain !important;
   }
 }
 
@@ -6023,8 +6130,59 @@ a :hover {
 .footer_center_family nav {
   width: 72% !important;
 }
+@media screen and (max-width: 768px) {
+  .footer_center_family nav {
+    top: 132px !important;
+  }
+}
 
-.nav_child_family {
-  left: 50% !important;
-  transform: translateX(-50%);
+@media screen and (max-width: 768px) {
+  .nav_child_family {
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fa_top_profile_box01 img {
+    min-width: none !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fa_top_profile_box01 img {
+    width: 100% !important;
+  }
+}
+
+.profile_name1_fa span {
+  letter-spacing: 7px;
+  margin-right: 35px;
+}
+
+.profile_box_right_fa {
+  min-width: 450px;
+}
+@media screen and (max-width: 768px) {
+  .profile_box_right_fa {
+    min-width: inherit;
+  }
+}
+
+.clinic_top1_fa img {
+  width: 54vw !important;
+}
+@media screen and (max-width: 1300px) {
+  .clinic_top1_fa img {
+    width: 100% !important;
+    height: 600px;
+    object-fit: contain;
+    width: 46vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .clinic_top1_fa img {
+    width: 100%;
+    height: auto;
+    object-fit: inherit;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -30,6 +30,11 @@
               src="<?php echo get_template_directory_uri(); ?>/images/intro01.webp"
               srcset="<?php echo get_template_directory_uri(); ?>/images/intro01.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro01@2x.webp 2x"
               alt="芳縁在宅診療所"
+            /></a><br>
+            <a href="https://houen-zaitaku.jp/houen-zaitakusinnryoujyo-hachiman/" class="ipad_ph"><img
+              src="<?php echo get_template_directory_uri(); ?>/images/ipad_img.png"
+              srcset="<?php echo get_template_directory_uri(); ?>/images/ipad_img.png 1x, <?php echo get_template_directory_uri(); ?>/images/ipad_img.png 2x"
+              alt=""
             /></a>
           </div>
           <div class="clinic_right">
@@ -108,6 +113,11 @@
               src="<?php echo get_template_directory_uri(); ?>/images/intro03.webp"
               srcset="<?php echo get_template_directory_uri(); ?>/images/intro03.webp 1x, <?php echo get_template_directory_uri(); ?>/images/intro03@2x.webp 2x"
               alt="芳縁ファミリークリニック"
+            /></a><br>
+            <a href="https://houen-zaitaku.jp/houen-family-clinic/" class="ipad_ph"><img
+              src="<?php echo get_template_directory_uri(); ?>/images/ipad_img.png"
+              srcset="<?php echo get_template_directory_uri(); ?>/images/ipad_img.png 1x, <?php echo get_template_directory_uri(); ?>/images/ipad_img.png 2x"
+              alt=""
             /></a>
           </div>
           <div class="clinic_right">

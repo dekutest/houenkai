@@ -189,7 +189,7 @@
         <div class="top_news_wrapper top_news_wrapper_c">
           <div class="top_news_up">
           <p class="top_news_title"></p>
-         <a href="/news-all"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
+         <a href="/news-all-family"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 2x"

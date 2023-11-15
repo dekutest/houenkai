@@ -214,7 +214,7 @@
         <div class="top_news_wrapper top_news_wrapper_c">
           <div class="top_news_up">
             <p class="top_news_title">最新のお知らせをご案内します</p>
-         <a href="/news-all"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
+         <a href="/news-all-hachiman"><img src="<?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp"
           srcset="
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 1x,
             <?php echo get_template_directory_uri(); ?>/images/top_text09@2x.webp 2x"
@@ -540,7 +540,7 @@
 
     </main>
 
-<footer>
+    <footer>
       <div class="footer_inner">
         <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/images/footer05.webp" alt="TOP" class="footer_upper" /></a>
 
@@ -625,6 +625,7 @@
       crossorigin="anonymous"
     ></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
+
 
 
 

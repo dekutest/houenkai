@@ -20,7 +20,8 @@ if ( have_posts() ) :
     <ul>
 <?php
   $args = array(
-    'posts_per_page' => 20 // 表示件数の指定
+    'posts_per_page' => 40, // 表示件数の指定
+    'category_name'  => 'houenkai' // カテゴリースラッグを指定
   );
   $posts = get_posts( $args );
   foreach ( $posts as $post ): // ループの開始

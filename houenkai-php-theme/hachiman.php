@@ -540,7 +540,7 @@
 
     </main>
 
-<footer>
+    <footer>
       <div class="footer_inner">
         <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/images/footer05.webp" alt="TOP" class="footer_upper" /></a>
 
@@ -625,6 +625,7 @@
       crossorigin="anonymous"
     ></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
+
 
 
 

@@ -763,6 +763,7 @@ a:hover {
 @media screen and (max-width: 1020px) {
   .top_title_img {
     height: 75vh;
+    min-height: 600px;
     object-fit: cover;
     object-position: 86% 50%;
   }
@@ -2332,6 +2333,7 @@ main .clinic_main2 .clinic_feature2 {
 main .clinic_main2 .clinic_feature2 .clinic_left {
   margin-right: 94px;
   margin-right: 94px;
+  text-align: end;
 }
 main .clinic_main2 .clinic_feature2 .clinic_left img {
   width: 100%;
@@ -5714,6 +5716,10 @@ a :hover {
   .inner_family h1 img {
     width: 198px !important;
   }
+}
+
+.ipad_ph img {
+  width: 115px !important;
 }
 
 .br_none {

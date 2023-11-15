@@ -163,6 +163,11 @@
                 srcset="<?php echo get_template_directory_uri(); ?>/images/c_04.png 1x, <?php echo get_template_directory_uri(); ?>/images/c_04@2x.png 2x"
                 alt="clinic"
               />
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/images/c_04_1.png"
+                srcset="<?php echo get_template_directory_uri(); ?>/images/c_04_1.png 1x, <?php echo get_template_directory_uri(); ?>/images/c_04_1@2x.png 2x"
+                alt="clinic"
+              />
             </div>
             <p>地域の医療を支え、心温かい診療を行います。</p>
             <div class="clinic_top04">
